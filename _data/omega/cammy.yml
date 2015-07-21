@@ -1,0 +1,70 @@
+- character: Cammy
+
+  special_move:
+    - name: Cannon Spike
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Spiral Arrow
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Quick Spin Knuckle
+      input: hcb punch
+      note: ["EX", "Armor Break"]
+
+    - name: Hooligan Combination
+      input: hcf punch
+      note: ["EX"]
+
+    - name: -- Razor's Edge Slicer
+      input: ... (neutral position)
+      note: ["Armor Break"]
+
+    - name: -- Assault Roll
+      input: ... punch
+
+    - name: -- Cannon Strike
+      input: ... kick
+
+    - name: -- Fatal Leg Twister
+      input: During EX Hooligan Combination > lp + lk
+      note: ["Command grab"]
+
+    - name: Cannon Strike
+      input: (during upforward jump) qcb kick
+      note: ["EX", "EX Cannon Strike can be done during any jump"]
+
+    - name: Target Strike
+      input: (during upforward jump attack, except for HK) qcb kick
+      note: ["EX"]
+
+    - name: Killer Bee sting
+      input: qcb kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Spin Drive Smasher
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. Gyro Drive Smasher
+      input: qcf qcf kkk
+
+    - name: II. QCQ (Cammy Quick Combination)
+      input: qcb qcb ppp
+      note: ["Counter attack"]
+
+  normal_throw:
+    - name: Hooligan Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Frankensteiner
+      input: back + lp + lk
+
+    - name: Flying Neck Breaker
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Killer Scythe Kick
+      input: (during up jump) down + hk

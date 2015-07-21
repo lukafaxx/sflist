@@ -1,0 +1,74 @@
+- character: Vega
+
+  special_move:
+    - name: Rolling Crystal Flash
+      input: chback forward + punch
+      note: ["EX"]
+
+    - name: Scarlet Terror
+      input: chdownback forward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Sky High Claw
+      input: chdown up + punch
+      note: ["EX", "Armor Break during EX Sky High Claw"]
+
+    - name: Flying Barcelona Attack
+      input: chdown up + kick
+      note: ["EX", "Press punch after wall jump for follow-up"]
+
+    - name: -- Izuna Drop
+      input: ... (near opponent) forward or back + punch
+      note: ["Command grab"]
+
+    - name: Remove Claw
+      input: dpf punch
+      note: ["EX", "EX Remove Claw removes mask"]
+
+  super_combo:
+    - name: Flying Barcelona Special
+      input: chdownback downforward downback upforward + kick
+      note: ["Press punch after wall jump for follow-up"]
+
+    - name: -- Rolling Izuna Drop
+      input: ... (near opponent) forward or back + punch
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Bloody High Claw
+      input: chdownback downforward downback upforward + kkk
+      note: ["Armor Break"]
+
+    - name: II. Splendid Claw
+      input: chdownback forward back forward + kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Rainbow Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Crescent Line
+      input: back + lp + lk
+
+    - name: Stardust Drop
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Piece of Mercury
+      input: downforward + mk
+      note: ["Overhead"]
+
+    - name: Cosmic Heel
+      input: downforward + hk
+
+    - name: Back Slash
+      input: ppp
+
+    - name: Short Back Slash
+      input: kkk
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: Pick Up Mask
+      input: down + pp

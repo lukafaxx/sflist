@@ -1,0 +1,53 @@
+- character: Ken
+
+  special_move:
+    - name: Hadoken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Shoryureppa
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Shinryuken
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Guren Senpukyaku
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Hell Wheel
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Inazuma Kick
+      input: Back + MK
+      note: ["Overhead"]
+
+    - name: Forward Step Kick
+      input: Forward + MK
+
+    - name: Thunder Kick
+      input: Forward + HK
+      note: ["Overhead", "Hold kick to feint"]
+
+    - name: Target Combo
+      input: Close MP > HP

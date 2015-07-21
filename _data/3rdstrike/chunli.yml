@@ -1,0 +1,32 @@
+- character: Chun-Li
+
+  special_move:
+    - name: Kikou Ken
+      input: hcf punch
+      note: ["EX"]
+
+    - name: Hazanshu
+      input: hcb kick
+      note: ["EX"]
+
+    - name: Spinning Bird Kick
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Hyakuretsu Kyaku
+      input: Press kick repeatedly
+      note: ["EX"]
+
+  super_art:
+    - name: I. Kikou Shou
+      input: qcf qcf punch
+
+    - name: II. Houyoku Sen
+      input: qcf qcf kick
+
+    - name: III. Tensei Ranka
+      input: qcf qcf kick
+
+  command_normal:
+    - name: Kakushu Raku Kyaku
+      input: (near opponent) Hold MK

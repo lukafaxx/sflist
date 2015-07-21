@@ -1,0 +1,39 @@
+- character: Birdie
+
+  special_move:
+    - name: Bull Horn
+      input: Hold punch and release
+
+    - name: Bull Head
+      input: hcf punch
+
+    - name: Hanging Chain
+      input: qcf kick
+
+    - name: Killing Head
+      input: hcb punch
+
+    - name: Bull Revenger
+      input: hcb kick
+
+  critical_art:
+    - name: Skip To My Chain
+      input: hcf hcf punch
+
+  vskill:
+    - name: Break Time 1
+      input: mp + mk
+
+    - name: Break Time 2
+      input: back + mp + mk
+
+    - name: Break Time 3
+      input: down + mp + mk
+
+  vtrigger:
+    - name: Enjoy Time
+      input: hp + hk
+
+  vreversal:
+    - name: Pepper Pot
+      input: During Guard > forward + ppp

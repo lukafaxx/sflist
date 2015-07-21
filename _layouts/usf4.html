@@ -1,0 +1,59 @@
+---
+layout: page
+---
+
+{% assign mainchicken = page.permalink | remove_first: '/usf4/' | remove: '/' %}
+{% for chara in site.data.usf4[mainchicken] %}
+
+  <div class="chara_title">{{ chara.character }}</div>
+  <div class="from_game"><a href="../">Ultra Street Fighter IV</a></div>
+
+  <div class="move_cat"><span>Special Move</span></div>
+  {% for special in chara.special_move %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Super Combo</span></div>
+  {% for super in chara.super_combo %}
+  <p class="move">
+    <span class="move_name">{{ super.name }}</span><br />
+    <span class="move_input">{{ super.input }}</span><br />
+    <span class="move_note">{{ super.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Ultra Combo</span></div>
+  {% for ultra in chara.ultra_combo %}
+  <p class="move">
+    <span class="move_name">{{ ultra.name }}</span><br />
+    <span class="move_input">{{ ultra.input }}</span><br />
+    <span class="move_note">{{ ultra.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Normal Throw</span></div>
+  {% for throw in chara.normal_throw %}
+  <p class="move">
+    <span class="move_name">{{ throw.name }}</span><br />
+    <span class="move_input">{{ throw.input }}</span><br />
+    <span class="move_note">{{ throw.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Unique Attack</span></div>
+  {% if chara.unique_attack == null %}
+  <p class="move_comment">This character has no unique attack.</p>
+  {% endif %}
+  {% for unique in chara.unique_attack %}
+  <p class="move">
+    <span class="move_name">{{ unique.name }}</span><br />
+    <span class="move_input">{{ unique.input }}</span><br />
+    <span class="move_note">{{ unique.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+{% endfor %}

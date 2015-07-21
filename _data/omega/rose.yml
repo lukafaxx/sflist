@@ -1,0 +1,65 @@
+- character: Rose
+
+  special_move:
+    - name: Soul Spark
+      input: hcf punch
+      note: ["EX"]
+
+    - name: Soul Spiral
+      input: qcf kick
+      note: ["EX", "Armor Break"]
+
+    - name: Soul Reflect
+      input: qcb punch
+      note: ["EX"]
+
+    - name: Soul Throw
+      input: dpf punch
+      note: ["EX", "Anti-air grab","EX Soul Throw can hit opponent on the ground"]
+
+    - name: Soul Passing
+      input: qcb kick
+      note: ["EX", "Counter attack allowing follow-ups"]
+
+    - name: Soul Bubble
+      input: dpb punch
+      note: ["EX", "EX Soul Bubble consumes 1/2 S.C. Gauge"]
+
+  super_combo:
+    - name: Aura Soul Spark
+      input: qcf qcf lp
+      note: ["Armor Break"]
+
+    - name: Aura Soul Spark Due
+      input: qcf qcf mp
+      note: ["Armor Break"]
+
+    - name: Aura Soul Spark Tre
+      input: qcf qcf hp
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Illusion Spark
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Soul Satellite
+      input: qcb qcb ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Soul Fall
+      input: forward (or neutral position) + lp + lk
+
+    - name: Soul Loop
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Slide
+      input: downforward + mk
+
+    - name: Soul Feel
+      input: forward + mp
+
+    - name: Soul Piede
+      input: forward + hk

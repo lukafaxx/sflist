@@ -1,0 +1,51 @@
+- character: Dan
+
+  special_move:
+    - name: Gadoken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Koryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Dankukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Dankukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Hissho Buraiken
+      input: qcf qcf punch
+
+    - name: Legendary Taunt
+      input: qcf qcf hp + hk
+
+  ultra_combo:
+    - name: I. Shisso Buraiken
+      input: qcf qcf ppp
+
+    - name: II. Haoh Gadoken
+      input: qcf qcf kkk
+
+  normal_throw:
+    - name: Gado Thrust
+      input: forward (or neutral position) + lp + lk
+
+    - name: Saikyo Haraigoshi
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Jumping Taunt
+      input: (in air) hp + hk
+      note: ["Builds meter"]
+
+    - name: Ducking Taunt
+      input: down + hp + hk
+      note: ["Builds meter"]
+
+    - name: Saikyo Kick
+      input: back + hk

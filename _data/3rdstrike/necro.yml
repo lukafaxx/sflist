@@ -1,0 +1,35 @@
+- character: Necro
+
+  special_move:
+    - name: Elbow Cannon
+      input: downback + HP
+
+    - name: Snake Fang
+      input: hcf kick
+
+    - name: Denji Blast
+      input: dpf punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: Flying Viper
+      input: qcb punch
+      note: ["Overhead", "EX"]
+
+    - name: Rising Cobra
+      input: qcb kick
+      note: ["Overhead", "EX"]
+
+    - name: Tornado Hook
+      input: hcf punch
+      note: ["EX"]
+
+  super_art:
+    - name: I. Magnetic Storm
+      input: qcf qcf punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: II. Slam Dance
+      input: qcf qcf punch
+
+    - name: III. Electric Snake
+      input: qcf qcf punch

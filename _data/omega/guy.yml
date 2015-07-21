@@ -1,0 +1,114 @@
+- character: Guy
+
+  special_move:
+    - name: Hozanto
+      input: qcb punch
+      note: ["EX", "Armor Break"]
+
+    - name: Bushin Senpukyaku
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Yamagoe
+      input: qcf punch
+      note: ["EX"]
+
+    - name: -- Ikazuchi
+      input: ... punch
+      note: ["Armor Break added on EX Yamagoe"]
+
+    - name: -- Kabutowari
+      input: ... kick
+
+    - name: -- Bushin Izuna Otoshi
+      input: ... back or forward + punch
+      note: ["Command grab"]
+
+    - name: Kaiten Izuna Otoshi
+      input: dpf punch
+      note: ["Can be performed in air", "Anti-air grab"]
+
+    - name: Utsusemi
+      input: dpf kick
+      note: ["EX", "Parry", "EX Utsusemi has invincibility and teleports automatically"]
+
+    - name: Run
+      input: qcf kick
+      note: ["EX"]
+
+    - name: -- Sudden Stop
+      input: ... lk
+
+    - name: -- Shadow Kick
+      input: ... mk
+
+    - name: -- Neck Flip
+      input: ... hk
+      note: ["Overhead"]
+
+    - name: -- Hozanto
+      input: During EX Run > lp
+      note: ["Armor Break"]
+
+    - name: -- Hagakure Ten
+      input: During EX Run > mp
+
+    - name: -- Hagakure Chi
+      input: During EX Run > hp
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Bushin Hasoken
+      input: qcf qcf punch
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Bushin Goraisenpujin
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+    - name: II. Bushin Muso Renge
+      input: qcb qcb ppp
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Grab Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: -- Bushinryu Shoulder Throw
+      input: ... back + lp + lk
+      note: ["Consumes 1/4 S.C. Gauge"]
+
+    - name: Shoulder Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Elbow Drop
+      input: (in air) down + mp
+
+    - name: Ninja Sickle
+      input: back + hk
+
+    - name: Ninja Sickle > Nodokiri
+      input: back + hk > hk
+
+    - name: Neck Breaker
+      input: forward + hp
+      note: ["Overhead"]
+
+    - name: Mizukirigeri
+      input: downforward + hk
+
+    - name: Bushin Gokusaken
+      input: lp > mp > hp > hk
+      note: ["Switch HK to cr.HK for throw"]
+
+    - name: Bushingoraikyaku
+      input: mp or lp > mp and down + pp
+      note: ["Armor Break", "Consumes 1/4 S.C. Gauge"]
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: Target Combo
+      input: mp > hp

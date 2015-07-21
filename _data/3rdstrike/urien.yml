@@ -1,0 +1,29 @@
+- character: Urien
+
+  special_move:
+    - name: Metallic Sphere
+      input: qcf punch
+      note: ["EX", "Hold punch to charge"]
+
+    - name: Chariot Tackle
+      input: chback forward + kick
+      note: ["EX"]
+
+    - name: Violence Knee Drop
+      input: chdown up + kick
+      note: ["EX", "Overhead"]
+
+    - name: Dangerous Headbutt
+      input: chdown up + punch
+      note: ["EX"]
+
+  super_art:
+    - name: I. Tyrant Slaughter
+      input: qcf qcf punch
+
+    - name: II. Temporal Thunder
+      input: qcf qcf punch
+
+    - name: III. Aegis Reflector
+      input: qcf qcf punch
+      note: ["Press pp for anti-air reflector"]

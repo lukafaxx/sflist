@@ -1,0 +1,36 @@
+- character: M. Bison
+
+  special_move:
+    - name: Psycho Blast
+      input: chback forward + punch
+
+    - name: Double Knee Press
+      input: chback forward + kick
+
+    - name: Head Press
+      input: chdown up + kick
+
+    - name: -- Somersault Skull Driver
+      input: ... (after Head Press hits) punch
+
+    - name: -- Devil Reverse
+      input: ... (before Head Press hits) punch
+
+    - name: Psycho Inferno
+      input: chdown up + punch
+
+  critical_art:
+    - name: Ultimate Psycho Crusher
+      input: qcf qcf kick
+
+  vskill:
+    - name: Psycho Reflect
+      input: mp + mk
+
+  vtrigger:
+    - name: Psycho Power
+      input: hp + hk
+
+  vreversal:
+    - name: Psycho Burst
+      input: During Guard > forward + ppp

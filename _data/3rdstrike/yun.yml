@@ -1,0 +1,34 @@
+- character: Yun
+
+  special_move:
+    - name: Zenpou Tenshin
+      input: hcb kick
+      note: ["Command grab"]
+
+    - name: Kobokushi
+      input: qcb punch
+
+    - name: Fake Kobokushi
+      input: qcb pp
+
+    - name: Zesshou Hohou
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Tetsuzanko
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Nishoukyaku
+      input: dpf kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. You-hou
+      input: qcf qcf punch
+
+    - name: II. Sourai Rengeki
+      input: qcf qcf punch
+
+    - name: III. Genei-jin
+      input: qcf qcf punch

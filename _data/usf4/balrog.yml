@@ -1,0 +1,51 @@
+- character: Balrog
+
+  special_move:
+    - name: Dash Straight
+      input: chback forward + punch
+      note: ["EX"]
+
+    - name: Dash Upper
+      input: chback forward + kick
+      note: ["EX"]
+
+    - name: Dash Low Straight
+      input: chback downforward + punch
+      note: ["EX"]
+
+    - name: Dash Low Smash
+      input: chback downforward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Dash Swing Blow
+      input: chback downforward + hold punch
+      note: ["EX", "Armor Break", "Overhead"]
+
+    - name: Buffalo Head
+      input: chdown up + punch
+      note: ["EX"]
+
+    - name: Turn Punch
+      input: Charge ppp or kkk and release
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Crazy Buffalo
+      input: chback forward back forward + punch or kick
+      note: ["Armor Break", "Hold kick for uppercuts"]
+
+  ultra_combo:
+    - name: I. Violent Buffalo
+      input: chback forward back forward + ppp or kkk
+      note: ["Armor Break", "Hold kick for uppercuts"]
+
+    - name: II. Dirty Bull
+      input: 360 360 ppp
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Head Bomber
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Lever Break
+      input: Back + LP + LK

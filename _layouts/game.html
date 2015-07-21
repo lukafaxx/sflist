@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<div class="title">{{ page.title }}</div>
+
+{% assign game = page.permalink | remove: '/' %}
+{% assign gamechar = site.data[game]._characters %}
+
+{% for char in gamechar %}
+    {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
+    <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a><br />
+{% endfor %}
+
+<br />

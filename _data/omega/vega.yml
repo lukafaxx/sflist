@@ -1,0 +1,87 @@
+- character: Vega
+
+  special_move:
+    - name: Rolling Crystal Flash
+      input: chback forward + punch
+
+    - name: Crimson Crucify
+      input: chback forward + pp
+      note: ["Consumes 1/2 S.C. Gauge"]
+
+    - name: Scarlet Terror
+      input: chdownback forward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: -- Follow-up Attack
+      input: During EX Scarlet Terror > kick
+      note: ["Automatic on hit EX Scarlet Terror"]
+
+    - name: Sky High Claw
+      input: chdown up + punch
+      note: ["EX", "Armor Break", "Press punch for follow-up during LP, MP and HP Sky High Claw"]
+
+    - name: Flying Barcelona Attack
+      input: chdown up + kick
+      note: ["EX", "Press punch after wall jump for follow-up"]
+
+    - name: -- Izuna Drop
+      input: ... (near opponent) forward or back + punch
+      note: ["Command grab"]
+
+    - name: -- Rose Thorn
+      input: ... kick
+
+    - name: Remove Claw
+      input: dpf punch
+
+    - name: Insanity Gaze
+      input: dpf pp
+      note: ["Consumes 1/2 S.C. Gauge", "Removes mask"]
+
+  super_combo:
+    - name: Flying Barcelona Special
+      input: chdownback downforward downback upforward + kick
+      note: ["Press any punch after wall jump for follow-up"]
+
+    - name: -- Rolling Izuna Drop
+      input: ... (near opponent) forward or back + punch
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Bloody High Claw
+      input: chdownback downforward downback upforward + kkk
+      note: ["Armor Break"]
+
+    - name: II. Splendid Claw
+      input: chdownback forward back forward + kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Rainbow Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Crescent Line
+      input: back + lp + lk
+
+    - name: Stardust Drop
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Piece of Mercury
+      input: downforward + mk
+      note: ["Overhead"]
+
+    - name: Cosmic Heel
+      input: downforward + hk
+
+    - name: Back Slash
+      input: ppp
+
+    - name: Short Back Slash
+      input: kkk
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: Target Combo
+      input: Close lk > hk

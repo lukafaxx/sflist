@@ -1,0 +1,10 @@
+# Permalinks
+permalink:            pretty
+relative_permalinks:  false
+
+# Setup
+title:                "/SFLIST/"
+description:
+url:
+baseurl:              /sflist
+include:             [_game]

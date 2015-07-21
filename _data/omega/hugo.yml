@@ -1,0 +1,88 @@
+- character: Hugo
+
+  special_move:
+    - name: Giant Palm Bomber
+      input: qcb punch
+      note: ["EX"]
+
+    - name: Moonsault Press
+      input: 360 punch
+      note: ["EX", "Command grab"]
+
+    - name: Shootdown Backbreaker
+      input: dpf kick
+      note: ["EX", "Armor Break", "Anti-air grab"]
+
+    - name: Meat Squasher
+      input: 360 kick
+      note: ["EX", "Command grab"]
+
+    - name: Ultra Throw
+      input: hcb kick
+      note: ["EX", "Command grab"]
+
+    - name: Monster Lariat
+      input: qcf kick
+      note: ["EX", "Armor Break", "EX Monster Lariat can be cancelled by holding any two kicks"]
+
+    - name: Diamond Body
+      input: forward + hp + hk
+      note: ["Parry"]
+
+    - name: -- Gigant Body
+      input: ... punch
+      note: ["EX"]
+
+    - name: -- Reflect Body
+      input: During parried Diamond Body > punch
+
+    - name: Dora Kick
+      input: Charge hk and release
+      note: ["Armor Break"]
+
+    - name: Victory Column
+      input: dpf punch
+      note: ["EX"]
+
+  super_combo:
+    - name: Hammer Mountain
+      input: qcf qcf punch
+      note: ["Armor Break", "Hold punch for feint", "Follow-up on block with punch"]
+
+  ultra_combo:
+    - name: I. Gigas Breaker
+      input: 360 360 ppp
+      note: ["Command grab"]
+
+    - name: II. Megaton Press
+      input: qcf qcf kkk
+      note: ["Anti-air grab"]
+
+  normal_throw:
+    - name: Neck Hanging Tree
+      input: forward (or neutral position) + lp + lk
+
+    - name: Body Slam
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Body Press
+      input: (during up or upforward jump) down + hp
+
+    - name: Hammer Hook
+      input: forward + hp
+
+    - name: Leap Attack
+      input: down down mk
+      note: ["Overhead"]
+
+    - name: Storm Slap
+      input: Hold mp
+
+    - name: Heavy Ankle Kick
+      input: Hold mk
+      note: ["Overhead"]
+
+    - name: Ultra Heavy Elbow
+      input: Hold hp
+      note: ["Overhead"]

@@ -1,0 +1,33 @@
+- character: Yang
+
+  special_move:
+    - name: Byakko Soushouda
+      input: qcb punch
+
+    - name: Fake Byakko Soushouda
+      input: qcb pp
+
+    - name: Zenpou Tenshin
+      input: hcb kick
+      note: ["Command grab"]
+
+    - name: Kaihou
+      input: dpf kick
+
+    - name: Tourou Zan
+      input: qcf punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+    - name: Senkyuutai
+      input: qcf kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. Raishin Mahha Ken
+      input: qcf qcf punch
+
+    - name: II. Tenshin Senkyuutai
+      input: qcf qcf kick
+
+    - name: III. Sei'ei Enbu
+      input: qcf qcf punch

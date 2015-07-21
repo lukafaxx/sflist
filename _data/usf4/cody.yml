@@ -1,0 +1,68 @@
+- character: Cody
+
+  special_move:
+    - name: Bad Stone
+      input: qcf punch
+      note: ["EX", "Not possible when holding knife", "Hold punch for increased power"]
+
+    - name: Criminal Upper
+      input: qcb punch
+      note: ["EX"]
+
+    - name: Ruffian Kick
+      input: qcf kick
+      note: ["EX", "Armor Break"]
+
+    - name: Zonk Knuckle
+      input: Charge punch and release
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Dead End Irony
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. Final Destruction
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Last Dread Dust
+      input: qcb qcb ppp
+
+  normal_throw:
+    - name: Prisoner Throw
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Bad Stomp
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Fake Bad Stone
+      input: Down + HP + HK
+
+    - name: Pick up Knife
+      input: (while standing over knife) down + ppp
+
+    - name: -- Knife Throw
+      input: ... qcf punch
+      note: ["Armor Break"]
+
+    - name: -- Knife Attack
+      input: ... punch
+      note: ["Does chip damage"]
+
+    - name: Bad Spray
+      input: (during knockdown recovery) Up + punch
+
+    - name: Stomach Blow
+      input: Forward + MP
+
+    - name: Crack Kick
+      input: Forward + HK
+
+    - name: Jaw Crusher
+      input: Back + MP
+
+    - name: Hammer Hook
+      input: Forward + HP
+      note: ["Overhead"]

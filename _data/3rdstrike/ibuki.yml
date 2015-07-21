@@ -1,0 +1,42 @@
+- character: Ibuki
+
+  special_move:
+    - name: Raida
+      input: hcb punch
+
+    - name: Kasumi Gake
+      input: qcf kick
+
+    - name: Tsuiji Goe
+      input: dpf punch
+
+    - name: Kunai
+      input: (in air) qcf punch
+      note: ["EX"]
+
+    - name: Kubi Ori
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Kazekiri
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Hien
+      input: dpb kick
+      note: ["Overhead"]
+
+    - name: Tsumuji
+      input: qcb kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. Kasumi Suzaku
+      input: (in air) qcf qcf punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: II. Yoroi Dooshi
+      input: qcf qcf punch
+
+    - name: III. Yami Shigure
+      input: qcf qcf punch

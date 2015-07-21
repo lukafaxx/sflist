@@ -1,0 +1,25 @@
+- character: Ken
+
+  special_move:
+    - name: Hadouken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX", "Can be performed in air"]
+
+  super_art:
+    - name: I. Shoryureppa
+      input: qcf qcf punch
+
+    - name: II. Shinryuken
+      input: qcf qcf kick
+      note: ["Press kick repeatedly for more hits"]
+
+    - name: III. Shippu Jinraikyaku
+      input: qcf qcf kick

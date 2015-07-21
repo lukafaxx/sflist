@@ -1,0 +1,47 @@
+- character: E. Honda
+
+  special_move:
+    - name: Hundred Hand Slap
+      input: Press punch repeatedly
+      note: ["EX"]
+
+    - name: Sumo Headbutt
+      input: chback forward + punch
+      note: ["EX", "Armor Break"]
+
+    - name: Sumo Smash
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Oicho Throw
+      input: hcb punch
+      note: ["EX", "Command grab"]
+
+  super_combo:
+    - name: Super Killer Head Ram
+      input: chback forward back forward + punch
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Ultimate Killer Head Ram
+      input: chback forward back forward + ppp
+      note: ["Armor Break"]
+
+    - name: II. Orochi Breaker
+      input: 360 360 ppp
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Sabaori
+      input: forward (or neutral position) + lp + lk
+
+    - name: Rice Bale Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Shikofumi
+      input: downforward + hk
+      note: ["Overhead"]
+
+    - name: Target Combo
+      input: Close mp > downforward + hk

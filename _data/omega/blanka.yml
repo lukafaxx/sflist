@@ -1,0 +1,78 @@
+- character: Blanka
+
+  special_move:
+    - name: Rolling Attack
+      input: chback forward + punch
+      note: ["EX", "Armor Break"]
+
+    - name: Backstep Roll
+      input: chback forward + kick
+      note: ["EX"]
+
+    - name: Vertical Roll
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Lighting Mole
+      input: dpf punch
+      note: ["EX"]
+
+    - name: EX Coward Crouch
+      input: down + hp + hk
+      note: ["Consumes 1/4 S.C. Gauge"]
+
+    - name: Electric Thunder
+      input: Press punch repeatedly
+
+    - name: Electric Grenade
+      input: Press pp repeatedly
+      note: ["Consumes 1/2 S.C. Gauge"]
+
+  super_combo:
+    - name: Ground Shave Roll
+      input: chback forward back forward + punch or kick
+      note: ["Armor Break", "Hold punch to change the timing of dash"]
+
+  ultra_combo:
+    - name: I. Lightning Cannonball
+      input: chback forward back forward + ppp
+      note: ["Hold punches to change timing"]
+
+    - name: II. Shout of Earth (anti-air)
+      input: chdownback downforward downback upforward + ppp
+      note: ["Armor Break", "Hold punches to change timing"]
+
+    - name: II. Shout of Earth (anti-ground)
+      input: chdownback downforward downback upforward + kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Wild Fang
+      input: forward (or neutral position) + lp + lk
+
+    - name: Jungle Wheel
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Rock Crusher
+      input: (near opponent) forward + mp
+      note: ["Overhead", "Hold MP to change timing"]
+
+    - name: Amazon River Run
+      input: downforward + hp
+
+    - name: Surprise Forward
+      input: forward + kkk
+
+    - name: Surprise Back
+      input: back + kkk
+
+    - name: Coward Crouch
+      input: down + ppp
+      note: ["Hold down to change timing"]
+
+    - name: -- Wild Lift
+      input: ... punch
+
+    - name: -- Raid Jump
+      input: ... kick

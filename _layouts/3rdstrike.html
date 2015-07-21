@@ -1,0 +1,50 @@
+---
+layout: page
+---
+
+{% assign mainchicken = page.permalink | remove: '/3rdstrike/' | remove: '/' %}
+{% for chara in site.data.3rdstrike[mainchicken] %}
+
+  <div class="chara_title">{{ chara.character }}</div>
+  <div class="from_game"><a href="../">Street Fighter III: 3rd Strike</a></div>
+
+  <div class="move_cat"><span>Special Move</span></div>
+  {% for special in chara.special_move %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Super Art</span></div>
+  {% for super in chara.super_art %}
+  <p class="move">
+    <span class="move_name">{{ super.name }}</span><br />
+    <span class="move_input">{{ super.input }}</span><br />
+    <span class="move_note">{{ super.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Max Super Art</span></div>
+  {% if chara.max_super_art == null %}
+  <p class="move_comment">This character has no Max Super Art.</p>
+  {% endif %}
+  {% for maxsuper in chara.max_super_art %}
+  <p class="move">
+    <span class="move_name">{{ maxsuper.name }}</span><br />
+    <span class="move_input">{{ maxsuper.input }}</span><br />
+    <span class="move_note">{{ maxsuper.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Command Normal</span></div>
+  {% for command in chara.command_normal %}
+  <p class="move">
+    <span class="move_name">{{ command.name }}</span><br />
+    <span class="move_input">{{ command.input }}</span><br />
+    <span class="move_note">{{ command.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+{% endfor %}

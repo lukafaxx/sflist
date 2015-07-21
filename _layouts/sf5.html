@@ -1,0 +1,56 @@
+---
+layout: page
+---
+
+{% assign mainchicken = page.permalink | remove_first: '/sf5/' | remove: '/' %}
+{% for chara in site.data.sf5[mainchicken] %}
+
+  <div class="chara_title">{{ chara.character }}</div>
+  <div class="from_game"><a href="../">Street Fighter V</a></div>
+
+  <div class="move_cat"><span>Special Move</span></div>
+  {% for special in chara.special_move %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Critical Art</span></div>
+  {% for critical in chara.critical_art %}
+  <p class="move">
+    <span class="move_name">{{ critical.name }}</span><br />
+    <span class="move_input">{{ critical.input }}</span><br />
+    <span class="move_note">{{ critical.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>V-Skill</span></div>
+  {% for vskill in chara.vskill %}
+  <p class="move">
+    <span class="move_name">{{ vskill.name }}</span><br />
+    <span class="move_input">{{ vskill.input }}</span><br />
+    <span class="move_note">{{ vskill.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>V-Trigger</span></div>
+  {% for vtrigger in chara.vtrigger %}
+  <p class="move">
+    <span class="move_name">{{ vtrigger.name }}</span><br />
+    <span class="move_input">{{ vtrigger.input }}</span><br />
+    <span class="move_note">{{ vtrigger.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>V-Reversal</span></div>
+  {% for vreversal in chara.vreversal %}
+  <p class="move">
+    <span class="move_name">{{ vreversal.name }}</span><br />
+    <span class="move_input">{{ vreversal.input }}</span><br />
+    <span class="move_note">{{ vreversal.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+{% endfor %}

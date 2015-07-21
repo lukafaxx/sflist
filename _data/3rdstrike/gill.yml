@@ -1,0 +1,29 @@
+- character: Gill
+
+  special_move:
+    - name: Pyrokinesis
+      input: (from left side) qcf punch
+
+    - name: Cryokinesis
+      input: (from right side) qcf punch
+
+    - name: Saber Lariat
+      input: dpf punch
+
+    - name: Moonsault Knee Drop
+      input: hcb kick
+
+    - name: Psycho Head Butt
+      input: qcb punch
+
+  super_art:
+    - name: I. Meteor Shower
+      input: qcf qcf punch
+
+    - name: II. Sephirotic Wing
+      input: qcf qcf kick
+
+  max_super_art:
+    - name: III. Resurrection
+      input: (neutral position)
+      note: ["Automatically activated when knocked out"]

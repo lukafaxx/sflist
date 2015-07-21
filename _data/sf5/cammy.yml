@@ -1,0 +1,42 @@
+- character: Cammy
+
+  special_move:
+    - name: Spiral Arrow
+      input: qcf kick
+
+    - name: Cannon Spike
+      input: dpf kick
+
+    - name: Cannon Strike
+      input: (during upforward jump) qcb kick
+
+    - name: Hooligan Combination
+      input: hcf punch
+
+    - name: -- Razor Edge Slicer
+      input: ... (neutral position)
+
+    - name: -- Fatal Leg Twister
+      input: ... (close to ground) lp + lk
+
+    - name: -- Cross Scissors Pressure
+      input: ... (in air, near opponent) lp + lk
+
+    - name: -- Cannon Strike
+      input: ... kick
+
+  critical_art:
+    - name: Cross Stinger Assault
+      input: hcb hcb kick
+
+  vskill:
+    - name: Axel Spin Knuckle
+      input: mp + mk
+
+  vtrigger:
+    - name: Delta Drive
+      input: hp + hk
+
+  vreversal:
+    - name: Strike Back
+      input: During Guard > forward + kkk

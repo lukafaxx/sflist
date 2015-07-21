@@ -1,0 +1,86 @@
+- character: Rufus
+
+  special_move:
+    - name: Messiah Kick
+      input: qcb kick
+      note: ["EX"]
+
+    - name: -- High Attack
+      input: ... lk
+      note: ["Armor Break"]
+
+    - name: -- Mid Attack
+      input: ... hk
+      note: ["Overhead"]
+
+    - name: -- Low Attack
+      input: ... mk
+
+    - name: Galactic Tornado
+      input: qcf punch
+      note: ["EX", "Armor Break", "On MP and HP Galactic Tornado, back and forward determine distance"]
+
+    - name: Snake Strike
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Airborne Snake Strike
+      input: (during up or upforward jump) dpf punch
+      note: ["EX"]
+
+    - name: Dynasty Dash
+      input: qcf kick
+      note: ["EX"]
+
+    - name: -- Mach Back Knuckle
+      input: ... lp
+
+    - name: -- Peerless Palm
+      input: ... mp
+      note: ["Armor Break"]
+
+    - name: -- Premium Tackle
+      input: ... hp
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Spectacle Romance
+      input: qcf qcf punch
+      note: ["Armor Break added on second and third hit"]
+
+  ultra_combo:
+    - name: I. Space Opera Symphony
+      input: qcf qcf ppp
+      note: ["Armor Break added on upward roundhouse"]
+
+    - name: II. Big Bang Typhoon
+      input: qcb qcb ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Head Bazooka
+      input: forward (or neutral position) + lp + lk
+
+    - name: Hand Machinegun
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Vulture Kick
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Glory Kick
+      input: downforward + mk
+
+    - name: Fragrance Palm
+      input: forward + hp
+
+    - name: Falcon Kick
+      input: (in air) downforward + mk
+      note: ["Divekick"]
+
+    - name: Target Combo 1
+      input: lk > hk
+
+    - name: Target Combo 2
+      input: forward + hp > back forward + hp > down forward + hp

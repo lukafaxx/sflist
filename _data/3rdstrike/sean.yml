@@ -1,0 +1,32 @@
+- character: Sean
+
+  special_move:
+    - name: Zenten
+      input: qcb punch
+
+    - name: Sean Tackle
+      input: hcf punch
+      note: ["EX", "Hold punch for follow-up"]
+
+    - name: Dragon Smash
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tornado
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Ryuubi Kyaku
+      input: qcf kick
+      note: ["EX", "Overhead"]
+
+  super_art:
+    - name: I. Hadou Burst
+      input: qcf qcf punch
+
+    - name: II. Shoryuu Cannon
+      input: qcf qcf punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: III. Hyper Tornado
+      input: qcf qcf punch

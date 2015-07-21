@@ -1,0 +1,91 @@
+- character: Gen
+
+  special_move:
+    - name: Hyakurenko
+      input: (Mantis) Press punch repeatedly
+      note: ["EX", "Armor Break"]
+
+    - name: Gekiro
+      input: (Mantis) dpf kick
+      note: ["EX", "Press kick after hit for follow-up"]
+
+    - name: Jyasen
+      input: (Crane) chback forward + punch
+      note: ["EX"]
+
+    - name: Oga
+      input: (Crane) chdown up + kick
+      note: ["EX"]
+
+    - name: -- Sudden Stop
+      input: ... back
+
+    - name: -- Close Kick
+      input: ... down (or neutral position)
+      note: ["Armor Break"]
+
+    - name: -- Far Kick
+      input: ... downforward or forward
+      note: ["Armor Break"]
+
+    - name: -- Ceiling Jump
+      input: ... upback or up or upforward
+
+    - name: -- Falling Kick
+      input: ... upback or up or upforward and down
+      note: ["Armor Break"]
+
+    - name: -- Close Range Kick Right
+      input: ... upback or up or upforward and downforward or forward
+      note: ["Armor Break"]
+
+    - name: -- Close Range Kick Left
+      input: ... upback or up or upforward and downback or back
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Zan'ei
+      input: (Mantis) qcf qcf punch
+      note: ["Armor Break"]
+
+    - name: Jyakoha
+      input: (Crane) qcf qcf kick
+
+  ultra_combo:
+    - name: I. Zetsuei
+      input: (Mantis) qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: I. Ryukoha
+      input: (Crane) qcf qcf kkk
+
+    - name: II. Shitenketsu
+      input: (Mantis) qcb qcb ppp
+      note: ["Armor Break"]
+
+    - name: II. Teiga
+      input: (Crane, in air) qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shuraku
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Hozen
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: "Change Style: Crane"
+      input: (Mantis) kkk
+
+    - name: Target Combo 1
+      input: (Mantis) cr.LK > cr.MK
+
+    - name: Target Combo 2
+      input: (Mantis) Close HP > MK
+
+    - name: "Change Style: Mantis"
+      input: (Crane) ppp
+
+    - name: Shakudan
+      input: (Crane) j.HK > HK

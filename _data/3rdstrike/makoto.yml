@@ -1,0 +1,32 @@
+- character: Makoto
+
+  special_move:
+    - name: Karakusa
+      input: hcb kick
+      note: ["Command grab"]
+
+    - name: Hayate
+      input: qcf punch
+      note: ["EX", "Hold punch to charge"]
+
+    - name: Fukiage
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Oroshi
+      input: qcb punch
+      note: ["EX", "Overhead"]
+
+    - name: Tsurugi
+      input: (in air) qcb kick
+      note: ["EX", "Overhead"]
+
+  super_art:
+    - name: I. Seichusen Godanzuki
+      input: qcf qcf punch
+
+    - name: II. Abare Tosanami
+      input: qcf qcf kick
+
+    - name: III. Tanden Renki
+      input: qcf qcf punch

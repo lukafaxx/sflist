@@ -1,0 +1,79 @@
+- character: Gouken
+
+  special_move:
+    - name: Gohadoken
+      input: qcf punch
+      note: ["EX", "Hold punch to charge"]
+
+    - name: Senkugoshoha
+      input: dpf punch
+      note: ["EX", "Armor Break"]
+
+    - name: Tatsumaki Gorasen
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (during up or upforward jump) qcb kick
+      note: ["EX", "EX Airborne Tatsumaki Senpukyaku can be performed during any jump"]
+
+    - name: Hyakkishu
+      input: dpf kick
+      note: ["EX"]
+
+    - name: -- Hyakki Gozan
+      input: ... (neutral position)
+
+    - name: -- Hyakki Goheki
+      input: ... punch
+
+    - name: -- Hyakki Gojin
+      input: ... kick
+
+    - name: -- Hyakki Gosai
+      input: ... lp + lk
+      note: ["Command grab"]
+
+    - name: Kongoshin
+      input: qcb punch
+      note: ["EX", "Armor Break", "Counter attack"]
+
+    - name: Fudoshin
+      input: qcf kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Forbidden Shoryuken
+      input: qcf qcf kick
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Shin Shoryuken
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Denjin Hadoken
+      input: qcf qcf kkk
+      note: ["Hold kicks to change timing"]
+
+  normal_throw:
+    - name: Raikotokyaku
+      input: forward (or neutral position) + lp + lk
+
+    - name: Amaoroshi
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Sakotsukudaki
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Tenmakujinkyaku
+      input: (at top of upforward jump arc) down + mk
+      note: ["Divekick"]
+
+    - name: Shinkai Geri
+      input: downforward + mk
+
+    - name: Joudan Sokuto Geri
+      input: forward + hk

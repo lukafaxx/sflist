@@ -1,0 +1,49 @@
+- character: Adon
+
+  special_move:
+    - name: Jaguar Kick
+      input: dpb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Jaguar Kick
+      input: (during up or upforward jump) qcb kick
+      note: ["EX"]
+
+    - name: Rising Jaguar
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Jaguar Tooth
+      input: hcb kick
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Jaguar Varied Assault
+      input: qcf qcf punch
+
+    - name: -- Thousand Jaguars
+      input: ... press punch repeatedly
+
+    - name: -- Jaguar Assassin
+      input: ... kick
+
+  ultra_combo:
+    - name: I. Jaguar Revolver
+      input: qcb qcb kkk
+      note: ["Armor Break"]
+
+    - name: II. Jaguar Avalanche
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Jaguar Carry
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Jaguar Slam
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Jaguar Crunch
+      input: Forward + MP
+      note: ["Overhead"]

@@ -1,0 +1,33 @@
+- character: Ryu
+
+  special_move:
+    - name: Hadoken
+      input: qcf punch
+
+    - name: Shoryuken
+      input: dpf punch
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) qcb kick
+
+  critical_art:
+    - name: Shinku Hadoken
+      input: qcf qcf punch
+
+    - name: Denjin Hadoken
+      input: During V-Trigger > qcf qcf punch
+
+  vskill:
+    - name: Mind's Eye
+      input: mp + mk
+
+  vtrigger:
+    - name: Denjin Renki
+      input: hp + hk
+
+  vreversal:
+    - name: Hashogeki
+      input: During Guard > forward + ppp

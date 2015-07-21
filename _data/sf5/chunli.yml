@@ -1,0 +1,30 @@
+- character: Chun-Li
+
+  special_move:
+    - name: Kikoken
+      input: chback forward + punch
+
+    - name: Hyakuretsukyaku
+      input: qcf kick
+
+    - name: Airborne Hyakuretsukyaku
+      input: (in air) qcf kick
+
+    - name: Spinning Bird Kick
+      input: chdown up + kick
+
+  critical_art:
+    - name: Hoyokusen
+      input: qcf qcf kick
+
+  vskill:
+    - name: Rankyaku
+      input: mp + mk
+
+  vtrigger:
+    - name: Renkiko
+      input: hp + hk
+
+  vreversal:
+    - name: Sohatsukei
+      input: During Guard > forward + ppp

@@ -1,0 +1,94 @@
+- character: El Fuerte
+
+  special_move:
+    - name: Habanero Dash
+      input: qcf punch
+      note: ["EX", "EX gains armor (2 hits)"]
+
+    - name: -- Sudden Stop
+      input: ... lp
+
+    - name: -- Tostada Press
+      input: ... mp
+      note: ["Overhead", "Can control in air with forward or back"]
+
+    - name: -- Fajita Buster
+      input: ... hp
+      note: ["Command grab on standing opponents", "Can control in air with forward or back"]
+
+    - name: -- Back Step
+      input: ... lk
+
+    - name: -- Gordita Sobat
+      input: ... mk
+
+    - name: -- Calamari Slide
+      input: ... hk
+
+    - name: Habanero Back Dash
+      input: qcb punch
+      note: ["EX", "EX gains armor (2 hits)"]
+
+    - name: -- Sudden Stop
+      input: ... lp
+
+    - name: -- Tostada Press
+      input: ... mp
+      note: ["Overhead", "Can control in air with forward or back"]
+
+    - name: -- Propeller Tortilla
+      input: ... hp
+      note: ["Command grab", "Can control in air with forward or back"]
+
+    - name: -- Picadillo Jump
+      input: ... kick
+      note: ["Can control in air with forward or back"]
+
+    - name: Quesadilla Bomb
+      input: Charge kick and release
+      note: ["EX", "Armor Break"]
+
+    - name: Guacamole Leg Throw
+      input: dpf kick
+      note: ["EX", "Anti-air grab"]
+
+  super_combo:
+    - name: El Fuerte Dynamite
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. El Fuerte Flying Giga Buster
+      input: qcf qcf kkk
+      note: ["Command grab"]
+
+    - name: II. El Fuerte Ultra Spark
+      input: qcb qcb kkk
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Tepache Bomb
+      input: forward (or neutral position) + lp + lk
+
+    - name: Chili Mexicano
+      input: back + lp + lk
+
+    - name: Sky Sorpressa Drop
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Shower Kick
+      input: forward + mk
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: -- Tostada Press
+      input: ... mp
+      note: ["Can control in air with forward or back"]
+
+    - name: -- Fajita Buster
+      input: ... hp
+      note: ["Command grab on standing opponents", "Can control in air with forward or back"]
+
+    - name: Target Combo
+      input: Far mk > mk

@@ -1,0 +1,83 @@
+- character: Chun-Li
+
+  special_move:
+    - name: Hyakuretsukyaku
+      input: Press kick repeatedly
+      note: ["EX"]
+
+    - name: Kikoken
+      input: hcf punch
+      note: ["EX"]
+
+    - name: Hazanshu
+      input: hcb kick
+      note: ["EX", "Armor Break during EX Hazanshu", "Overhead"]
+
+    - name: Spinning Bird Kick
+      input: chdown up + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Oyokukyaku
+      input: qcf kick
+
+    - name: Hoyokusen
+      input: qcf kk
+      note: ["Consumes 1/2 S.C. Gauge"]
+
+  super_combo:
+    - name: Senretsukyaku
+      input: chback forward back forward + kick
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Hosenka
+      input: chback forward back forward + kkk
+      note: ["Armor Break"]
+
+    - name: II. Kikosho
+      input: qcf qcf ppp
+
+  normal_throw:
+    - name: Koshuto
+      input: forward (or neutral position) + lp + lk
+
+    - name: Kirinshu
+      input: back + lp + lk
+
+    - name: Ryuseiraku
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Kakukyakuraku
+      input: downforward + hk
+      note: ["Overhead"]
+
+    - name: Kakusenshu
+      input: forward + mk
+
+    - name: Kintekishu
+      input: back + mk
+
+    - name: Kintekishu > Tenkukyaku
+      input: back + mk > mk
+
+    - name: Kintekishu > Tenkukyaku > Tenshokyaku
+      input: back + mk > mk > down up + mk
+      note: ["Armor Break"]
+
+    - name: Yosokyaku
+      input: (in air) down + MK
+      note: ["Can be performed three times in sequence"]
+
+    - name: Hakkei
+      input: back + hp
+
+    - name: Hienshu
+      input: (at the start of upforward jump) down + lk
+      note: ["Divekick"]
+
+    - name: Target Combo
+      input: (during angled jump) j.hp > hp
+
+    - name: Target Combo 2
+      input: Close mp > mp

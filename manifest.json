@@ -1,0 +1,13 @@
+{
+  "name": "/SFLIST/",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    }
+  ],
+  "start_url": "/sflist/index.html",
+  "display": "standalone"
+}

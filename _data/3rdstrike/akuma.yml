@@ -1,0 +1,61 @@
+- character: Akuma
+
+  special_move:
+    - name: Gou Hadouken
+      input: qcf punch
+
+    - name: Zankuu Hadouken
+      input: (in air) qcf punch
+
+    - name: Shakunetsu-Hadouken
+      input: hcb punch
+
+    - name: Gou Shoryuken
+      input: dpf punch
+
+    - name: Tatsumaki Zankuukyaku
+      input: qcb kick
+      note: ["Can be performed in air"]
+
+    - name: Ashura Senku
+      input: dpf or dpb and pp or kk
+
+    - name: Hyakkishu
+      input: dpf kick
+
+    - name: -- Hyakki Gouzan
+      input: ... (neutral position)
+
+    - name: -- Hyakki Gousho
+      input: ... punch
+
+    - name: -- Hyakki Goujin
+      input: ... kick
+
+    - name: -- Hyakki Gousai
+      input: ... lp + lk
+      note: ["Command grab"]
+
+  super_art:
+    - name: I. Messatsu Gou Hadou
+      input: qcf qcf punch
+
+    - name: I. Tenma Gou Zankuu
+      input: (in air) qcf qcf punch
+
+    - name: II. Messatsu Gou Shoryu
+      input: qcf qcf punch
+
+    - name: III. Messatsu-Gourasen
+      input: qcf qcf kick
+
+    - name: III. Messatsu-GouSenpuu
+      input: (in air) qcf qcf kick
+
+  max_super_art:
+    - name: Shungokusatsu
+      input: LP LP forward LK HP
+      note: ["Command grab"]
+
+    - name: Kongou Kokuretsuzan
+      input: down down down pp

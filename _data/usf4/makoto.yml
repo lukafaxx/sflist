@@ -1,0 +1,53 @@
+- character: Makoto
+
+  special_move:
+    - name: Fukiage
+      input: dpf punch
+      note: ["EX", "EX Fukiage can hit opponent on the ground"]
+
+    - name: Hayate
+      input: qcf punch
+      note: ["EX", "Armor Break added on EX Hayate", "Hold punch to charge, press kick to cancel"]
+
+    - name: Oroshi
+      input: qcb punch
+      note: ["EX", "Armor Break"]
+
+    - name: Karakusa
+      input: hcb kick
+      note: ["EX", "Command grab"]
+
+    - name: Tsurugi
+      input: (during up or upforward jump) qcb kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Tanden Renki
+      input: qcf qcf punch
+      note: ["Temporary power boost"]
+
+  ultra_combo:
+    - name: I. Seichusen Godanzuki
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Abare Tosanami
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Head Butt
+      input: forward (or neutral position) + lp + lk
+
+    - name: Triple Threat
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Yamase
+      input: forward + hp > hp
+
+    - name: Target Combo 1
+      input: lk > mk
+
+    - name: Target Combo 2
+      input: forward + mk > hk

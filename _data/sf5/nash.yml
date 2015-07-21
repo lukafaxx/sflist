@@ -1,0 +1,36 @@
+- character: Nash
+
+  special_move:
+    - name: Sonic Boom
+      input: qcf punch
+
+    - name: Sonic Scythe
+      input: qcb kick
+
+    - name: Moonsault Slash
+      input: qcf kick
+
+    - name: Tragedy Assault
+      input: dpf kick
+
+  critical_art:
+    - name: Judgement Saber
+      input: qcb qcb kick
+
+  vskill:
+    - name: Bulley Clear
+      input: mp + mk
+
+  vtrigger:
+    - name: "Sonic Move: Hide"
+      input: forward + hp + hk
+
+    - name: "Sonic Move: Blitz Air"
+      input: back + hp + hk
+
+    - name: Steel Air
+      input: down + hp + hk
+
+  vreversal:
+    - name: "Sonic Move: Avoid"
+      input: During Guard > forward + ppp

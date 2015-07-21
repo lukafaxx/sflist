@@ -1,0 +1,45 @@
+- character: Ryu
+
+  special_move:
+    - name: Hadoken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Shinku Hadoken
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Metsu Hadoken
+      input: qcf qcf ppp
+
+    - name: II. Metsu Shoryuken
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Somersault Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Collarbone Breaker
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Solar Plexus Strike
+      input: forward + hp
