@@ -18,7 +18,7 @@
 
   critical_art:
     - name: Skip To My Chain
-      input: hcf hcf punch
+      input: qcf qcf punch
 
   vskill:
     - name: Break Time 1
