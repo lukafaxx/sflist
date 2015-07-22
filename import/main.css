@@ -15,13 +15,13 @@ html, body {
   background-color: #ff4c44;
   color: #fff;
   font-family: 'BebasNeue', sans-serif;
-  font-size: 72px;
+  font-size: 54px;
   letter-spacing: .05rem;
   margin: 0;
   min-width: 320px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 680px) {
   html, body {
     font-size: 8vw;
   }
