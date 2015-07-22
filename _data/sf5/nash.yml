@@ -11,11 +11,11 @@
       input: qcf kick
 
     - name: Tragedy Assault
-      input: dpf kick
+      input: dpf punch
 
   critical_art:
     - name: Judgement Saber
-      input: qcb qcb kick
+      input: qcb qcb punch
 
   vskill:
     - name: Bulley Clear
