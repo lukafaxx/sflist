@@ -114,21 +114,21 @@ p.move {
 
 .move_input {
   color: #222;
-  font-size: .70rem;
+  font-size: .7rem;
 }
 
 .move_note {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: .4rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: .5rem;
   letter-spacing: 0;
   display: block;
   overflow-y: hidden;
-  margin-top: -.075rem;
+  margin-top: -.01rem;
 }
 
 .move_comment {
-  color: rgba(0, 0, 0, 0.3);
-  font-size: .60rem;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: .6rem;
   letter-spacing: 0.025rem;
   margin: 0 .5rem 1rem .5rem;
 }
