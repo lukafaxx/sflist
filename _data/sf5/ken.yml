@@ -4,12 +4,15 @@
     - name: Hadouken
       input: qcf punch
 
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      
     - name: (unknown)
       input:
 
   critical_art:
-    - name: (unknown)
-      input: 
+    - name: Guren Enjinkyaku
+      input: (unknown)
 
   vskill:
     - name: Quick Step
@@ -20,5 +23,5 @@
       input: hp + hk
 
   vreversal:
-    - name: (unknown)
-      input: During Guard > forward + ppp
+    - name: Senpu Nata Otoshi
+      input: (unknown)
