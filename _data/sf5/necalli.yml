@@ -1,1 +1,24 @@
 - character: Necalli
+
+  special_move:
+    - name: Discus Guidance
+      input: (unknown)
+
+    - name: Earth Mask
+      input: (unknown)
+
+  critical_art:
+    - name: Honor Ceremony
+      input: (unknown)
+
+  vskill:
+    - name: Power Collection
+      input: mp + mk
+
+  vtrigger:
+    - name: Torrent of Power
+      input: hp + hk
+
+  vreversal:
+    - name: Guiding Yell
+      input: During Guard > forward + ppp
