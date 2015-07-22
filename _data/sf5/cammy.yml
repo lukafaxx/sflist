@@ -27,7 +27,7 @@
 
   critical_art:
     - name: Cross Stinger Assault
-      input: hcb hcb kick
+      input: qcb qcb kick
 
   vskill:
     - name: Axel Spin Knuckle
