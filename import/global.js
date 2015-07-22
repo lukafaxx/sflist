@@ -1,6 +1,6 @@
   $(document).ready(function() {
 
-    // ----- Toggle Mosaic
+    // ----- Toggle App Info
     $('#toggle-app').on('click', function(){
       $('.app-content').toggle('fast');
       var el = $(this);
