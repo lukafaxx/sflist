@@ -18,7 +18,7 @@
       input: qcb qcb punch
 
   vskill:
-    - name: Bulley Clear
+    - name: Bullet Clear
       input: mp + mk
 
   vtrigger:
