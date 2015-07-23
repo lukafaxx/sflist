@@ -22,15 +22,15 @@
       input: mp + mk
 
   vtrigger:
-    - name: "Sonic Move: Hide"
+    - name: "Sonic Move - Hide"
       input: forward + hp + hk
 
-    - name: "Sonic Move: Blitz Air"
+    - name: "Sonic Move - Blitz Air"
       input: back + hp + hk
 
-    - name: Steel Air
+    - name: "Sonic Move - Steel Air"
       input: down + hp + hk
 
   vreversal:
-    - name: "Sonic Move: Avoid"
-      input: During Guard > forward + ppp
+    - name: "Sonic Move - Avoid"
+      input: (during guard) forward + ppp

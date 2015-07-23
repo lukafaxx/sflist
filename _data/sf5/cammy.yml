@@ -20,7 +20,7 @@
       input: ... (close to ground) lp + lk
 
     - name: -- Cross Scissors Pressure
-      input: ... (in air, near opponent) lp + lk
+      input: ... (close in air) lp + lk
 
     - name: -- Cannon Strike
       input: ... kick
@@ -39,4 +39,4 @@
 
   vreversal:
     - name: Strike Back
-      input: During Guard > forward + kkk
+      input: (during guard) forward + kkk

@@ -1,20 +1,23 @@
 - character: Birdie
 
   special_move:
-    - name: Bull Horn
-      input: Hold punch and release
-
     - name: Bull Head
       input: hcf punch
 
+    - name: Bull Horn
+      input: Hold punch and release
+
     - name: Hanging Chain
       input: qcf kick
+      note: Hold Kick and press any Punch to cancel
 
     - name: Killing Head
       input: hcb punch
+      note: Command grab
 
     - name: Bull Revenger
       input: hcb kick
+      note: Command grab
 
   critical_art:
     - name: Skip To My Chain
@@ -36,4 +39,4 @@
 
   vreversal:
     - name: Pepper Pot
-      input: During Guard > forward + ppp
+      input: (during guard) forward + ppp
