@@ -3,12 +3,14 @@
   special_move:
     - name: Hadouken
       input: qcf punch
+      note: ["EX"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
-      
+      note: ["EX"]
+
     - name: (unknown)
-      input:
+      input: (unknown)
 
   critical_art:
     - name: Guren Enjinkyaku
