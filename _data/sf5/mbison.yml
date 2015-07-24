@@ -3,21 +3,26 @@
   special_move:
     - name: Psycho Blast
       input: chback forward + punch
+      note: ["EX"]
 
     - name: Double Knee Press
       input: chback forward + kick
+      note: ["EX"]
 
     - name: Head Press
       input: chdown up + kick
+      note: ["EX"]
 
     - name: -- Somersault Skull Driver
       input: ... (after Head Press hits) punch
 
     - name: -- Devil Reverse
       input: ... (before Head Press hits) punch
+      note: ["EX"]
 
     - name: Psycho Inferno
       input: chdown up + punch
+      note: ["EX"]
 
   critical_art:
     - name: Ultimate Psycho Crusher

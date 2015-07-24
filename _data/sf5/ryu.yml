@@ -3,15 +3,19 @@
   special_move:
     - name: Hadoken
       input: qcf punch
+      note: ["EX"]
 
     - name: Shoryuken
       input: dpf punch
+      note: ["EX"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
+      note: ["EX"]
 
     - name: Airborne Tatsumaki Senpukyaku
       input: (in air) qcb kick
+      note: ["EX"]
 
   critical_art:
     - name: Shinku Hadoken

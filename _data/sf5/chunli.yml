@@ -3,15 +3,19 @@
   special_move:
     - name: Kikoken
       input: chback forward + punch
+      note: ["EX"]
 
     - name: Hyakuretsukyaku
       input: qcf kick
+      note: ["EX"]
 
     - name: Airborne Hyakuretsukyaku
       input: (in air) qcf kick
+      note: ["EX"]
 
     - name: Spinning Bird Kick
       input: chdown up + kick
+      note: ["EX"]
 
   critical_art:
     - name: Hoyokusen

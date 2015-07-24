@@ -3,15 +3,19 @@
   special_move:
     - name: Sonic Boom
       input: qcf punch
+      note: ["EX"]
 
     - name: Sonic Scythe
       input: qcb kick
+      note: ["EX"]
 
     - name: Moonsault Slash
       input: qcf kick
+      note: ["EX"]
 
     - name: Tragedy Assault
       input: dpf punch
+      note: ["EX"]
 
   critical_art:
     - name: Judgement Saber

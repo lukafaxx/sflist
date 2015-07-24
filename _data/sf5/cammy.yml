@@ -23,11 +23,11 @@
 
     - name: -- Fatal Leg Twister
       input: ... (close to ground) lp + lk
-      note: Command grab
+      note: ["Command grab"]
 
     - name: -- Cross Scissors Pressure
       input: ... (close in air) lp + lk
-      note: Command grab
+      note: ["Command grab"]
 
     - name: -- Cannon Strike
       input: ... kick
