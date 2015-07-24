@@ -1,20 +1,25 @@
 - character: Ken
 
   special_move:
-    - name: Hadouken
+    - name: Hadoken
       input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
       note: ["EX"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
       note: ["EX"]
 
-    - name: (unknown)
-      input: (unknown)
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
 
   critical_art:
     - name: Guren Enjinkyaku
-      input: (unknown)
+      input: qcf qcf kick
 
   vskill:
     - name: Quick Step
@@ -26,4 +31,4 @@
 
   vreversal:
     - name: Senpu Nata Otoshi
-      input: (unknown)
+      input: (during guard) forward + ppp
