@@ -3,18 +3,23 @@
   special_move:
     - name: Spiral Arrow
       input: qcf kick
+      note: ["EX"]
 
     - name: Cannon Spike
       input: dpf kick
+      note: ["EX"]
 
     - name: Cannon Strike
       input: (during upforward jump) qcb kick
+      note: ["EX"]
 
     - name: Hooligan Combination
       input: hcf punch
+      note: ["EX"]
 
     - name: -- Razor Edge Slicer
       input: ... (neutral position)
+      note: ["EX"]
 
     - name: -- Fatal Leg Twister
       input: ... (close to ground) lp + lk
@@ -26,6 +31,7 @@
 
     - name: -- Cannon Strike
       input: ... kick
+      note: ["EX"]
 
   critical_art:
     - name: Cross Stinger Assault
