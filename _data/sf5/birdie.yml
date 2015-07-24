@@ -3,21 +3,23 @@
   special_move:
     - name: Bull Head
       input: hcf punch
+      note: ["EX"]
 
     - name: Bull Horn
       input: Hold punch and release
+      note: ["EX"]
 
     - name: Hanging Chain
       input: qcf kick
-      note: Hold Kick and press any Punch to cancel
+      note: ["EX", "Hold Kick and press any Punch to cancel"]
 
     - name: Killing Head
       input: hcb punch
-      note: Command grab
+      note: ["EX", "Command grab"]
 
     - name: Bull Revenger
       input: hcb kick
-      note: Command grab
+      note: ["EX", "Command grab"]
 
   critical_art:
     - name: Skip To My Chain
