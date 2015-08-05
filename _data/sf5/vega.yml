@@ -1,0 +1,27 @@
+- character: Vega
+
+  special_move:
+    - name: Crimson Terror
+      input: (unknown)
+
+    - name: Ground Izuna Drop
+      input: (unknown)
+
+    - name: Switching Claw
+      input: (unknown)
+
+  critical_art:
+    - name: Bloody Rain
+      input: (unknown)
+
+  vskill:
+    - name: Matador Turn
+      input: mp + mk
+
+  vtrigger:
+    - name: Bloody Kiss
+      input: hp + hk
+
+  vreversal:
+    - name: (unknown)
+      input: (unknown)
