@@ -1,27 +1,75 @@
 - character: Vega
 
   special_move:
+    - name: Flying Barcelona Attack
+      input: dpf or dpb kick
+      note: ["EX"]
+
+    - name: Flying Barcelona Attack (Claw Attack)
+      input: dpf or dpb kick > punch
+      note: ["EX"]
+
+    - name: Izuna Drop
+      input: dpf or dpb kick > (near opponent) lp + lk
+      note: ["EX", "Command grab"]
+
+    - name: Grand Izuna Drop
+      input: (claw off) hcb punch
+      note: ["EX", "Command grab"]
+
     - name: Crimson Terror
-      input: (unknown)
+      input: qcf kick
+      note: ["EX"]
 
-    - name: Ground Izuna Drop
-      input: (unknown)
+    - name: Aurora Spin Edge
+      input: (claw on) qcb punch
+      note: ["EX"]
 
-    - name: Switching Claw
-      input: (unknown)
+    - name: Switch Claw
+      input: qcf punch
 
   critical_art:
     - name: Bloody Rain
-      input: (unknown)
+      input: qcf qcf punch
+
+  normal_throw:
+    - name: Rainbow Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Crescent Line
+      input: back + lp + lk
+
+    - name: Stardust Shot
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Mercury Shard
+      input: forward + mk
+
+    - name: Buster Claw
+      input: (claw on) downforward + hp
+
+    - name: Matador Flash
+      input: (claw on) hp > hp > mp + mk
+
+    - name: Matador Blitz
+      input: (claw off) mp > hk > mp + mk
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
 
   vskill:
     - name: Matador Turn
       input: mp + mk
+      note: ["Hold buttons to attack"]
 
   vtrigger:
     - name: Bloody Kiss
       input: hp + hk
 
   vreversal:
-    - name: (unknown)
-      input: (unknown)
+    - name: Backslash
+      input: (during guard) forward + ppp
+
+    - name: Short Backslash
+      input: (during guard) forward + kkk
