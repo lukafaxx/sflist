@@ -5,13 +5,12 @@
       input: dpf or dpb kick
       note: ["EX"]
 
-    - name: Flying Barcelona Attack (Claw Attack)
-      input: dpf or dpb kick > punch
-      note: ["EX"]
+    - name: -- Claw Attack
+      input: ... punch
 
-    - name: Izuna Drop
-      input: dpf or dpb kick > (near opponent) lp + lk
-      note: ["EX", "Command grab"]
+    - name: -- Izuna Drop
+      input: ... (near opponent) lp + lk
+      note: ["Command grab"]
 
     - name: Grand Izuna Drop
       input: (claw off) hcb punch
