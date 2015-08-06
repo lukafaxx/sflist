@@ -3,7 +3,7 @@
   special_move:
     - name: Sonic Boom
       input: qcf punch
-      note: ["EX"]
+      note: ["EX", "Press punch during EX Sonic Boom for a second one"]
 
     - name: Sonic Scythe
       input: qcb kick
@@ -20,6 +20,50 @@
   critical_art:
     - name: Judgement Saber
       input: qcb qcb punch
+
+  normal_throw:
+    - name: Dragon Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Target Down
+      input: back + lp + lk
+
+    - name: Air Jack
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Knee Bazooka
+      input: forward + lk
+
+    - name: Jumping Sobat
+      input: forward + mk
+
+    - name: Chopping Assault
+      input: forward + mp
+
+    - name: Step Kick
+      input: forward + hk
+
+    - name: Spinning Back Knuckle
+      input: forward + hp
+
+    - name: Side Knee Attack
+      input: back + mk
+
+    - name: Rapid Punch
+      input: lp > mp
+
+    - name: Rapid Kick
+      input: lk > mk
+
+    - name: Wind Shear
+      input: mp > lk > hp
+
+    - name: Down Burst
+      input: down + mp > forward + mp
+
+    - name: Raptor Combination
+      input: mk > hk > forward + mk
 
   vskill:
     - name: Bullet Clear
