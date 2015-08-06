@@ -37,6 +37,23 @@
     - name: Cross Stinger Assault
       input: qcb qcb kick
 
+  normal_throw:
+    - name: Gyro Clipper
+      input: forward (or neutral position) + lp + lk
+
+    - name: Delta Through
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Knee Bullet
+      input: forward + hk
+
+    - name: Lift Upper
+      input: back + hp
+
+    - name: Lift Combination
+      input: back + hp > hk
+
   vskill:
     - name: Axel Spin Knuckle
       input: mp + mk
