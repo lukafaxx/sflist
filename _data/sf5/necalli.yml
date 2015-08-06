@@ -1,24 +1,55 @@
 - character: Necalli
 
   special_move:
-    - name: Discus Guidance
-      input: (unknown)
+    - name: The Disc's Guidance
+      input: qcf punch
+      note: ["EX"]
 
-    - name: Earth Mask
-      input: (unknown)
+    - name: Raging Light
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Mask of Tlalli
+      input: hcb punch
+      note: ["EX", "Command grab"]
+
+    - name: Valiant Rebellion
+      input: qcf kick
+      note: ["EX"]
 
   critical_art:
-    - name: Honor Ceremony
-      input: (unknown)
+    - name: Ceremony of Honor
+      input: qcf qcf punch
+
+    - name: Soul Offering
+      input: During V-trigger > qcf qcf punch
+
+  normal_throw:
+    - name: Soul Sealer
+      input: forward (or neutral position) + lp + lk
+
+    - name: Soul Discriminator
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Opening Dagger
+      input: forward + hp
+
+    - name: Road of the Sun
+      input: (during upforward jump) down + hk
+
+    - name: Sacrificial Altar
+      input: mk > hk > mp + mk
 
   vskill:
-    - name: Power Collection
+    - name: Culminated Power
       input: mp + mk
+      note: ["Control distance by holding forward, back or neutral position"]
 
   vtrigger:
     - name: Torrent of Power
       input: hp + hk
 
   vreversal:
-    - name: Guiding Yell
-      input: (unknown)
+    - name: The Calling
+      input: (during guard) forward + ppp
