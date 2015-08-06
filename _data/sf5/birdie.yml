@@ -11,7 +11,7 @@
 
     - name: Hanging Chain
       input: qcf kick
-      note: ["EX", "Hold Kick and press any Punch to cancel"]
+      note: ["EX", "Hold Kick for chain twirl and press Punch to cancel"]
 
     - name: Killing Head
       input: hcb punch
@@ -25,14 +25,34 @@
     - name: Skip To My Chain
       input: qcf qcf punch
 
+  normal_throw:
+    - name: Bad Skull
+      input: forward (or neutral position) + lp + lk
+
+    - name: Bad Chain
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Bull Drop
+      input: forward + hk
+
+    - name: Bull Charge
+      input: forward + hp
+
+    - name: Bull Slider
+      input: downforward + hp
+
+    - name: Bad Hammer
+      input: down + hp > hp
+
   vskill:
-    - name: Break Time 1
+    - name: Break Time
       input: mp + mk
 
-    - name: Break Time 2
+    - name: Banana Time
       input: back + mp + mk
 
-    - name: Break Time 3
+    - name: Drink Time
       input: down + mp + mk
 
   vtrigger:
