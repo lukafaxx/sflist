@@ -21,14 +21,39 @@
     - name: Guren Enjinkyaku
       input: qcf qcf kick
 
+  normal_throw:
+    - name: Knee Bash
+      input: forward (or neutral position) + lp + lk
+
+    - name: Hell Wheel
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Thunder Kick
+      input: forward + hk
+      note: ["Hold button for feint"]
+
+    - name: Inazuma Kick
+      input: back + mk
+
+    - name: Chin Buster
+      input: back + mp
+
+    - name: Chin Buster 2nd
+      input: back + mp > hp
+
+    - name: Lion Breaker
+      input: mk > hk
+
   vskill:
     - name: Quick Step
       input: mp + mk
+      note: ["Hold buttons to unleash a step kick"]
 
   vtrigger:
     - name: Heat Rush
       input: hp + hk
 
   vreversal:
-    - name: Senpu Nata Otoshi
-      input: (during guard) forward + ppp
+    - name: Senpu Nataotoshi
+      input: (during guard) forward + kkk
