@@ -27,10 +27,26 @@
   critical_art:
     - name: Ultimate Psycho Crusher
       input: qcf qcf kick
+      note: ["Can be performed in air"]
+
+  normal_throw:
+    - name: Psycho Impact
+      input: forward (or neutral position) + lp + lk
+
+    - name: Psycho Fall
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Hell Attack
+      input: (in air) mp > mp
+
+    - name: Psycho Axe
+      input: downforward + hp
 
   vskill:
     - name: Psycho Reflect
       input: mp + mk
+      note: ["Hold buttons to absorb the opponent's projectile and shoot it back"]
 
   vtrigger:
     - name: Psycho Power
