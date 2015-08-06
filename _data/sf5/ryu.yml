@@ -3,7 +3,7 @@
   special_move:
     - name: Hadoken
       input: qcf punch
-      note: ["EX"]
+      note: ["EX", "During V-Trigger, charge by holding button"]
 
     - name: Shoryuken
       input: dpf punch
@@ -23,6 +23,29 @@
 
     - name: Denjin Hadoken
       input: During V-Trigger > qcf qcf punch
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Somersault Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Collarbone Breaker
+      input: forward + mp
+
+    - name: Solar Plexus Strike
+      input: forward + hp
+
+    - name: Axe Kick
+      input: back + hk
+
+    - name: Jodan Nirengeki
+      input: hp > hk
+
+    - name: Jodan Sanrengeki
+      input: mp > hp > hk
 
   vskill:
     - name: Mind's Eye
