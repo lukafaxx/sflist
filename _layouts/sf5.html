@@ -26,6 +26,24 @@ layout: page
   </p>
   {% endfor %}
 
+  <div class="move_cat"><span>Normal Throw</span></div>
+  {% for throw in chara.normal_throw %}
+  <p class="move">
+    <span class="move_name">{{ throw.name }}</span><br />
+    <span class="move_input">{{ throw.input }}</span><br />
+    <span class="move_note">{{ throw.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Unique Attack</span></div>
+  {% for unique in chara.unique_attack %}
+  <p class="move">
+    <span class="move_name">{{ unique.name }}</span><br />
+    <span class="move_input">{{ unique.input }}</span><br />
+    <span class="move_note">{{ unique.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
   <div class="move_cat"><span>V-Skill</span></div>
   {% for vskill in chara.vskill %}
   <p class="move">
