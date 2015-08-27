@@ -9,7 +9,7 @@ layout: page
 
 {% for char in gamechar %}
     {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
-    <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a><br />
+    <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a>{% if char.status == "todo" %}<span class="item-todo">(soon)</span>{% endif %}<br />
 {% endfor %}
 
 <br />

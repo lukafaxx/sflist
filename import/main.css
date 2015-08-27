@@ -60,6 +60,11 @@ a:hover {
   margin: 0 .25rem;
 }
 
+.item-todo {
+  font-size: .75rem;
+  color: rgba(0, 0, 0, 0.25);
+}
+
 .chara_title {
   font-size: 2rem;
   margin: 0 .5rem;
