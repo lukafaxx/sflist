@@ -1,1 +1,68 @@
 - character: R. Mika
+
+  special_move:
+    - name: Shooting Peach
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Wingless Airplane
+      input: qcf kick
+      note: ["EX", "V-Skill increases power"]
+
+    - name: Rainbow Typhoon
+      input: hcb punch
+      note: ["EX", "Command grab", "V-Skill increases power"]
+
+    - name: Brimstone
+      input: hcb kick
+      note: ["EX", "Command grab", "V-Skill increases power"]
+
+  critical_art:
+    - name: Peach Assault
+      input: hcb hcb punch
+      note: ["V-Skill increases power"]
+
+  normal_throw:
+    - name: Daydream Headlock
+      input: forward (or neutral position) + lp + lk
+
+    - name: Dream Driver
+      input: (close to crouching opponent) lp + lk
+
+    - name: Sell Down
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Divebomb
+      input: (during upforward jump) down + mp
+
+    - name: Lady Mika
+      input: forward + hp
+
+    - name: Passion Press
+      input: forward + mp
+
+    - name: Passion Rope Throw (Forward)
+      input: forward + mp > mp
+
+    - name: Passion Rope Throw (Backward)
+      input: forward + mp > back + mp
+
+  vskill:
+    - name: Mic Performance
+      input: mp + mk
+      note: ["Hold buttons to power up normal and special throws"]
+
+  vtrigger:
+    - name: Nadeshiko (Above)
+      input: hp + hk
+
+    - name: Nadeshiko (Front)
+      input: back + hp + hk
+
+    - name: Nadeshiko (Behind)
+      input: forward + hp + hk
+
+  vreversal:
+    - name: Peach Gator
+      input: (during guard) forward + ppp
