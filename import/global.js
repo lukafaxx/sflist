@@ -2,7 +2,7 @@
 
     // ----- Toggle App Info
     $('#toggle-app').on('click', function(){
-      $('.app-content').toggle('fast');
+      $('.app-content').slideToggle('slow');
       var el = $(this);
       if (el.text() == el.data('text-swap')) {
         el.text(el.data('text-original'));
