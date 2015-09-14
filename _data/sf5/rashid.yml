@@ -1,0 +1,67 @@
+- character: Rashid
+
+  special_move:
+    - name: Spinning Mixer
+      input: qcf punch
+      note: ["EX", "Properties change w/ repeated button presses"]
+
+    - name: Eagle Spike
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Airborne Eagle Spike
+      input: (during upforward jump) qcb kick
+      note: ["EX"]
+
+    - name: Whirlwind Shot
+      input: qcf kick
+      note: ["EX"]
+
+  critical_art:
+    - name: Altair
+      input: qcf qcf punch
+
+  normal_throw:
+    - name: Riding Glider
+      input: forward (or neutral position) + lp + lk
+
+    - name: Rising Sun
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Flap Spin
+      input: forward + mp
+
+    - name: Beak Assault
+      input: forward + hp
+
+    - name: Spinning Mixer
+      input: (during run) forward + punch
+      note: ["Properties change w/ repeated button presses"]
+
+    - name: Eagle Spike
+      input: (during run) forward + kick
+
+    - name: Wall Jump
+      input: (during jump, near wall) upforward or downforward
+
+  vskill:
+    - name: Front Flip
+      input: mp + mk
+
+    - name: Airborne Eagle Spike
+      input: mp + mk > kick
+
+    - name: Rolling Assault
+      input: down + mp + mk
+
+    - name: Nail Assault
+      input: down + mp + mk > kick
+
+  vtrigger:
+    - name: Ysaar
+      input: hp + hk
+
+  vreversal:
+    - name: Sliding Roll
+      input: (during guard) forward + ppp
