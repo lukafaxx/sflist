@@ -2,11 +2,11 @@
 
   special_move:
     - name: The Disc's Guidance
-      input: qcf punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Raging Light
-      input: dpf punch
+      input: chdown up + punch
       note: ["EX"]
 
     - name: Mask of Tlalli
