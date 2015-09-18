@@ -12,4 +12,8 @@ layout: page
     <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a>{% if char.status == "todo" %}<span class="item-todo">(soon)</span>{% endif %}<br />
 {% endfor %}
 
+{% if page.permalink contains 'sf5' %}
+<div class="warning">Because Street Fighter V is currently in beta, those move lists might not reflect the correct inputs of the latest build. If you think something is incorrect, please use Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.</div>
+{% endif %}
+
 <br />
