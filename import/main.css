@@ -3,6 +3,8 @@
   src: url('BebasNeue.otf') format('opentype');
 }
 
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
 /* -------------------- Global */
 * {
   -webkit-box-sizing: border-box;
@@ -11,7 +13,6 @@
 }
 
 html, body {
-  overflow-x: hidden;
   background-color: #ff4c44;
   color: #fff;
   font-family: 'BebasNeue', sans-serif;
@@ -19,6 +20,7 @@ html, body {
   letter-spacing: .05rem;
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 680px) {
@@ -45,8 +47,8 @@ a:hover {
 
 .home {
   font-size: .75rem;
-  text-align: right;
   margin: .5rem;
+  text-align: right;
 }
 
 /* -------------------- Content */
@@ -61,8 +63,8 @@ a:hover {
 }
 
 .item-todo {
-  font-size: .75rem;
   color: rgba(0, 0, 0, 0.25);
+  font-size: .75rem;
 }
 
 .chara_title {
@@ -83,21 +85,21 @@ a:hover {
 .move_cat {
   color: rgba(255, 255, 255, 0.5);
   font-size: .5rem;
-  text-align: center;
   letter-spacing: .25rem;
   margin: 1.5rem .5rem .5rem .5rem;
   position: relative;
+  text-align: center;
 }
 
 .move_cat:before {
- content: "";
- display: block;
- border-top: 1px dotted rgba(255, 255, 255, 0.5);
- width: 100%;
- height: 1px;
- position: absolute;
- top: 50%;
- z-index: 1;
+  border-top: 1px dotted rgba(255, 255, 255, 0.5);
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
 }
 
 .move_cat span {
@@ -119,30 +121,37 @@ p.move {
 
 .move_input {
   color: #222;
-  font-size: .7rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: .5rem;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .move_note {
-  color: rgba(0, 0, 0, 0.4);
-  font-size: .5rem;
-  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.5);
   display: block;
-  overflow-y: hidden;
+  font-family: 'Oswald', sans-serif;
+  font-size: .4rem;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0;
   margin-top: -.01rem;
+  overflow-y: hidden;
 }
 
 .move_comment {
-  color: rgba(0, 0, 0, 0.4);
-  font-size: .6rem;
-  letter-spacing: 0.025rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Oswald', sans-serif;
+  font-size: .4rem;
+  letter-spacing: 0;
   margin: 0 .5rem 1rem .5rem;
 }
 
 /* -------------------- Footer */
 .main-footer {
   font-size: .75rem;
+  margin: -.25rem .5rem .5rem .5rem;
   text-align: right;
-  margin: .5rem;
 }
 
 #toggle-app {
@@ -150,33 +159,40 @@ p.move {
 }
 
 .app-content {
+  color: rgba(255, 255, 255, 0.5);
   display: none;
-  font-size: .5rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: .6rem;
+  font-weight: 300;
+  letter-spacing: 0;
   text-align: left;
 }
 
 /* -------------------- Replace Input */
 .move_input img {
- vertical-align: middle;
- width: .75rem;
- outline: 1px solid transparent;
+  outline: 1px solid transparent;
+  vertical-align: middle;
+  width: .75rem;
 }
 
 .button {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: .5rem;
-  width: .75rem;
-  line-height: .75rem;
+  background: #222;
+  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #222;
+  box-shadow: 0 .1rem 0 rgba(0, 0, 0, .25);
   color: #fff;
+  display: inline-block;
+  font-size: .3rem;
+  line-height: .75rem;
+  margin: .075rem;
   text-align: center;
+  vertical-align: middle;
+  width: .75rem;
 }
 
 .flow {
-  margin-left: -.1rem;
+  margin-left: -.125rem;
 }
 
 .rotate9 {
