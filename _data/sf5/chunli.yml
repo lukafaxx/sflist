@@ -55,7 +55,7 @@
       note: ["Can be performed three times in sequence"]
 
     - name: Wall Jump
-      input: (during angled jump, near wall) upforward
+      input: (during jump, near wall) upforward
 
   vskill:
     - name: Rankyaku
