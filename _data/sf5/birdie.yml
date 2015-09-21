@@ -2,11 +2,11 @@
 
   special_move:
     - name: Bull Head
-      input: hcf punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Bull Horn
-      input: Hold punch and release
+      input: Hold punch or kick and release
       note: ["EX"]
 
     - name: Hanging Chain
