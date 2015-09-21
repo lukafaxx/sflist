@@ -63,7 +63,7 @@
       input: down + mp > forward + mp
 
     - name: Raptor Combination
-      input: mk > hk > forward + mk
+      input: mk > hk > mk
 
   vskill:
     - name: Bullet Clear
@@ -77,7 +77,7 @@
       input: back + hp + hk
 
     - name: "Sonic Move - Steel Air"
-      input: down + hp + hk
+      input: forward + hp + hk
 
   vreversal:
     - name: "Sonic Move - Avoid"
