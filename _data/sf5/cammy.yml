@@ -49,10 +49,10 @@
       input: forward + hk
 
     - name: Lift Upper
-      input: back + hp
+      input: back + mp
 
     - name: Lift Combination
-      input: back + hp > hk
+      input: back + mp > hk
 
   vskill:
     - name: Axel Spin Knuckle
