@@ -7,19 +7,19 @@
 
     - name: Wingless Airplane
       input: qcf kick
-      note: ["EX", "V-Skill increases power"]
+      note: ["EX"]
 
     - name: Rainbow Typhoon
       input: hcb punch
-      note: ["EX", "Command grab", "V-Skill increases power"]
+      note: ["EX", "Command grab"]
 
     - name: Brimstone
       input: hcb kick
-      note: ["EX", "Command grab", "V-Skill increases power"]
+      note: ["EX", "Command grab"]
 
   critical_art:
     - name: Peach Assault
-      input: hcb hcb punch
+      input: qcb qcb punch
       note: ["V-Skill increases power"]
 
   normal_throw:
@@ -27,12 +27,15 @@
       input: forward (or neutral position) + lp + lk
 
     - name: Dream Driver
-      input: (close to crouching opponent) lp + lk
+      input: (close to crouching opponent) forward (or neutral position) + lp + lk
 
     - name: Sell Down
       input: back + lp + lk
 
   unique_attack:
+    - name: Stomping & Chop
+      input: lk > mp
+
     - name: Divebomb
       input: (during upforward jump) down + mp
 
@@ -40,18 +43,18 @@
       input: forward + hp
 
     - name: Passion Press
-      input: forward + mp
+      input: back or forward + mp
 
     - name: Passion Rope Throw (Forward)
-      input: forward + mp > mp
+      input: back or forward + mp > forward + mp
 
     - name: Passion Rope Throw (Backward)
-      input: forward + mp > back + mp
+      input: back or forward + mp > back + mp
 
   vskill:
     - name: Mic Performance
       input: mp + mk
-      note: ["Hold buttons to power up normal and special throws"]
+      note: ["Hold buttons to power up moves"]
 
   vtrigger:
     - name: Nadeshiko (Above)
@@ -65,4 +68,4 @@
 
   vreversal:
     - name: Peach Gator
-      input: (during guard) forward + ppp
+      input: (during guard) forward + kkk
