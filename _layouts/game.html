@@ -4,6 +4,14 @@ layout: page
 
 <div class="title">{{ page.title }}</div>
 
+{% if page.permalink contains 'sf5' %}
+<div class="warning">
+Because Street Fighter V is currently in beta, those pages might not reflect the correct moves of the latest builds.<br />
+Updated on September 22nd, 2015 (after Tokyo Game Show).<br />
+If you think something is wrong, please use Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.
+</div>
+{% endif %}
+
 {% assign game = page.permalink | remove: '/' %}
 {% assign gamechar = site.data[game]._characters %}
 
@@ -11,9 +19,5 @@ layout: page
     {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
     <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a>{% if char.status == "todo" %}<span class="item-todo">(soon)</span>{% endif %}<br />
 {% endfor %}
-
-{% if page.permalink contains 'sf5' %}
-<div class="warning">Because Street Fighter V is currently in beta, those move lists might not reflect the correct inputs of the latest build. If you think something is incorrect, please use Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.</div>
-{% endif %}
 
 <br />
