@@ -21,12 +21,12 @@
       note: ["EX"]
 
     - name: Psycho Inferno
-      input: chdown up + punch
+      input: qcb punch
       note: ["EX"]
 
   critical_art:
     - name: Ultimate Psycho Crusher
-      input: qcf qcf kick
+      input: qcf qcf punch
       note: ["Can be performed in air"]
 
   normal_throw:
