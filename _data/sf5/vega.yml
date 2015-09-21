@@ -2,15 +2,12 @@
 
   special_move:
     - name: Flying Barcelona Attack
-      input: dpf or dpb kick
+      input: dpf or dpb kick > punch
       note: ["EX"]
 
-    - name: -- Claw Attack
-      input: ... punch
-
-    - name: -- Izuna Drop
-      input: ... (near opponent) lp + lk
-      note: ["Command grab"]
+    - name: Izuna Drop
+      input: dpf or dpb kick > (near opponent) lp + lk
+      note: ["EX", "Command grab"]
 
     - name: Grand Izuna Drop
       input: (claw off) hcb punch
@@ -29,7 +26,7 @@
 
   critical_art:
     - name: Bloody Rain
-      input: qcf qcf punch
+      input: qcb qcb punch or qcf qcf punch
 
   normal_throw:
     - name: Rainbow Suplex
@@ -46,16 +43,18 @@
       input: forward + mk
 
     - name: Buster Claw
-      input: (claw on) downforward + hp
+      input: (claw on) forward + hp
 
     - name: Matador Flash
       input: (claw on) hp > hp > mp + mk
+      note: ["Hold buttons to change properties"]
 
     - name: Matador Blitz
       input: (claw off) mp > hk > mp + mk
+      note: ["Hold buttons to change properties"]
 
     - name: Wall Jump
-      input: (during angled jump, near wall) upforward
+      input: (during jump, near wall) upforward
 
   vskill:
     - name: Matador Turn
