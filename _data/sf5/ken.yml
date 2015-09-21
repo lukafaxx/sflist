@@ -31,7 +31,7 @@
   unique_attack:
     - name: Thunder Kick
       input: forward + hk
-      note: ["Hold button for feint"]
+      note: ["Hold button for attack, tap for feint"]
 
     - name: Inazuma Kick
       input: back + mk
