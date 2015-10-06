@@ -20,14 +20,31 @@ layout: default
 
 <div class="main-footer">
 
-  <p>
-
-  Say hello <a href="https://twitter.com/lukafaxx">@lukafaxx</a> | <a><span id="toggle-app" data-text-swap="App!">App?</span></a>
-    <div class="app-content">
-    This is a web app, you can add it to your mobile device home screen and it will act like a native application would. It requires no permission and will always stay up-to-date. Great!<br /><br />
-    Original URL: lukafaxx.github.io{{ site.baseurl }}/
+    <div id="app-content" class="footer-content">
+    This is a web app. You can add it to your mobile device home screen and it will act like a native application would. It requires no permission and will always stay up-to-date. Great!<br /><br />
+    Original URL: lukafaxx.github.io/sflist/
     </div>
 
-  </p>
+    <div id="donation-content" class="footer-content">
+    You click on this button below and you give me about tree fiddy.
+    <br /><br />
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="7EGSXXSK4MWSL">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG_global.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    </div>
+
+    <div id="hello-content" class="footer-content">
+    Say hello <a href="https://twitter.com/lukafaxx">@lukafaxx</a>. Did we just become best friends?
+    </div>
+
+  <div class="footer-nav">
+
+    <button id="toggle-app" class="button-toggle">Add app</button> | <button id="toggle-donation" class="button-toggle">Feed kids</button> | <button id="toggle-hello" class="button-toggle">Say hello</button>
+
+  </div>
 
 </div>

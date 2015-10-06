@@ -52,6 +52,10 @@ a:hover {
 }
 
 /* -------------------- Content */
+.main-content {
+
+}
+
 .item {
   margin: 0 .5rem;
 }
@@ -159,23 +163,41 @@ p.move {
 
 /* -------------------- Footer */
 .main-footer {
-  font-size: .75rem;
-  margin: -.25rem .5rem .5rem .5rem;
-  text-align: right;
+  margin: 1rem .5rem .5rem .5rem;
 }
 
-#toggle-app {
-  cursor: pointer;
-}
-
-.app-content {
-  color: rgba(255, 255, 255, 0.5);
+.footer-content {
+  color: rgba(255, 255, 255, .5);
   display: none;
   font-family: 'Oswald', sans-serif;
-  font-size: .4rem;
+  font-size: .5rem;
   font-weight: 300;
   letter-spacing: 0;
+  margin-bottom: 1rem;
   text-align: left;
+}
+
+#donation-content form {
+  text-align: center;
+}
+
+.footer-nav {
+  text-align: center;
+  font-size: .6rem;
+}
+
+.button-toggle {
+  background-color: #ff4c44;
+  border: none;
+  color: rgba(0, 0, 0, .5);
+  cursor: pointer;
+  font-family: 'BebasNeue', sans-serif;
+  font-size: .6rem;
+  outline: none;
+}
+
+.button-toggle:hover {
+  color: #111;
 }
 
 /* -------------------- Replace Input */
