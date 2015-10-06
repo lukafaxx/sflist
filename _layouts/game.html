@@ -6,7 +6,7 @@ layout: page
 
 {% if page.permalink contains 'sf5' %}
 <div class="warning">
-Updated on September 22nd, 2015 (after Tokyo Game Show).<br />
+Move lists updated on September 22nd, 2015.<br />
 If you think something is wrong, please use Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.
 </div>
 {% endif %}
@@ -16,7 +16,11 @@ If you think something is wrong, please use Twitter <a href="https://twitter.com
 
 {% for char in gamechar %}
     {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
-    <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a>{% if char.status == "todo" %}<span class="item-todo">(soon)</span>{% endif %}<br />
+    {% if char.status == "todo" %}
+    <span class="item todo">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></span><br />
+    {% else %}
+    <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a><br />
+    {% endif %}
 {% endfor %}
 
 <br />
