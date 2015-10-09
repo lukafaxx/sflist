@@ -1,1 +1,53 @@
 - character: Zangief
+
+  special_move:
+    - name: Screw Pile Driver
+      input: 360 punch
+      note: ["EX"]
+
+    - name: Double Lariat
+      input: ppp
+      note: ["EX"]
+
+    - name: Siberian Express
+      input: hcb kick
+      note: ["EX"]
+
+    - name: Borscht Dynamite
+      input: (during up or upforward jump) 360 punch
+      note: ["EX"]
+
+  critical_art:
+    - name: Bolshoi Russian Suplex
+      input: 360 360 punch
+
+  normal_throw:
+    - name: Atomic Drop
+      input: forward (or neutral position) + lp + lk
+
+    - name: Captured
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Head Butt
+      input: forward + hp
+
+    - name: Knee Hammer
+      input: forward + mk
+
+    - name: Flying Body Press
+      input: (during up or upforward jump) down + hp
+
+  vskill:
+    - name: Iron Muscle
+      input: mp + mk
+      note: ["."]
+
+  vtrigger:
+    - name: Cyclone Lariat
+      input: hp + hk
+      note: ["."]
+
+  vreversal:
+    - name: Muscle Explosion
+      input: (during guard) forward + ppp

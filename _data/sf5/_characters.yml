@@ -3,7 +3,7 @@
 - { name: Chun-Li }
 - { name: Karin }
 - { name: Ken }
-- { name: Laura, status: todo }
+- { name: Laura }
 - { name: M. Bison, aka: ["Dictator"] }
 - { name: Nash }
 - { name: Necalli }
@@ -11,4 +11,4 @@
 - { name: Rashid }
 - { name: Ryu }
 - { name: Vega, aka: ["Claw"] }
-- { name: Zangief, status: todo }
+- { name: Zangief }

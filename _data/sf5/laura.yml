@@ -1,1 +1,68 @@
 - character: Laura
+
+  special_move:
+    - name: Bolt Charge
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Split River
+      input: qcf punch > punch
+      note: ["EX"]
+
+    - name: Rodeo Break
+      input: qcf punch > kick
+      note: ["EX"]
+
+    - name: Thunder Clap
+      input: qcb punch
+      note: ["EX", "."]
+
+    - name: Sunset Wheel
+      input: qcb kick
+      note: ["EX"]
+
+  critical_art:
+    - name: Inazuma Spin Hold
+      input: qcf qcf kick
+
+  normal_throw:
+    - name: Seoi Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Pullback Hold
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Step Elbow
+      input: forward + hp
+
+    - name: Twist Barrage
+      input: forward + hp > hp
+
+    - name: Dual Crash
+      input: mp > mk
+
+  vskill:
+    - name: Volty Line
+      input: mp + mk
+      note: ["Overhead"]
+
+    - name: Linear Movement - Avante
+      input: forward + mp + mk
+      note: ["."]
+
+    - name: Linear Movement - Esquiva
+      input: back + mp + mk
+      note: ["."]
+
+    - name: Linear Movement - Finta
+      input: back + mp + mk > mp + mk
+      note: ["."]
+
+  vtrigger:
+    - name: Spark Show
+      input: hp + hk
+
+  vreversal:
+    - name: Double Slap
+      input: (during guard) forward + ppp
