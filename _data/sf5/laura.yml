@@ -15,7 +15,7 @@
 
     - name: Thunder Clap
       input: qcb punch
-      note: ["EX", "."]
+      note: ["EX", "Hold button to power up"]
 
     - name: Sunset Wheel
       input: qcb kick
@@ -49,15 +49,15 @@
 
     - name: Linear Movement - Avante
       input: forward + mp + mk
-      note: ["."]
+      note: ["Hold buttons to attack"]
 
     - name: Linear Movement - Esquiva
       input: back + mp + mk
-      note: ["."]
+      note: ["Hold buttons to attack"]
 
     - name: Linear Movement - Finta
       input: back + mp + mk > mp + mk
-      note: ["."]
+      note: ["Hold buttons to attack"]
 
   vtrigger:
     - name: Spark Show

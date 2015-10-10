@@ -41,12 +41,12 @@
   vskill:
     - name: Iron Muscle
       input: mp + mk
-      note: ["."]
+      note: ["Hold buttons to move forward"]
 
   vtrigger:
     - name: Cyclone Lariat
       input: hp + hk
-      note: ["."]
+      note: ["Hold buttons to perform a Special Lariat"]
 
   vreversal:
     - name: Muscle Explosion
