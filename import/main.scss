@@ -1,0 +1,252 @@
+---
+---
+
+@font-face {
+    font-family: BebasNeue;
+    src: url('BebasNeue.otf') format('opentype');
+}
+
+$bg-color:              #ff4c44;
+$primary-color:         #fff;
+$secondary-color:       #ffa5a1;
+$tertiary-color:        #7f2622;
+$quaternary-color:      #111;
+$quinary-color:         #222;
+$primary-font:          'BebasNeue', sans-serif;
+$secondary-font:        'Arial', 'Helvetica', sans-serif;
+
+/* -------------------- Global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+}
+
+html, body {
+    background-color: $bg-color;
+    color:            $primary-color;
+    font-family:      $primary-font;
+    font-size:        54px;
+    letter-spacing:   .05rem;
+    margin:           0;
+    min-width:        320px;
+    overflow-x:       hidden;
+}
+
+@media (max-width: 680px) {
+    html, body {
+        font-size: 8vw;
+    }
+}
+
+a,
+a:visited {
+    color:           $tertiary-color;
+    text-decoration: none;
+}
+
+a:hover {
+    color:           $quaternary-color;
+    text-decoration: none;
+}
+
+/* -------------------- Header */
+.title {
+    margin: .75rem .5rem 0 .5rem;
+}
+
+.home {
+    font-size:  .75rem;
+    margin:     .5rem;
+    text-align: right;
+}
+
+/* -------------------- Content */
+.main-content {
+}
+
+.item {
+    margin: 0 .5rem;
+}
+
+.todo {
+    color: $secondary-color;
+}
+
+.item-aka {
+    font-size:      .75rem;
+    letter-spacing: 0.025rem;
+    margin:         0 .25rem;
+}
+
+.warning {
+    color:          $secondary-color;
+    font-family:    $secondary-font;
+    font-size:      .4rem;
+    font-weight:    300;
+    letter-spacing: 0;
+    margin:         .5rem;
+    text-align:     left;
+}
+
+.chara_title {
+    font-size: 2rem;
+    margin:    0 .5rem;
+}
+
+.from_game {
+    font-size:      .5rem;
+    letter-spacing: 0.025rem;
+    margin:         -.4rem .5rem 0 .5rem;
+}
+
+.move_cat, .move {
+    margin: 0 .5rem;
+}
+
+.move_cat {
+    color:          $secondary-color;
+    font-size:      .5rem;
+    letter-spacing: .25rem;
+    margin:         1.5rem .5rem .5rem .5rem;
+    position:       relative;
+    text-align:     center;
+}
+
+.move_cat:before {
+    border-top: 1px dotted $secondary-color;
+    content:    "";
+    display:    block;
+    height:     1px;
+    position:   absolute;
+    top:        50%;
+    width:      100%;
+    z-index:    1;
+}
+
+.move_cat span {
+    background-color: $bg-color;
+    padding:          0 .35rem;
+    position:         relative;
+    z-index:          5;
+}
+
+p.move {
+    line-height:   75%;
+    margin-bottom: .5rem;
+}
+
+.move_name {
+    color:     $primary-color;
+    font-size: .75rem;
+}
+
+.move_input {
+    color:          $quinary-color;
+    font-family:    $secondary-font;
+    font-size:      .5rem;
+    font-weight:    700;
+    letter-spacing: 0;
+}
+
+.move_note {
+    color:          $tertiary-color;
+    display:        block;
+    font-family:    $secondary-font;
+    font-size:      .4rem;
+    font-style:     italic;
+    font-weight:    300;
+    letter-spacing: 0;
+    margin-top:     -.01rem;
+    overflow-y:     hidden;
+}
+
+.move_comment {
+    color:          $tertiary-color;
+    font-family:    $secondary-font;
+    font-size:      .4rem;
+    letter-spacing: 0;
+    margin:         0 .5rem 1rem .5rem;
+}
+
+/* -------------------- Footer */
+.main-footer {
+    margin: 1rem .5rem .5rem .5rem;
+}
+
+.footer-content {
+    color:          $secondary-color;
+    display:        none;
+    font-family:    $secondary-font;
+    font-size:      .5rem;
+    font-weight:    300;
+    letter-spacing: 0;
+    margin-bottom:  1rem;
+    text-align:     left;
+}
+
+#donation-content form {
+    text-align: center;
+}
+
+.footer-nav {
+    text-align: center;
+    font-size:  .6rem;
+}
+
+.button-toggle {
+    background-color: $bg-color;
+    border:           none;
+    color:            $tertiary-color;
+    cursor:           pointer;
+    font-family:      $primary-font;
+    font-size:        .6rem;
+    outline:          none;
+}
+
+.button-toggle:hover {
+    color: $quaternary-color;
+}
+
+/* -------------------- Replace Input */
+.move_input img {
+    outline:        1px solid transparent;
+    vertical-align: middle;
+    width:          .75rem;
+}
+
+.button {
+    background:            $quinary-color;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:    50%;
+    border-radius:         50%;
+    box-shadow:            0 .1rem 0 rgba(0, 0, 0, .25);
+    color:                 $primary-color;
+    display:               inline-block;
+    font-size:             .3rem;
+    line-height:           .75rem;
+    margin:                .075rem;
+    text-align:            center;
+    vertical-align:        middle;
+    width:                 .75rem;
+}
+
+.flow {
+    margin-left: -.125rem;
+}
+
+@mixin transform($angle) {
+    -webkit-transform: rotate($angle);
+    -moz-transform:    rotate($angle);
+    -ms-transform:     rotate($angle);
+    -o-transform:      rotate($angle);
+    transform:         rotate($angle);
+}
+
+.rotate9 { @include transform(45deg); }
+.rotate6 { @include transform(90deg); }
+.rotate3 { @include transform(135deg); }
+.rotate2 { @include transform(180deg); }
+.rotate1 { @include transform(225deg); }
+.rotate4 { @include transform(270deg); }
+.rotate7 { @include transform(315deg); }

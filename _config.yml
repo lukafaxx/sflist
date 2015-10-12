@@ -9,3 +9,5 @@ url:                  http://lukafaxx.github.io/sflist/
 baseurl:              /sflist
 include:              [_game]
 exclude:              ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md"]
+sass:
+    style: compressed
