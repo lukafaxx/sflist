@@ -147,7 +147,7 @@ p.move {
 }
 
 .move_note {
-    color:          rgba($move_input-color, .6);
+    color:          rgba($move_input-color, .75);
     display:        block;
     font-family:    $secondary-font;
     font-size:      .4rem;
@@ -160,7 +160,7 @@ p.move {
 }
 
 .move_comment {
-    color:          rgba($move_input-color, .5);
+    color:          rgba($move_input-color, .75);
     font-family:    $secondary-font;
     font-size:      .4rem;
     letter-spacing: 0;
