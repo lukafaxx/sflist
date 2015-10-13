@@ -80,7 +80,6 @@ a:hover {
 .warning {
     font-family:    $secondary-font;
     font-size:      .4rem;
-    font-weight:    300;
     letter-spacing: 0;
     margin:         .5rem;
     text-align:     left;
@@ -142,7 +141,6 @@ p.move {
     color:          $move_input-color;
     font-family:    $secondary-font;
     font-size:      .5rem;
-    font-weight:    700;
     letter-spacing: 0;
 }
 
@@ -152,7 +150,6 @@ p.move {
     font-family:    $secondary-font;
     font-size:      .4rem;
     font-style:     italic;
-    font-weight:    300;
     letter-spacing: 0;
     line-height:    .5rem;
     margin-top:     .1rem;
@@ -176,7 +173,6 @@ p.move {
     display:        none;
     font-family:    $secondary-font;
     font-size:      .5rem;
-    font-weight:    300;
     letter-spacing: 0;
     margin-bottom:  1rem;
     text-align:     left;
