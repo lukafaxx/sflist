@@ -1,0 +1,64 @@
+- character: Oro
+
+  special_move:
+    - name: Niou Riki
+      input: hcb punch
+
+    - name: Nichirin Shou
+      input: chback forward + punch
+      note: ["EX"]
+
+    - name: Oni Yanma
+      input: chdown up + punch
+      note: ["EX"]
+
+    - name: Jinchuu Watari
+      input: qcf kick
+      note: ["EX", "Overhead"]
+
+    - name: Hitobashira Nobori
+      input: (in air) qcf kick
+      note: ["EX", "Overhead", "Press kick repeatedly for more hits"]
+
+  super_art:
+    - name: I. Kishin Riki
+      input: qcf qcf punch
+
+    - name: -- Activate
+      input: ... punch
+      note: ["Command grab"]
+
+    - name: -- Anti-Air
+      input: ... (in air) punch
+      note: ["Command grab"]
+
+    - name: II. Yagyou Dama
+      input: qcf qcf punch
+
+    - name: III. Tengu Stone
+      input: qcf qcf punch
+
+  max_super_art:
+    - name: I. EX Kishin Riki
+      input: qcf qcf pp
+      note: ["Command grab"]
+
+    - name: II. EX Yagyou Dama
+      input: qcf qcf pp
+
+    - name: III. EX Tengu Stone
+      input: qcf qcf pp
+
+  command_normal:
+    - name: Kuuchuu Jigoku Guruma
+      input: (close, in air) forward or back + LK + LP
+      note: ["Throw"]
+
+    - name: Double Jump
+      input: (in air) upback or up or upforward
+
+    - name: Mawashi Hiji
+      input: forward + MP
+
+    - name: Target Combo
+      input: (close) LK > MK
