@@ -52,10 +52,10 @@
       input: cr.MP > cr.HP
 
     - name: Target Combo 3
-      input: down + HK > HK
+      input: cr.HK > HK
 
     - name: Target Combo 4
-      input: (in air) LP > forward + HP
+      input: (in air) j.LP > forward + HP
 
     - name: Target Combo 5
-      input: (close) LP > LK > MP
+      input: Close LP > LK > MP

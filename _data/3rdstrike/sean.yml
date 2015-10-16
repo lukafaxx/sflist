@@ -39,8 +39,8 @@
       input: forward + HP
 
     - name: Target Combo 1
-      input: (close) MP > HK
+      input: Close MP > HK
 
     - name: Target Combo 2
-      input: (close) HP > forward + HP
+      input: Close HP > forward + HP
       note: ["Does not combo"]

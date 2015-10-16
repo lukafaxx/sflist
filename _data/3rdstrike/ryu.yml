@@ -36,4 +36,4 @@
       input: forward + HP
 
     - name: Target Combo
-      input: (far) HP > HK
+      input: Far HP > HK

@@ -41,7 +41,7 @@
       input: LP > MP
 
     - name: Target Combo 2
-      input: (crouching) LK > MK
+      input: cr.LK > MK
 
     - name: Target Combo 3
       input: LP > down + MP

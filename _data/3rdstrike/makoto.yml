@@ -54,7 +54,8 @@
       input: forward + mk
 
     - name: Fumikomi Soku Barai "Kuroshio"
-      input: forward + hk (hold HK to fake)
+      input: forward + hk
+      note: ["Hold kick to feint"]
 
     - name: Target Combo 1
       input: lk > mk

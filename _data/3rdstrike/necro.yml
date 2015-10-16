@@ -36,7 +36,7 @@
 
   command_normal:
     - name: Drill Kick
-      input: (in the air) down + kick
+      input: (in air) down + kick
 
     - name: Elbow
       input: back + LP or MP

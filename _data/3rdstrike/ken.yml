@@ -26,15 +26,15 @@
 
   command_normal:
     - name: Inazuma Kakato Wari
-      input: MK or hold MK when standing
+      input: Hold MK
       note: ["Overhead"]
 
     - name: Fumikomi Mae Geri
       input: forward + MK
 
     - name: Shiden Kakato Otoshi
-      input: forward + HK (hold HK to fake)
-      note: ["Overhead"]
+      input: forward + HK
+      note: ["Overhead", "Hold kick to feint"]
 
     - name: Target Combo
       input: MP > HP
