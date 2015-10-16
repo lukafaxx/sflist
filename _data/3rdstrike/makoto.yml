@@ -1,63 +1,41 @@
-- character: Makoto
+- character: Ken
 
   special_move:
-    - name: Karakusa
-      input: hcb kick
-      note: ["Command grab"]
-
-    - name: Hayate
+    - name: Hadouken
       input: qcf punch
-      note: ["EX", "Hold punch to charge"]
+      note: ["EX"]
 
-    - name: Fukiage
+    - name: Shoryuken
       input: dpf punch
       note: ["EX"]
 
-    - name: Oroshi
-      input: qcb punch
-      note: ["EX", "Overhead"]
-
-    - name: Tsurugi
-      input: (in air) qcb kick
-      note: ["EX", "Overhead"]
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX", "Can be performed in air"]
 
   super_art:
-    - name: I. Seichusen Godanzuki
+    - name: I. Shoryureppa
       input: qcf qcf punch
 
-    - name: II. Abare Tosanami
+    - name: II. Shinryuken
+      input: qcf qcf kick
+      note: ["Press kick repeatedly for more hits"]
+
+    - name: III. Shippu Jinraikyaku
       input: qcf qcf kick
 
-    - name: III. Tanden Renki
-      input: qcf qcf punch
-
   command_normal:
-    - name: Kote Tsuki "Kazami"
-      input: forward + lp
+    - name: Inazuma Kakato Wari
+      input: MK or hold MK when standing
+      note: ["Overhead"]
 
-    - name: Gezuki "Kaoruna"
-      input: forward + mp
+    - name: Fumikomi Mae Geri
+      input: forward + MK
 
-    - name: Gezuki "Kaoruna"
-      input: forward + mp
+    - name: Shiden Kakato Otoshi
+      input: forward + HK (hold HK to fake)
+      note: ["Overhead"]
 
-    - name: Fumikomi Seiken-zuki "Shimaki"
-      input: forward + hp
-
-    - name: -- "Yamase"
-      input: ... hp
-
-    - name: Mae Geri "Shibuki"
-      input: forward + lk
-
-    - name: Fumikomi Joudan Mawashi Geri "Naruto"
-      input: forward + mk
-
-    - name: Fumikomi Soku Barai "Kuroshio"
-      input: forward + hk (hold HK to fake)
-
-    - name: Target Combo 1
-      input: lk > mk
-
-    - name: Target Combo 2
-      input: forward + mk > hk
+    - name: Target Combo
+      input: MP > HP
+      note: ["Cancelable"]
