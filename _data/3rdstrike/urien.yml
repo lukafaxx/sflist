@@ -27,3 +27,21 @@
     - name: III. Aegis Reflector
       input: qcf qcf punch
       note: ["Press pp for anti-air reflector"]
+
+  command_normal:
+    - name: Quarrel Punch
+      input: forward + MP
+
+    - name: Quarrel Kick
+      input: forward + MK
+
+    - name: Terrible Smash
+      input: forward + HP
+      note: ["Overhead"]
+
+    - name: Target Combo 1
+      input: (standing) LP > MP
+      note: ["Cancelable"]
+
+    - name: Target Combo 2
+      input: forward + MP > HP

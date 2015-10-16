@@ -27,3 +27,13 @@
     - name: III. Denjin Hadouken
       input: qcf qcf punch
       note: ["Hold punch to charge"]
+
+  command_normal:
+    - name: Sakotsu Wari
+      input: forward + MP
+
+    - name: Kyuubi Kudaki
+      input: forward + HP
+
+    - name: Target Combo
+      input: (far) HP > HK

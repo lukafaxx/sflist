@@ -27,3 +27,10 @@
     - name: III. Blue Nocturne
       input: qcf qcf kick
       note: ["Counter attack"]
+
+  command_normal:
+    - name: Amari ni Muku na Aiguille
+      input: forward + MK
+
+    - name: Target Combo
+      input: (close) MK > HK

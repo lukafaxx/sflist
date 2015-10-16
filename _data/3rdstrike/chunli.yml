@@ -29,7 +29,7 @@
 
   command_normal:
     - name: Sankaku Tobi
-      input: (during angled jump, near wall) opposite direction from jump
+      input: (during angled jump, near wall) back or forward (opposite direction from jump)
 
     - name: Souren Shou
       input: back + MP
@@ -57,7 +57,7 @@
       input: (near opponent) Hold MK
 
     - name: Suitotsu Da
-      input: upforward, down + HP
+      input: (during up or upforward jump) down + HP
 
     - name: Target Combo
       input: (during angled jump) HP > HP
