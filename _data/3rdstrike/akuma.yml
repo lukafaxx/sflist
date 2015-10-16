@@ -61,10 +61,12 @@
       input: down down down pp
 
   command_normal:
-    - name: Zugai Hasatsu
-      input: forward + MP
+    - name: Zugaihasatsu
+      input: forward + mp
       note: ["Overhead"]
 
-    - name: Tenma Kuujin Kyaku
-      input: upforward, at apex, down + MK
-      note: ["Overhead"]
+    - name: Tenmakujinkyaku
+      input: (at top of upforward jump arc) down + mk
+
+    - name: Target Combo
+      input: MP, HP
