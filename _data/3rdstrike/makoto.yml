@@ -31,29 +31,29 @@
     - name: III. Tanden Renki
       input: qcf qcf punch
 
-command_normal:
-    - name: Kote Tsuki (Kazami)
+  command_normal:
+    - name: Kote Tsuki "Kazami"
       input: forward + lp
 
-    - name: Gezuki ''Kaoruna''
+    - name: Gezuki "Kaoruna"
       input: forward + mp
 
-    - name: Gezuki (Kaoruna)
+    - name: Gezuki "Kaoruna"
       input: forward + mp
 
-    - name: Fumikomi Seiken-zuki (Shimaki)
+    - name: Fumikomi Seiken-zuki "Shimaki"
       input: forward + hp
 
-    - name: -- (Yamase)
+    - name: -- "Yamase"
       input: ... hp
 
-    - name: Mae Geri (Shibuki)
+    - name: Mae Geri "Shibuki"
       input: forward + lk
 
-    - name: Fumikomi Joudan Mawashi Geri (Naruto)
+    - name: Fumikomi Joudan Mawashi Geri "Naruto"
       input: forward + mk
 
-    - name: Fumikomi Soku Barai (Kuroshio)
+    - name: Fumikomi Soku Barai "Kuroshio"
       input: forward + hk (hold HK to fake)
 
     - name: Target Combo 1
