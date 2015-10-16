@@ -69,4 +69,4 @@
       input: (at top of upforward jump arc) down + mk
 
     - name: Target Combo
-      input: MP > HP
+      input: MP >> HP
