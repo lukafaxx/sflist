@@ -45,4 +45,4 @@
 
     - name: Target Combo 3
       input: LP > down + MP
-      note: ["Doesn't combo/cancel"]
+      note: ["Does not combo"]

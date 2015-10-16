@@ -59,4 +59,4 @@
       note: ["Super cancelable"]
 
     - name: Target Combo 5
-      input: (close) (LP >) LP > LK > MP
+      input: (close) LP > LK > MP

@@ -108,5 +108,5 @@
       note: ["Cancelable"]
 
     - name: Target Combo 12
-      input: back + MP (2 hit) > cr.HK > HK
+      input: back + MP (2 hits) > cr.HK > HK
       note: ["Super jump cancelable"]

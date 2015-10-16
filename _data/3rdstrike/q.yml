@@ -48,5 +48,5 @@
     - name: Tentou kara no Toubu Tsuugeki (Kari)
       input: back + HK
 
-    - name: Tentou kara no Kyakubu Tsuugeki (Kari) (Kari)
+    - name: Tentou kara no Kyakubu Tsuugeki (Kari)
       input: down + HK

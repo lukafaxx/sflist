@@ -51,7 +51,7 @@
 
   command_normal:
     - name: Kuuchuu Jigoku Guruma
-      input: (close, in air) forward or back + LK+LP
+      input: (close, in air) forward or back + LK + LP
       note: ["Throw"]
 
     - name: Double Jump

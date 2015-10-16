@@ -43,4 +43,4 @@
 
     - name: Target Combo 2
       input: (close) HP > forward + HP
-      note: ["Doesn't combo"]
+      note: ["Does not combo"]
