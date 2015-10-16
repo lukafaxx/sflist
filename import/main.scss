@@ -64,11 +64,17 @@ a:hover {
 }
 
 .item {
+    color:  rgba($secondary-color, .25);
     margin: 0 .5rem;
 }
 
-.todo {
+a.item,
+a:visited.item {
     color: $secondary-color;
+}
+
+a:hover.item {
+    color: $hover-color;
 }
 
 .item-aka {

@@ -11,9 +11,13 @@ layout: default
 <div class="main-content">
 
     <div class="item">
-    {% assign gamelist = site.data.games %}{% for gameitem in gamelist %}{% assign gameurl = gameitem.short | prepend: '/' | append: '/' %}
-    <a href="{{ site.baseurl }}{{ gameurl }}">{{ gameitem.title }}</a><br />
-    {% endfor %}
+
+    <a href="/sflist/sf5/">Street Fighter V</a><br />
+
+    <a href="/sflist/usf4/">Ultra Street Fighter IV</a> (<a href="/sflist/omega/">Ω</a>)<br />
+
+    <a href="/sflist/3rdstrike/">Street Fighter III: 3rd Strike</a><br />
+
     </div>
 
 </div>
