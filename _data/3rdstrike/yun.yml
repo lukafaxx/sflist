@@ -1,0 +1,62 @@
+- character: Yun
+
+  special_move:
+    - name: Zenpou Tenshin
+      input: hcb kick
+      note: ["Command grab"]
+
+    - name: Kobokushi
+      input: qcb punch
+
+    - name: Fake Kobokushi
+      input: qcb pp
+
+    - name: Zesshou Hohou
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Tetsuzanko
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Nishoukyaku
+      input: dpf kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. You-hou
+      input: qcf qcf punch
+
+    - name: II. Sourai Rengeki
+      input: qcf qcf punch
+
+    - name: III. Genei-jin
+      input: qcf qcf punch
+
+  command_normal:
+    - name: Raigeki Shuu
+      input: (during up or upforward jump) downforward + kick
+
+    - name: Senpuu Kyaku
+      input: forward + MK
+      note: ["Overhead"]
+
+    - name: Dakai
+      input: forward + HP
+
+    - name: Target Combo 1
+      input: MP > HP > back + HP
+      note: ["Super cancelable"]
+
+    - name: Target Combo 2
+      input: cr.MP > cr.HP
+
+    - name: Target Combo 3
+      input: down + HK > HK
+
+    - name: Target Combo 4
+      input: (during up or upforward jump) LP > forward + HP
+      note: ["Super cancelable"]
+
+    - name: Target Combo 5
+      input: (close) LP > LK > MP
