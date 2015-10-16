@@ -63,3 +63,8 @@
   command_normal:
     - name: Zugai Hasatsu
       input: forward + MP
+      note: ["Overhead"]
+
+    - name: Tenma Kuujin Kyaku
+      input: upforward, at apex, down + MK
+      note: ["Overhead"]
