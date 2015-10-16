@@ -1,0 +1,39 @@
+- character: Ryu
+
+  special_move:
+    - name: Hadouken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX", "Can be performed in air"]
+
+    - name: Joudan Sokutou Geri
+      input: hcf kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. Shinkuu-Hadouken
+      input: qcf qcf punch
+
+    - name: II. Shin Shoryuken
+      input: qcf qcf punch
+
+    - name: III. Denjin Hadouken
+      input: qcf qcf punch
+      note: ["Hold punch to charge"]
+
+  command_normal:
+    - name: Sakotsu Wari
+      input: forward + MP
+
+    - name: Kyuubi Kudaki
+      input: forward + HP
+
+    - name: Target Combo
+      input: (far) HP > HK
