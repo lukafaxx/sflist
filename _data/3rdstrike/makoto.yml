@@ -1,0 +1,63 @@
+- character: Makoto
+
+  special_move:
+    - name: Karakusa
+      input: hcb kick
+      note: ["Command grab"]
+
+    - name: Hayate
+      input: qcf punch
+      note: ["EX", "Hold punch to charge"]
+
+    - name: Fukiage
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Oroshi
+      input: qcb punch
+      note: ["EX", "Overhead"]
+
+    - name: Tsurugi
+      input: (in air) qcb kick
+      note: ["EX", "Overhead"]
+
+  super_art:
+    - name: I. Seichusen Godanzuki
+      input: qcf qcf punch
+
+    - name: II. Abare Tosanami
+      input: qcf qcf kick
+
+    - name: III. Tanden Renki
+      input: qcf qcf punch
+
+  command_normal:
+    - name: Kote Tsuki "Kazami"
+      input: forward + lp
+
+    - name: Gezuki "Kaoruna"
+      input: forward + mp
+
+    - name: Gezuki "Kaoruna"
+      input: forward + mp
+
+    - name: Fumikomi Seiken-zuki "Shimaki"
+      input: forward + hp
+
+    - name: -- "Yamase"
+      input: ... hp
+
+    - name: Mae Geri "Shibuki"
+      input: forward + lk
+
+    - name: Fumikomi Joudan Mawashi Geri "Naruto"
+      input: forward + mk
+
+    - name: Fumikomi Soku Barai "Kuroshio"
+      input: forward + hk (hold HK to fake)
+
+    - name: Target Combo 1
+      input: lk > mk
+
+    - name: Target Combo 2
+      input: forward + mk > hk
