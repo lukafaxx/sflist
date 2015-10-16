@@ -28,5 +28,34 @@
       input: qcf qcf kick
 
   command_normal:
+    - name: Sankaku Tobi
+      input: (during angled jump, near wall) upforward / backforward (opposite direction from jump)
+
+    - name: Souren Shou
+      input: back + MP (cancelable)
+
+    - name: Hakkei
+      input: back + HP (cancelable)
+
+    - name: Senjou Shuu
+      input: forward + MK
+
+    - name: Yoku Sen Kyaku
+      input: forward + HK
+
+    - name: Tenshin Shuu Kyaku
+      input: downforward + HK
+      note: ["Overhead"]
+
+    - name: Yousou Kyaku
+      input: (in air) down + MK
+      note: ["Can be performed three times in sequence"]
+
     - name: Kakushu Raku Kyaku
       input: (near opponent) Hold MK
+
+    - name: Suitotsu Da
+      input: upforward, down + HP
+
+    - name: Target Combo
+      input: (during angled jump) j.HP > HP
