@@ -40,3 +40,73 @@
 
     - name: III. Yami Shigure
       input: qcf qcf punch
+
+  command_normal:
+    - name: Rasen Chuu
+      input: (far away, standing) HP
+
+    - name: -- Oiura Ken
+      input: ... HP
+
+    - name: You Men
+      input: Back + MP
+      note: ["Super cancelable on first hit"]
+
+    - name: Maki Geri
+      input: Forward + LK
+
+    - name: Ura Maki Geri
+      input: Back + MK
+
+    - name: Koube Kudaki
+      input: Forward + MK
+      note: ["Overhead"]
+
+    - name: Sazan
+      input: downforward + MK
+
+    - name: Bonshou Geri
+      input: Forward + HK
+
+    - name: Target Combo 1
+      input: (in air) HP > forward + MK
+
+    - name: Target Combo 2
+      input: (during angled jump) j.LP > forward + HP
+
+    - name: Target Combo 3
+      input: (during angled jump) j.LK > forward + MK
+
+    - name: Target Combo 4
+      input: cr.HK > HK
+      note: ["Super jump cancelable"]
+
+    - name: Target Combo 5
+      input: Close HP (2 hits) > cr.HK > HK
+      note: ["Super jump cancelable"]
+
+    - name: Target Combo 6
+      input: Far LP > MP > forward + LK
+
+    - name: Target Combo 7
+      input: Back + MK > forward + MK
+      note: ["Won't combo"]
+
+    - name: Target Combo 8
+      input: LK > MK > HK
+
+    - name: Target Combo 9
+      input: Close LP > MP > cr.HK > HK
+      note: ["Super jump cancelable"]
+
+    - name: Target Combo 10
+      input: Close LP > MP > HP
+      note: ["Cancelable on first hit of MP or on HP"]
+
+    - name: Target Combo 11
+      input: back + MP (1 hit) > HP
+      note: ["Cancelable"]
+
+    - name: Target Combo 12
+      input: back + MP (2 hit) > down + HK > HK
+      note: ["Super jump cancelable"]

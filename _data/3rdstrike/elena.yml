@@ -31,3 +31,30 @@
     - name: III. Healing
       input: qcf qcf punch
       note: ["Press pp to cancel"]
+
+  command_normal:
+    - name: Handstand Kick
+      input: Forward + MP
+      note: ["Overhead"]
+
+    - name: Handstand Whip
+      input: Forward + MK
+      note: ["Overhead"]
+
+    - name: Round Arch
+      input: Back + HK
+
+    - name: Sliding
+      input: downforward + HK
+
+    - name: Target Combo 1
+      input: (in air) LP > MK
+
+    - name: Target Combo 2
+      input: (in air) MP > HP
+
+    - name: Target Combo 3
+      input: HP > HK
+
+    - name: Target Combo 4
+      input: MK > down + HP

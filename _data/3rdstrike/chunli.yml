@@ -29,13 +29,15 @@
 
   command_normal:
     - name: Sankaku Tobi
-      input: (during angled jump, near wall) upforward / backforward (opposite direction from jump)
+      input: (during angled jump, near wall) opposite direction from jump
 
     - name: Souren Shou
-      input: back + MP (cancelable)
+      input: back + MP
+      note: ["Cancelable"]
 
     - name: Hakkei
-      input: back + HP (cancelable)
+      input: back + HP
+      note: ["Cancelable"]
 
     - name: Senjou Shuu
       input: forward + MK
@@ -58,4 +60,4 @@
       input: upforward, down + HP
 
     - name: Target Combo
-      input: (during angled jump) j.HP > HP
+      input: (during angled jump) HP > HP

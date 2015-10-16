@@ -27,3 +27,22 @@
     - name: III. Resurrection
       input: (neutral position)
       note: ["Automatically activated when knocked out"]
+
+  command_normal:
+    - name: Palm Upper
+      input: Back + MP
+      note: ["Cancelable"]
+
+    - name: Step Kick
+      input: Forward + MK
+      note: ["Cancelable"]
+
+    - name: Target Combo 1
+      input: LP > MP
+
+    - name: Target Combo 2
+      input: (crouching) LK > MK
+
+    - name: Target Combo 3
+      input: LP > down + MP
+      note: ["Doesn't combo/cancel"]

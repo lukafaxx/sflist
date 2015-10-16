@@ -40,3 +40,46 @@
 
     - name: III. Corkscrew Blow
       input: qcf qcf punch
+
+  command_normal:
+    - name: Slipping Jab
+      input: forward + lp
+      note: ["Cancelable"]
+
+    - name: Stomach Blow
+      input: forward + mp
+
+    - name: Liver Blow
+      input: forward + mk
+
+    - name: Step Straight
+      input: forward + hp
+      note: ["Super cancelable"]
+
+    - name: Dart Shot
+      input: forward + hk
+      note: ["Overhead"]
+
+    - name: Target Combo 1
+      input: forward + lp > mp
+
+    - name: Target Combo 2
+      input: cr.lk > mk
+
+    - name: Target Combo 3
+      input: forward + hk > mk
+
+    - name: Target Combo 4
+      input: lp > mp > mk
+
+    - name: Target Combo 5
+      input: mp or forward + mk > mk > hp
+
+    - name: Target Combo 6
+      input: cr.lk > cr.mp > cr.hp
+
+    - name: Target Combo 7
+      input: mk > hk > hp
+
+    - name: Target Combo 8
+      input: lk > mk > mp > hp
