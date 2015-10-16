@@ -1,15 +1,6 @@
 - character: Twelve
 
   special_move:
-    - name: Kokkuu
-      input: (in air) back back or forward forward
-
-    - name: Instant Kokkuu
-      input: upback back or upforward forward
-
-    - name: Wall Jump
-      input: back or forward (into a wall during Kokkuu)
-
     - name: N.D.L.
       input: qcf punch
       note: ["EX"]
@@ -35,3 +26,19 @@
 
     - name: III. X.C.O.P.Y.
       input: qcf qcf punch
+
+  command_normal:
+    - name: Kokkuu
+      input: (in air) back back or forward forward
+
+    - name: Instant Kokkuu
+      input: upback back or upforward forward
+
+    - name: Wall Jump
+      input: (during Kokkuu, near wall) back or forward
+
+    - name: B.M.K.
+      input: forward + mk
+
+    - name: Invisibility
+      input: hp + hk
