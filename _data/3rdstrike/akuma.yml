@@ -59,3 +59,7 @@
 
     - name: Kongou Kokuretsuzan
       input: down down down pp
+
+  command_normal:
+    - name: Zugai Hasatsu
+      input: forward + MP
