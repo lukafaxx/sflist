@@ -59,3 +59,14 @@
 
     - name: Kongou Kokuretsuzan
       input: down down down pp
+
+  command_normal:
+    - name: Zugai Hasatsu
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Tenma Kuujin Kyaku
+      input: (at top of upforward jump arc) down + mk
+
+    - name: Target Combo
+      input: MP > HP

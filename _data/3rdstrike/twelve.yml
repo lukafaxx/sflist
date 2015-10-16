@@ -4,6 +4,12 @@
     - name: Kokkuu
       input: (in air) back back or forward forward
 
+    - name: Instant Kokkuu
+      input: upback back or upforward forward
+
+    - name: Wall Jump
+      input: back or forward (into a wall during Kokkuu)
+
     - name: N.D.L.
       input: qcf punch
       note: ["EX"]

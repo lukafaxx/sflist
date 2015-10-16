@@ -30,3 +30,17 @@
 
     - name: III. Hyper Tornado
       input: qcf qcf punch
+
+  command_normal:
+    - name: Rolling Sobat
+      input: forward + HK
+
+    - name: Sean Pachiki
+      input: forward + HP
+
+    - name: Target Combo 1
+      input: (close) MP > HK
+
+    - name: Target Combo 2
+      input: (close) HP > forward + HP
+      note: ["Does not combo"]

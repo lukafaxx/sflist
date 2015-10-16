@@ -34,3 +34,13 @@
     - name: III. Hammer Frenzy
       input: qcf qcf punch
       note: ["Hold punch to feint"]
+
+  command_normal:
+    - name: Body Press
+      input: (during up or upforward jump) Down + HP
+
+    - name: Drop Kick
+      input: Back or Forward + HK
+
+    - name: Elbow
+      input: (close, standing) HP

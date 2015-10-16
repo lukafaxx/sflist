@@ -31,3 +31,24 @@
 
     - name: III. Sei'ei Enbu
       input: qcf qcf punch
+
+  command_normal:
+    - name: Raigeki Shuu
+      input: (during up or upforward jump) downforward + kick
+
+    - name: Senpuu Kyaku
+      input: forward + MK
+      note: ["Overhead"]
+
+    - name: Koushu
+      input: (close) forward + HP
+
+    - name: Target Combo 1
+      input: MP > HP > back + HP
+      note: ["Super cancelable"]
+
+    - name: Target Combo 2
+      input: LK > MK > HK
+
+    - name: Target Combo 3
+      input: (during upback or upforward jump) MK > downforward + MK

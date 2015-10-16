@@ -32,3 +32,30 @@
 
     - name: III. Genei-jin
       input: qcf qcf punch
+
+  command_normal:
+    - name: Raigeki Shuu
+      input: (during up or upforward jump) downforward + kick
+
+    - name: Senpuu Kyaku
+      input: forward + MK
+      note: ["Overhead"]
+
+    - name: Dakai
+      input: forward + HP
+
+    - name: Target Combo 1
+      input: MP > HP > back + HP
+      note: ["Super cancelable"]
+
+    - name: Target Combo 2
+      input: cr.MP > cr.HP
+
+    - name: Target Combo 3
+      input: down + HK > HK
+
+    - name: Target Combo 4
+      input: (in air) LP > forward + HP
+
+    - name: Target Combo 5
+      input: (close) LP > LK > MP

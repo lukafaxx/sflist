@@ -23,3 +23,19 @@
 
     - name: III. Shippu Jinraikyaku
       input: qcf qcf kick
+
+  command_normal:
+    - name: Inazuma Kakato Wari
+      input: MK or hold MK when standing
+      note: ["Overhead"]
+
+    - name: Fumikomi Mae Geri
+      input: forward + MK
+
+    - name: Shiden Kakato Otoshi
+      input: forward + HK (hold HK to fake)
+      note: ["Overhead"]
+
+    - name: Target Combo
+      input: MP > HP
+      note: ["Cancelable"]

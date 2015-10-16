@@ -48,3 +48,17 @@
 
     - name: III. EX Tengu Stone
       input: qcf qcf pp
+
+  command_normal:
+    - name: Kuuchuu Jigoku Guruma
+      input: (close, in air) forward or back + LK + LP
+      note: ["Throw"]
+
+    - name: Double Jump
+      input: (in air) upback or up or upforward
+
+    - name: Mawashi Hiji
+      input: forward + MP
+
+    - name: Target Combo
+      input: (close) LK > MK
