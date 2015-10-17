@@ -147,8 +147,8 @@ p.move {
 
 .move {
  border-top: 1px dotted rgba($secondary-color, .5);
- padding: $move-spacing 0 0 0;
- clear: both;
+ padding:    $move-spacing 0 0 0;
+ clear:      both;
 }
 
 .move_cat + .move {
