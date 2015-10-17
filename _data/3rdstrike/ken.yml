@@ -26,7 +26,7 @@
 
   command_normal:
     - name: Inazuma Kakato Wari
-      input: Hold MK
+      input: back + MK or Hold MK
       note: ["Overhead"]
 
     - name: Fumikomi Mae Geri
