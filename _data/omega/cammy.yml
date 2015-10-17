@@ -51,7 +51,7 @@
     - name: I. Gyro Drive Smasher
       input: qcf qcf kkk
 
-    - name: II. QCQ (Cammy Quick Combination)
+    - name: II. CQC (Cammy Quick Combination)
       input: qcb qcb ppp
       note: ["Counter attack"]
 
