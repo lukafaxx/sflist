@@ -33,4 +33,4 @@
       input: forward + MK
 
     - name: Target Combo
-      input: (close) MK > HK
+      input: Close MK > HK

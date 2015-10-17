@@ -48,10 +48,10 @@
       input: downforward + HK
 
     - name: Target Combo 1
-      input: (in air) LP > MK
+      input: (in air) j.LP > MK
 
     - name: Target Combo 2
-      input: (in air) MP > HP
+      input: (in air) j.MP > HP
 
     - name: Target Combo 3
       input: HP > HK

@@ -40,7 +40,7 @@
       note: ["Overhead"]
 
     - name: Target Combo 1
-      input: (standing) LP > MP
+      input: LP > MP
       note: ["Cancelable"]
 
     - name: Target Combo 2

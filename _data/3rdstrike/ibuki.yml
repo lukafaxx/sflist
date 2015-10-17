@@ -43,7 +43,7 @@
 
   command_normal:
     - name: Rasen Chuu
-      input: (far away, standing) HP
+      input: Far HP
 
     - name: -- Oiura Ken
       input: ... HP
@@ -69,13 +69,13 @@
       input: Forward + HK
 
     - name: Target Combo 1
-      input: (in air) HP > forward + MK
+      input: (in air) j.HP > forward + MK
 
     - name: Target Combo 2
-      input: (during angled jump) LP > forward + HP
+      input: (during angled jump) j.LP > forward + HP
 
     - name: Target Combo 3
-      input: (during angled jump) LK > forward + MK
+      input: (during angled jump) j.LK > forward + MK
 
     - name: Target Combo 4
       input: cr.HK > HK

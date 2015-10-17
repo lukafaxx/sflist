@@ -41,7 +41,7 @@
       note: ["Overhead"]
 
     - name: Koushu
-      input: (close) forward + HP
+      input: Close forward + HP
 
     - name: Target Combo 1
       input: MP > HP > back + HP
@@ -51,4 +51,4 @@
       input: LK > MK > HK
 
     - name: Target Combo 3
-      input: (during upback or upforward jump) MK > downforward + MK
+      input: (during angled jump) j.MK > downforward + MK

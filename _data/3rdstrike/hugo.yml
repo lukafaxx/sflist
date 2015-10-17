@@ -43,4 +43,4 @@
       input: Back or Forward + HK
 
     - name: Elbow
-      input: (close, standing) HP
+      input: Close HP
