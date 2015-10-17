@@ -1,0 +1,21 @@
+- character: Sagat
+
+  special_move:
+    - name: Tiger Carry
+      input: Close back or forward + mp or hp
+
+    - name: Tiger Shot
+      input: qcf punch
+
+    - name: Ground Tiger Shot
+      input: qcf kick
+
+    - name: Tiger Uppercut
+      input: dpf punch
+
+    - name: Tiger Knee Crush
+      input: qcf upforward kick
+
+  super_combo:
+    - name: Tiger Genocide
+      input: qcf down downforward punch

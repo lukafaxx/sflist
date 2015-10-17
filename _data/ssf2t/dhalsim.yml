@@ -1,0 +1,30 @@
+- character: Dhalsim
+
+  special_move:
+    - name: Yoga Smash
+      input: Close back or forward + mp
+
+    - name: Yoga Throw
+      input: Close back or forward + hp
+
+    - name: Drill Zutsuki
+      input: (in air) down + hp
+
+    - name: Drill Kick
+      input: (in air) down + kick
+
+    - name: Yoga Fire
+      input: qcf punch
+
+    - name: Yoga Flame
+      input: hcf punch
+
+    - name: Yoga Blast
+      input: hcf kick
+
+    - name: Yoga Teleport
+      input: dpf or dpb + ppp or kkk
+
+  super_combo:
+    - name: Yoga Inferno
+      input: hcf hcf punch

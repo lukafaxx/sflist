@@ -1,0 +1,34 @@
+- character: Blanka
+
+  special_move:
+    - name: Amazon River Run
+      input: downforward + hp
+
+    - name: Wild Fang
+      input: Close back or forward + hp
+
+    - name: Rock Crush
+      input: Close back or forward + mp
+
+    - name: Surprise Forward
+      input: forward + kkk
+
+    - name: Surprise Back
+      input: back + kkk
+
+    - name: Electric Thunder
+      input: Press punch repeatedly
+
+    - name: Rolling Attack
+      input: chback forward + punch
+
+    - name: Backstep Rolling
+      input: chback forward + kick
+
+    - name: Vertical Rolling
+      input: chdown up + kick
+
+  super_combo:
+    - name: Ground Shave Rolling
+      input: chback forward back forward + punch
+      note: ["Hold punch to change timing"]

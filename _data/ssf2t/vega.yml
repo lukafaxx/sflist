@@ -1,0 +1,36 @@
+- character: Vega
+
+  special_move:
+    - name: Sankaku Tobi
+      input: (in air, near wall) forward
+
+    - name: Rainbow Suplex
+      input: Close back or forward + mp or hp
+
+    - name: Stardust Drop
+      input: (in air) Close back or forward + mp or hp
+
+    - name: Back Slash
+      input: ppp
+
+    - name: Short Back Slash
+      input: kkk
+
+    - name: Rolling Crystal Flash
+      input: chback forward + punch
+
+    - name: Flying Barcelona Attack
+      input: chdown up + kick > punch
+
+    - name: Izuna Drop
+      input: chdown up + kick > (near opponent) back or forward + punch
+
+    - name: Sky High Claw
+      input: chdown up + punch
+
+    - name: Scarlet Terror
+      input: chdownback forward + kick
+
+  super_combo:
+    - name: Rolling Izuna Drop
+      input: chdownback downforward downback upforward + kick > (near opponent) back or forward + punch

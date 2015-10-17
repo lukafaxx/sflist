@@ -1,0 +1,31 @@
+- character: Fei Long
+
+  special_move:
+    - name: Gankai Hou
+      input: Close back or forward + mp or hp
+
+    - name: Shuu Kubi Kari
+      input: Close back or forward + hk
+
+    - name: Shuu Kubi Raku
+      input: (in air) Close back or forward + mp or hp
+
+    - name: Chokka Raku Shou
+      input: back or forward + mk
+
+    - name: En Geki Shuu
+      input: forward + hk
+
+    - name: Rekka Ken
+      input: qcf punch
+      note: ["Can be performed three times in sequence"]
+
+    - name: Shien Kyaku
+      input: dpb kick
+
+    - name: Rekku Kyaku
+      input: cwing kick
+
+  super_combo:
+    - name: Rekka Shinken
+      input: qcf qcf punch

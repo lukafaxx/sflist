@@ -1,0 +1,33 @@
+- character: T. Hawk
+
+  special_move:
+    - name: Mexican Throw
+      input: Close back or forward + mp
+
+    - name: Neck Hanging Tree
+      input: Close back or forward + hp
+
+    - name: Elbow Stomping
+      input: Close back or forward + hk
+
+    - name: Thrust Beak
+      input: back or forward + lp
+
+    - name: Heavy Shoulder
+      input: (in air) down + mp
+
+    - name: Heavy Body Press
+      input: (in air) down + hp
+
+    - name: Condor Dive
+      input: (in air) ppp
+
+    - name: Tomahawk Buster
+      input: dpf punch
+
+    - name: Mexican Typhoon
+      input: 360 punch
+
+  super_combo:
+    - name: Double Typhoon
+      input: 360 360 punch

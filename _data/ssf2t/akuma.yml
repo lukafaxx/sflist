@@ -1,0 +1,26 @@
+- character: Akuma
+
+  special_move:
+    - name: Seoi Nage
+      input: Close back or forward + mp or hp
+
+    - name: Tomoe Nage
+      input: Close back or forward + mk or hk
+
+    - name: Gou Hadouken
+      input: qcf punch
+
+    - name: Zankuu Hadouken
+      input: (in air) qcf punch
+
+    - name: Shakunetsu Hadouken
+      input: hcf punch
+
+    - name: Gou Shoryuken
+      input: dpf punch
+
+    - name: Tatsumaki Zankuukyaku
+      input: qcb kick
+
+    - name: Ashura Senkuu
+      input: dpf or dpb + ppp or kkk

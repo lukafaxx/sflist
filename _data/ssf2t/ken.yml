@@ -1,0 +1,42 @@
+- character: Ken
+
+  special_move:
+    - name: Seoi Nage
+      input: Close back or forward + mp or hp
+
+    - name: Tsukami Nage
+      input: Close back or forward + mk
+
+    - name: Jigoku Guruma
+      input: Close back or forward + hk
+
+    - name: Jigoku Fuusha
+      input: (in air) Close back or forward + mk or hk
+
+    - name: Hadouken
+      input: qcf punch
+
+    - name: Shoryuken
+      input: dpf punch
+
+    - name: Tatsumaki Senpuukyaku
+      input: qcb kick
+
+    - name: Kuuchuu Tatsumaki Senpuukyaku
+      input: (in air) qcb kick
+
+    - name: Kama Barai Geri
+      input: qcf kick
+
+    - name: Nata Otoshi Geri
+      input: forward downforward down kick
+
+    - name: Oosoto Mawashi Geri
+      input: hcf kick
+
+    - name: -- Inazuma Kakato Wari
+      input: ... Hold kick during any Geri move
+
+  super_combo:
+    - name: Shouryuu Reppa
+      input: qcf down downforward punch

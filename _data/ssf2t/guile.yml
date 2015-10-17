@@ -1,0 +1,36 @@
+- character: Guile
+
+  special_move:
+    - name: Judo Throw
+      input: Close back or forward + mp
+
+    - name: Dragon Suplex
+      input: Close back or forward + hp
+
+    - name: Flying Mare
+      input: (in air) Close down + mp or hp
+
+    - name: Flying Buster Drop
+      input: (in air) Close down + mk or hk
+
+    - name: Knee Bazooka
+      input: back or forward + lk
+
+    - name: Rolling Sobat
+      input: back or forward + mk
+
+    - name: Reverse Spin Kick
+      input: Close back or forward + hk
+
+    - name: Spinning Back Knuckle
+      input: forward + hp
+
+    - name: Sonic Boom
+      input: chback forward + punch
+
+    - name: Somersault Kick
+      input: chdown up + kick
+
+  super_combo:
+    - name: Double Somersault Kick
+      input: chdownback downforward downback upforward + kick

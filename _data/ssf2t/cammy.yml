@@ -1,0 +1,39 @@
+- character: Cammy
+
+  special_move:
+    - name: Hooligan Suplex
+      input: Close back or forward + hp
+
+    - name: Frankensteiner
+      input: Close back or forward + hk
+
+    - name: Flying Neck Hunt
+      input: (in air) Close back or forward + mp or hp
+
+    - name: Air Frankensteiner
+      input: (in air) Close back or forward + mk or hk
+
+    - name: Spiral Arrow
+      input: qcf kick
+
+    - name: Cannon Spike
+      input: dpf kick
+
+    - name: Axle Spin Knuckle
+      input: back downback forward punch
+
+    - name: Hooligan Combination
+      input: cwing punch, then kick
+
+    - name: -- Razor Edge Slicer
+      input: ... (neutral position)
+
+    - name: -- Fatal Leg Twister
+      input: ... (near opponent's head) back or forward + kick
+
+    - name: -- Cross Scissor Pressure
+      input: ... (near opponent's body) back or forward + kick
+
+  super_combo:
+    - name: Spin Drive Smasher
+      input: qcf down downforward kick

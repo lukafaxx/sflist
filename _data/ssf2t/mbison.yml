@@ -1,0 +1,24 @@
+- character: M. Bison
+
+  special_move:
+    - name: Deadly Throw
+      input: Close back or forward + mp or hp
+
+    - name: Psycho Crusher
+      input: chback forward + punch
+
+    - name: Double Knee Press
+      input: chback forward + kick
+
+    - name: Head Press
+      input: chdown up + kick
+
+    - name: -- Somersault Skull Diver
+      input: ... Press punch after Head Press
+
+    - name: Devil Reverse
+      input: chdown up + punch > punch
+
+  super_combo:
+    - name: Knee Press Nightmare
+      input: chback forward back forward + kick

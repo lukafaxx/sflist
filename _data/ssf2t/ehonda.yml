@@ -1,0 +1,39 @@
+- character: E. Honda
+
+  special_move:
+    - name: Tawara Nage
+      input: Close back or forward + mp
+
+    - name: Saba Ori
+      input: Close back or forward + hp
+
+    - name: Hiza Geri
+      input: Close forward + mk
+
+    - name: Shiko Geri
+      input: Close back + mk
+
+    - name: Sekkan Kyaku
+      input: Close back or forward + hk
+
+    - name: Harai Geri
+      input: back or forward + hk
+
+    - name: Flying Sumo Press
+      input: (in air) down + mk
+
+    - name: Hyakuretsu Harite
+      input: Press punch repeatedly
+
+    - name: Super Zutsuki
+      input: chback forward + punch
+
+    - name: Super Hyakkan Otoshi
+      input: chdown up + kick
+
+    - name: Ooichou Nage
+      input: Close hcb punch
+
+  super_combo:
+    - name: Oni Musou
+      input: chback forward back forward + punch

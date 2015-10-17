@@ -1,0 +1,59 @@
+- character: Zangief
+
+  special_move:
+    - name: Piledriver
+      input: Close back or forward + mp
+
+    - name: Iron Claw
+      input: Close back or forward + hp
+
+    - name: Brain Buster
+      input: Close back or forward + mk
+
+    - name: Kamitsuki
+      input: Close back or forward + hk
+
+    - name: Deadly Driver
+      input: (in air) Close back or forward + mp or hp
+
+    - name: Leg Throw
+      input: (in air) Close back or forward + mk or hk
+
+    - name: Stomach Claw
+      input: Close downback or down or downforward + mp or hp
+
+    - name: Flying Body Attack
+      input: (in air) down + hp
+
+    - name: Double Knee Drop
+      input: (in air) down + lk or mk
+
+    - name: Headbutt
+      input: back or forward + mp or hp
+
+    - name: Kuuchuu Headbutt
+      input: (in air) up + mp or hp
+
+    - name: Double Lariat
+      input: ppp
+      note: ["Move with back or forward"]
+
+    - name: Quick Lariat
+      input: kkk
+      note: ["Move with back or forward"]
+
+    - name: Screw Piledriver
+      input: 360 punch
+
+    - name: Flying Powerbomb
+      input: 360 kick
+
+    - name: Atomic Suplex
+      input: Close 360 kick
+
+    - name: Banishing Flat
+      input: forward downforward down punch
+
+  super_combo:
+    - name: Final Atomic Buster
+      input: 360 360 punch

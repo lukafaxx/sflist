@@ -1,0 +1,28 @@
+- character: Dee-Jay
+
+  special_move:
+    - name: Funky Shout Throw
+      input: Close back or forward + hp
+
+    - name: Monkey Flip
+      input: Close back or forward + hk
+
+    - name: Knee Shot
+      input: (in air) down + lk
+
+    - name: Air Slasher
+      input: chback forward + punch
+
+    - name: Double Rolling Sobat
+      input: chback forward + kick
+
+    - name: Machine Gun Upper
+      input: chdown up + punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: Jackknife Maximum
+      input: chdown up + kick
+
+  super_combo:
+    - name: Sobat Carnival
+      input: chback forward back forward + kick

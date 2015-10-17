@@ -1,0 +1,28 @@
+- character: Balrog
+
+  special_move:
+    - name: Head Bomber
+      input: Close back or forward + mp or hp
+
+    - name: Dash Straight
+      input: chback forward + punch
+
+    - name: Dash Upper
+      input: chback forward + kick
+
+    - name: Dash Ground Straight
+      input: chback downforward + punch
+
+    - name: Dash Ground Upper
+      input: chback downforward + kick
+
+    - name: Turn Punch
+      input: Hold ppp or kkk and release
+
+    - name: Buffalo Headbutt
+      input: chdown up + punch
+
+  super_combo:
+    - name: Crazy Buffalo
+      input: chback forward back forward + punch or kick
+      note: ["Hold or release kick"]

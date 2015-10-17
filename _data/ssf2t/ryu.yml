@@ -1,0 +1,36 @@
+- character: Ryu
+
+  special_move:
+    - name: Seoi Nage
+      input: Close back or forward + mp or hp
+
+    - name: Tomoe Nage
+      input: Close back or forward + mk or hk
+
+    - name: Mid-Air Uppercut
+      input: (in air) mp
+
+    - name: Sakotsu Wari
+      input: forward + mp
+
+    - name: Mizoochi Kudaki
+      input: forward + hp
+
+    - name: Hadouken
+      input: qcf punch
+
+    - name: Shakunetsu Hadouken
+      input: hcf punch
+
+    - name: Shoryuken
+      input: dpf punch
+
+    - name: Tatsumaki Senpuukyaku
+      input: qcb kick
+
+    - name: Kuuchuu Tatsumaki Senpuukyaku
+      input: (in air) qcb kick
+
+  super_combo:
+    - name: Shinkuu Hadouken
+      input: qcf qcf punch
