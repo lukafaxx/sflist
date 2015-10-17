@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+{% assign mainchicken = page.permalink | remove: '/ssf2t/' | remove: '/' %}
+{% for chara in site.data.ssf2t[mainchicken] %}
+
+  <div class="chara_title">{{ chara.character }}</div>
+  <div class="from_game"><a href="../">Super Street Fighter II Turbo</a></div>
+
+  <div class="move_cat"><span>Special Move</span></div>
+  {% for special in chara.special_move %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  <div class="move_cat"><span>Super Combo</span></div>
+  {% if chara.super_combo == null %}
+  <p class="move_comment">This character has no Super Combo.</p>
+  {% endif %}
+  {% for super in chara.super_combo %}
+  <p class="move">
+    <span class="move_name">{{ super.name }}</span><br />
+    <span class="move_input">{{ super.input }}</span><br />
+    <span class="move_note">{{ super.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+
+{% endfor %}
