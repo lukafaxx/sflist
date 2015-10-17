@@ -147,12 +147,12 @@ p.move {
     color:          $move_input-color;
     font-family:    $secondary-font;
     font-size:      .5rem;
-    font-weight: bold;
+    font-weight:    bold;
     letter-spacing: 0;
 }
 
 .move_note {
-    color:          rgba($move_input-color, .75);
+    color:          rgba($primary-color, .5);
     display:        block;
     font-family:    $secondary-font;
     font-size:      .4rem;
@@ -164,7 +164,7 @@ p.move {
 }
 
 .move_comment {
-    color:          rgba($move_input-color, .75);
+    color:          rgba($primary-color, .5);
     font-family:    $secondary-font;
     font-size:      .4rem;
     letter-spacing: 0;
