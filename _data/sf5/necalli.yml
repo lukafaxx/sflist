@@ -6,7 +6,7 @@
       note: ["EX"]
 
     - name: Raging Light
-      input: chdown up + punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Mask of Tlalli
