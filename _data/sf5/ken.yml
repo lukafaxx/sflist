@@ -14,7 +14,7 @@
       note: ["EX"]
 
     - name: Airborne Tatsumaki Senpukyaku
-      input: (in air) qcb kick
+      input: (during up or upforward jump) qcb kick
       note: ["EX"]
 
   critical_art:
