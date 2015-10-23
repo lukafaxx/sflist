@@ -47,11 +47,11 @@
 
     - name: Matador Flash
       input: (claw on) hp > hp > mp + mk
-      note: ["Hold buttons to change properties"]
+      note: ["Hold buttons to attack"]
 
     - name: Matador Blitz
       input: (claw off) mp > hk > mp + mk
-      note: ["Hold buttons to change properties"]
+      note: ["Hold buttons to attack"]
 
     - name: Wall Jump
       input: (during jump, near wall) upforward
