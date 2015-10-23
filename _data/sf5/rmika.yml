@@ -33,7 +33,7 @@
       input: back + lp + lk
 
   unique_attack:
-    - name: Stomping & Chop
+    - name: Stomp Chop
       input: lk > mp
 
     - name: Divebomb
