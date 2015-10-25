@@ -35,7 +35,7 @@
 
   critical_art:
     - name: Cross Stinger Assault
-      input: qcb qcb kick
+      input: qcf qcf kick
 
   normal_throw:
     - name: Gyro Clipper
