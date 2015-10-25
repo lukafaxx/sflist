@@ -21,7 +21,7 @@
       note: ["EX"]
 
     - name: Psycho Inferno
-      input: qcb punch
+      input: chdown up + punch
       note: ["EX"]
 
   critical_art:
