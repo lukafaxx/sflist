@@ -71,7 +71,7 @@
 
   vtrigger:
     - name: "Sonic Move - Hide"
-      input: forward + hp + hk
+      input: hp + hk
 
     - name: "Sonic Move - Blitz Air"
       input: back + hp + hk
