@@ -1,0 +1,10 @@
+- character: Dhalsim
+
+  vskill:
+    - name: Yoga Float
+      input: mp + mk
+      note: ["Can be performed in air"]
+
+  vtrigger:
+    - name: Yoga Burner
+      input: hp + hk
