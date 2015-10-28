@@ -110,7 +110,7 @@ a:hover.item {
     color:          rgba($primary-color, .25);
     font-size:      .5rem;
     letter-spacing: .25rem;
-    margin:         1.5rem .5rem 0rem .5rem;
+    margin:         (.75rem + $move-spacing) .5rem 0rem .5rem;
     position:       relative;
     text-align:     center;
 }

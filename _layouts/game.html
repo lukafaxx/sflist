@@ -18,5 +18,3 @@ If you think something is wrong, please use Twitter <a href="https://twitter.com
     {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
     <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a><br />
 {% endfor %}
-
-<br />
