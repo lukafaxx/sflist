@@ -6,14 +6,20 @@
     src: url('BebasNeue.otf') format('opentype');
 }
 
-$bg-color:              #3e5471;
-$primary-color:         #fff;
-$secondary-color:       #171a21;
-$move_name-color:       #fff;
-$move_input-color:      #222;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,900);
+
+$bg-color:              #232323;
+$primary-color:         #FAFAFA;
+$secondary-color:       #FF5252;
+$move_name-color:       rgba($primary-color, .8);
+$move_input-color:      $primary-color;
+$button-bg-color:       #212121; /* important */
+$button-color:          #fff; /* important */
+$move_note-color:       rgba($primary-color, .5);
 $primary-font:          'BebasNeue', sans-serif;
-$secondary-font:        'Arial', 'Helvetica', sans-serif;
-$move-spacing:          .25rem;
+$secondary-font:        'Lato', 'Arial', 'Helvetica', sans-serif;
+$move-spacing:          .2rem;
+$separator-color:       rgba($bg-color, 1);
 
 /* -------------------- Global */
 *, *:before, *:after {
@@ -24,7 +30,7 @@ html, body {
     background-color: $bg-color;
     color:            $primary-color;
     font-family:      $primary-font;
-    font-size:        54px;
+    font-size:        48px;
     letter-spacing:   .05rem;
     margin:           0;
     min-width:        320px;
@@ -33,7 +39,7 @@ html, body {
 
 @media (max-width: 680px) {
     html, body {
-        font-size: 8vw;
+        font-size: 7.5vw;
     }
 }
 
@@ -107,9 +113,9 @@ a:hover.item {
 }
 
 .move_cat {
-    color:          rgba($primary-color, .25);
-    font-size:      .5rem;
-    letter-spacing: .25rem;
+    color:          rgba($primary-color, .5);
+    font-size:      .45rem;
+    letter-spacing: .2rem;
     margin:         (.75rem + $move-spacing) .5rem 0rem .5rem;
     position:       relative;
     text-align:     center;
@@ -123,7 +129,7 @@ a:hover.item {
 }
 
 .move_cat:before {
-    border-top: 1px dotted rgba($primary-color, .25);
+    border-top: 0 dotted $separator-color;
     content:    "";
     display:    block;
     height:     1px;
@@ -142,18 +148,19 @@ a:hover.item {
 
 p.move {
     line-height:   75%;
-    margin-bottom: $move-spacing;
+    margin-bottom: 0;
 }
 
 .move {
- border-top: 1px dotted rgba($secondary-color, .5);
- padding:    $move-spacing 0 0 0;
- clear:      both;
+    background-color: rgba(#fff, .2);
+    border-top:       1px dotted $separator-color;
+    clear:            both;
+    padding:          $move-spacing;
 }
 
 .move_cat + .move {
- border-top: none;
- margin-top: $move-spacing;
+    border-top: none;
+    margin-top: $move-spacing;
 }
 
 .move_name {
@@ -165,12 +172,13 @@ p.move {
     color:          $move_input-color;
     font-family:    $secondary-font;
     font-size:      .5rem;
-    font-weight:    bold;
+    font-weight:    400;
     letter-spacing: 0;
+    word-spacing:   .05rem;
 }
 
 .move_note {
-    color:          rgba($primary-color, .5);
+    color:          $move_note-color;
     display:        block;
     font-family:    $secondary-font;
     font-size:      .4rem;
@@ -182,11 +190,12 @@ p.move {
 }
 
 .move_comment {
-    color:          rgba($primary-color, .5);
+    color:          $move_note-color;
     font-family:    $secondary-font;
     font-size:      .4rem;
     letter-spacing: 0;
     margin:         .5rem .5rem 1rem .5rem;
+    text-align: center;
 }
 
 /* -------------------- Footer */
@@ -201,10 +210,6 @@ p.move {
     letter-spacing: 0;
     margin-bottom:  1rem;
     text-align:     left;
-}
-
-#donation-content form {
-    text-align: center;
 }
 
 .footer-nav {
@@ -234,12 +239,12 @@ p.move {
 }
 
 .button {
-    background:            $move_input-color;
+    background:            $button-bg-color;
     -webkit-border-radius: 50%;
     -moz-border-radius:    50%;
     border-radius:         50%;
     box-shadow:            0 .1rem 0 rgba(0, 0, 0, .25);
-    color:                 $primary-color;
+    color:                 $button-color;
     display:               inline-block;
     font-size:             .3rem;
     line-height:           .75rem;

@@ -3,20 +3,13 @@
     // ----- Toggle App Info
     $('#toggle-app').on('click', function(){
       $('#app-content').slideToggle('slow');
-      $('#donation-content').slideUp('slow');
-      $('#hello-content').slideUp('slow');
-    });
-
-    $('#toggle-donation').on('click', function(){
-      $('#donation-content').slideToggle('slow');
-      $('#app-content').slideUp('slow');
-      $('#hello-content').slideUp('slow');
-    });
-
-    $('#toggle-hello').on('click', function(){
-      $('#hello-content').slideToggle('slow');
-      $('#app-content').slideUp('slow');
-      $('#donation-content').slideUp('slow');
+      var el = $(this);
+      if (el.text() == el.data("text-swap")) {
+        el.text(el.data("text-original"));
+      } else {
+        el.data("text-original", el.text());
+        el.text(el.data("text-swap"));
+      }
     });
 
   });
