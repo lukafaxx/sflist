@@ -83,6 +83,15 @@ a:hover.item {
     color: $primary-color;
 }
 
+.item-wip {
+    color:  rgba($secondary-color, .25);
+    margin: 0 .5rem;
+}
+
+a:hover.item-wip {
+    color: rgba($primary-color, .25);
+}
+
 .item-aka {
     font-size:      .75rem;
     letter-spacing: 0.025rem;

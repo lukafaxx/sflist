@@ -1,15 +1,22 @@
+- { name: Alex, status: empty }
+- { name: Balrog, aka: Boxer, status: empty }
 - { name: Birdie }
 - { name: Cammy }
 - { name: Chun-Li }
-- { name: Dhalsim }
+- { name: Dhalsim, status: wip }
+- { name: F.A.N.G, status: wip }
+- { name: Guile, status: empty }
+- { name: Ibuki, status: empty }
+- { name: Juri, status: empty }
 - { name: Karin }
 - { name: Ken }
 - { name: Laura }
-- { name: M. Bison, aka: ["Dictator"] }
+- { name: M. Bison, aka: Dictator }
 - { name: Nash }
 - { name: Necalli }
 - { name: R. Mika }
 - { name: Rashid }
 - { name: Ryu }
-- { name: Vega, aka: ["Claw"] }
+- { name: Urien, status: empty }
+- { name: Vega, aka: Claw }
 - { name: Zangief }

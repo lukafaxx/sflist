@@ -1,0 +1,9 @@
+- character: F.A.N.G
+
+  vskill:
+    - name: Nishodoku
+      input: mp + mk
+
+  vtrigger:
+    - name: Dokunomu
+      input: hp + hk

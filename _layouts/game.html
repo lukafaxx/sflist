@@ -4,17 +4,24 @@ layout: page
 
 <div class="title">{{ page.title }}</div>
 
-{% if page.permalink contains 'sf5' %}
-<div class="warning">
-Move lists updated on October 25th, 2015.<br />
-If you think something is wrong, please use Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.
-</div>
-{% endif %}
-
 {% assign game = page.permalink | remove: '/' %}
 {% assign gamechar = site.data[game]._characters %}
 
 {% for char in gamechar %}
     {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
-    <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="item-aka">{{ char.aka | join: ' &middot; ' }}</span></a><br />
+    {% if char.status != null %}
+        <a class="item-wip" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}
+        {% else %}
+        <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}
+    {% endif %}
+    {% if char.aka != null %}<span class="item-aka">{{ char.aka }}</span>{% endif %}
+    </a><br />
+
 {% endfor %}
+
+{% if page.permalink contains 'sf5' %}
+<div class="warning">
+Move lists updated on December 6th, 2015.<br />
+If you think something is wrong, please use Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.
+</div>
+{% endif %}
