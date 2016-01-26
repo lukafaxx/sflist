@@ -3,7 +3,7 @@
 - { name: Birdie }
 - { name: Cammy }
 - { name: Chun-Li }
-- { name: Dhalsim, status: wip }
+- { name: Dhalsim }
 - { name: F.A.N.G, status: wip }
 - { name: Guile, status: empty }
 - { name: Ibuki, status: empty }
