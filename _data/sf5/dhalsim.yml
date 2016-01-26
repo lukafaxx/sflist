@@ -1,10 +1,58 @@
 - character: Dhalsim
 
+  special_move:
+    - name: Yoga Fire
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Yoga Flame
+      input: hcb punch
+      note: ["EX"]
+
+    - name: Yoga Gale
+      input: (during up or upforward jump) hcb punch
+      note: ["EX"]
+
+    - name: Yoga Teleport
+      input: dpf or dpb + ppp or kkk
+      note: ["Can be performed in air"]
+
+  critical_art:
+    - name: Yoga Sunburst
+      input: qcf qcf punch
+      note: ["Can be performed in air"]
+
+  normal_throw:
+    - name: Yoga Rocket
+      input: forward (or neutral position) + lp + lk
+
+    - name: Yoga Hoop
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Drill Kick
+      input: (during jump) down + kick
+
+    - name: Yoga Anvil
+      input: back + hp
+
+    - name: Yoga Upper
+      input: back + mp
+
+    - name: Divine Kick
+      input: back + mk
+
   vskill:
     - name: Yoga Float
-      input: mp + mk
-      note: ["Can be performed in air"]
+      input: forward (or neutral position) + mp + mk
+
+    - name: Yoga Float (Airborne)
+      input: (during jump) mp + mk
 
   vtrigger:
     - name: Yoga Burner
       input: hp + hk
+
+  vreversal:
+    - name: Yoga Mala
+      input: (during guard) forward + ppp
