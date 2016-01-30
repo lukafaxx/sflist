@@ -11,13 +11,13 @@
 $bg-color:              #232323;
 $primary-color:         #FAFAFA;
 $secondary-color:       #FF5252;
-$move_name-color:       rgba($primary-color, .8);
+$move_name-color:       #232323;
 $move_input-color:      $primary-color;
 $button-bg-color:       #212121; /* important */
 $button-color:          #fff; /* important */
 $move_note-color:       rgba($primary-color, .5);
 $primary-font:          'BebasNeue', sans-serif;
-$secondary-font:        'Lato', 'Arial', 'Helvetica', sans-serif;
+$secondary-font:        'Lato', sans-serif;
 $move-spacing:          .2rem;
 $separator-color:       rgba($bg-color, 1);
 
@@ -125,8 +125,8 @@ a:hover.item-wip {
 
 .move_cat {
     color:          rgba($primary-color, .5);
-    font-size:      .45rem;
-    letter-spacing: .2rem;
+    font-size:      .6rem;
+    letter-spacing: .25rem;
     margin:         (.75rem + $move-spacing) .5rem 0rem .5rem;
     position:       relative;
     text-align:     center;
@@ -158,7 +158,7 @@ a:hover.item-wip {
 }
 
 p.move {
-    line-height:   75%;
+    line-height:   70%;
     margin-bottom: 0;
 }
 
@@ -175,8 +175,11 @@ p.move {
 }
 
 .move_name {
-    color:     $move_name-color;
-    font-size: .75rem;
+    color:       $move_name-color;
+    font-family: $secondary-font;
+    font-size:   .6rem;
+    font-weight: 900;
+    letter-spacing: 0;
 }
 
 .move_input {
