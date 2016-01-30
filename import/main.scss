@@ -37,10 +37,19 @@ html, body {
     overflow-x:       hidden;
 }
 
-@media (max-width: 680px) {
-    html, body {
-        font-size: 7.5vw;
-    }
+@media
+    (max-width: 640px) {
+        html, body {
+            font-size: 7.5vw;
+        }
+}
+
+@media
+    (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+        html, body {
+            font-size: 5vw;
+        }
 }
 
 a,
@@ -67,6 +76,7 @@ a:hover {
 
 /* -------------------- Content */
 .main-content {
+    margin-bottom: .5rem;
 }
 
 .item {
@@ -96,14 +106,6 @@ a:hover.item-wip {
     font-size:      .75rem;
     letter-spacing: 0.025rem;
     margin:         0 .25rem;
-}
-
-.warning {
-    font-family:    $secondary-font;
-    font-size:      .4rem;
-    letter-spacing: 0;
-    margin:         .5rem;
-    text-align:     left;
 }
 
 .chara_title {
@@ -209,35 +211,16 @@ p.move {
 
 /* -------------------- Footer */
 .main-footer {
-    margin: 1rem .5rem .5rem .5rem;
-}
-
-.footer-content {
-    display:        none;
     font-family:    $secondary-font;
     font-size:      .5rem;
     letter-spacing: 0;
-    margin-bottom:  1rem;
-    text-align:     left;
 }
 
-.footer-nav {
-    text-align: center;
-    font-size:  .6rem;
-}
-
-.button-toggle {
-    background-color: $bg-color;
-    border:           none;
-    color:            $secondary-color;
-    cursor:           pointer;
-    font-family:      $primary-font;
-    font-size:        .6rem;
-    outline:          none;
-}
-
-.button-toggle:hover {
-    color: $primary-color;
+.footer-bottom-right {
+    bottom:   0;
+    margin:   0 .5rem .5rem .5rem;
+    position: fixed;
+    right:    0;
 }
 
 /* -------------------- Replace Input */
