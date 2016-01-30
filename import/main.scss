@@ -109,14 +109,16 @@ a:hover.item-wip {
 }
 
 .chara_title {
-    font-size: 2rem;
-    margin:    0 .5rem;
+    font-size:  2rem;
+    margin:     0 .5rem;
+    text-align: center;
 }
 
 .from_game {
-    font-size:      .5rem;
-    letter-spacing: 0.025rem;
-    margin:         -.4rem .5rem 0 .5rem;
+    font-size:      .75rem;
+    letter-spacing: 0.05rem;
+    margin:         -.5rem .5rem 1rem .5rem;
+    text-align:     center;
 }
 
 .move_cat, .move {
@@ -124,46 +126,21 @@ a:hover.item-wip {
 }
 
 .move_cat {
-    color:          rgba($primary-color, .5);
-    font-size:      .6rem;
-    letter-spacing: .25rem;
-    margin:         (.75rem + $move-spacing) .5rem 0rem .5rem;
-    position:       relative;
-    text-align:     center;
-}
-
-@media (max-width: 680px) {
-    .move_cat {
-        margin-right: 0rem;
-        text-align:   right;
-    }
-}
-
-.move_cat:before {
-    border-top: 0 dotted $separator-color;
-    content:    "";
-    display:    block;
-    height:     1px;
-    position:   absolute;
-    top:        50%;
-    width:      100%;
-    z-index:    1;
-}
-
-.move_cat span {
-    background-color: $bg-color;
-    padding:          0 .35rem;
-    position:         relative;
-    z-index:          5;
+    background-color: rgba($primary-color, .35);
+    color:            rgba($primary-color, .65);
+    font-size:        .6rem;
+    letter-spacing:   .2rem;
+    margin:           .5rem .5rem 0 .5rem;
+    padding:          .1rem .25rem .1rem .25rem;
 }
 
 p.move {
-    line-height:   70%;
+    line-height:   65%;
     margin-bottom: 0;
 }
 
 .move {
-    background-color: rgba(#fff, .2);
+    background-color: rgba($primary-color, .25);
     border-top:       1px dotted $separator-color;
     clear:            both;
     padding:          $move-spacing;
@@ -171,7 +148,6 @@ p.move {
 
 .move_cat + .move {
     border-top: none;
-    margin-top: $move-spacing;
 }
 
 .move_name {
