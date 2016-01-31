@@ -3,7 +3,7 @@
   special_move:
     - name: Kikoken
       input: chback forward + punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Hyakuretsukyaku
       input: qcf kick
@@ -47,11 +47,11 @@
     - name: Yokusenkyaku
       input: forward + hk
 
-    - name: Kakurakukyaku
+    - name: Kakukyakuraku
       input: downforward + hk
 
     - name: Yosokyaku
-      input: (in air) down or downforward + mk
+      input: (in air) down + mk
       note: ["Can be performed three times in sequence"]
 
     - name: Wall Jump

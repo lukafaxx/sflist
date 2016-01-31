@@ -3,11 +3,19 @@
   special_move:
     - name: Spinning Mixer
       input: qcf punch
-      note: ["EX", "Properties change w/ repeated button presses"]
+      note: ["EX", "Properties change w/ repeated button presses", "Changes during V-Trigger"]
+
+    - name: Dash Spinning Mixer
+      input: (during forward dash) forward + punch
+      note: ["Properties change w/ repeated button presses", "Changes during V-Trigger"]
 
     - name: Eagle Spike
       input: qcb kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
+
+    - name: Dash Eagle Spike
+      input: (during forward dash) forward + kick
+      note: ["Changes during V-Trigger"]
 
     - name: Airborne Eagle Spike
       input: (during upforward jump) qcb kick
@@ -34,13 +42,6 @@
 
     - name: Beak Assault
       input: forward + hp
-
-    - name: Spinning Mixer
-      input: (during run) forward + punch
-      note: ["Properties change w/ repeated button presses"]
-
-    - name: Eagle Spike
-      input: (during run) forward + kick
 
     - name: Wall Jump
       input: (during jump, near wall) upforward or downforward

@@ -1,17 +1,15 @@
 - character: Karin
 
   special_move:
-    - name: Kanzuki-Ryu Hokojutsu Sappo
+    - name: Kanzuki-Ryu Hokojutsu Seppo
       input: qcf kick
       note: ["EX"]
 
-    - name: Tenko
-      input: qcf kick > punch
-      note: ["EX", "Press Punch quickly after Sappo to change properties"]
+    - name: -- Tenko
+      input: ... punch
 
-    - name: Orochi
-      input: qcf kick > down + punch
-      note: ["EX"]
+    - name: -- Orochi
+      input: ... down + punch
 
     - name: Mujinkyaku
       input: qcb kick
@@ -26,6 +24,30 @@
 
     - name: Senha Resshu
       input: qcb punch > up + kick
+
+    - name: Guren Ken
+      input: (during V-Trigger) qcf punch
+
+    - name: Guren Hosho
+      input: (during V-Trigger) qcf punch > punch
+
+    - name: Guren Senha
+      input: (during V-Trigger) qcf punch > up + punch
+
+    - name: Guren Chochu
+      input: (during V-Trigger) qcf punch > down + punch
+
+    - name: Guren Hochu
+      input: (during V-Trigger) qcf punch > down + punch > down + punch
+
+    - name: Guren Resshu
+      input: (during V-Trigger) qcf punch > ( down + punch ) > up + kick
+
+    - name: Guren Kusabi
+      input: (during V-Trigger) qcf punch > ( down + punch ) > down + kick
+
+    - name: Guren Kyoho
+      input: (during V-Trigger) qcf punch > kick
 
   critical_art:
     - name: Kanzuki-Ryu Hadorokushiki Hasha No Kata
@@ -43,37 +65,13 @@
       input: forward + mk
 
   vskill:
-    - name: Meioken
+    - name: Myo-Oken
       input: mp + mk
       note: ["Hold buttons to change properties"]
 
   vtrigger:
     - name: Kanzuki-Ryu Guren No Kata
       input: hp + hk
-
-    - name: Guren Ken
-      input: qcf punch
-
-    - name: Guren Hosho
-      input: qcf punch > punch
-
-    - name: Guren Senha
-      input: qcf punch > up + punch
-
-    - name: Guren Chochu
-      input: qcf punch > down + punch
-
-    - name: Guren Hochu
-      input: qcf punch > down + punch > down + punch
-
-    - name: Guren Resshu
-      input: qcf punch > down + punch > up + kick
-
-    - name: Guren Kusabi
-      input: qcf punch > down + punch > down + kick
-
-    - name: Guren Kyoho
-      input: qcf punch > kick
 
   vreversal:
     - name: Yashagaeshi

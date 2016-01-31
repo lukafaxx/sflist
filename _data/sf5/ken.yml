@@ -3,19 +3,19 @@
   special_move:
     - name: Hadoken
       input: qcf punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Shoryuken
       input: dpf punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Airborne Tatsumaki Senpukyaku
-      input: (during up or upforward jump) qcb kick
-      note: ["EX"]
+      input: (during upforward jump) qcb kick
+      note: ["EX", "Changes during V-Trigger"]
 
   critical_art:
     - name: Guren Enjinkyaku
@@ -48,7 +48,7 @@
   vskill:
     - name: Quick Step
       input: mp + mk
-      note: ["Hold buttons to unleash a step kick"]
+      note: ["Hold buttons for attack"]
 
   vtrigger:
     - name: Heat Rush

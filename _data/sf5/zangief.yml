@@ -7,7 +7,6 @@
 
     - name: Double Lariat
       input: ppp
-      note: ["EX"]
 
     - name: Siberian Express
       input: hcb kick
@@ -16,6 +15,10 @@
     - name: Borscht Dynamite
       input: (during up or upforward jump) 360 punch
       note: ["EX"]
+
+    - name: Cyclone Lariat
+      input: (during V-Trigger) hp + hk
+      note: ["Hold buttons for attack"]
 
   critical_art:
     - name: Bolshoi Russian Suplex
@@ -36,18 +39,18 @@
       input: forward + mk
 
     - name: Flying Body Press
-      input: (during up or upforward jump) down + hp
+      input: (during upforward jump) down + hp
 
   vskill:
     - name: Iron Muscle
-      input: mp + mk
-      note: ["Hold buttons to move forward"]
+      input: mp + mk ( + forward )
+      note: ["Can hold button", "Changes during V-Trigger"]
 
   vtrigger:
     - name: Cyclone Lariat
       input: hp + hk
-      note: ["Hold buttons to perform a Special Lariat"]
+      note: ["Hold buttons for attack"]
 
   vreversal:
     - name: Muscle Explosion
-      input: (during guard) forward + ppp
+      input: (during guard) forward + kkk

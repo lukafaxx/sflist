@@ -3,19 +3,19 @@
   special_move:
     - name: The Disc's Guidance
       input: chback forward + punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Raging Light
       input: dpf punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Mask of Tlalli
       input: hcb punch
-      note: ["EX", "Command grab"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Valiant Rebellion
       input: qcf kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
   critical_art:
     - name: Ceremony of Honor
@@ -39,7 +39,7 @@
       input: (during upforward jump) down + hk
 
     - name: Sacrificial Altar
-      input: mk > hk > mp + mk
+      input: mk > hk > mp + mk or back + mp + mk
 
   vskill:
     - name: Culminated Power

@@ -3,11 +3,11 @@
   special_move:
     - name: Bull Head
       input: qcf punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Bull Horn
       input: Hold punch or kick and release
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Hanging Chain
       input: qcf kick
@@ -15,11 +15,11 @@
 
     - name: Killing Head
       input: hcb punch
-      note: ["EX", "Command grab"]
+      note: ["EX"]
 
     - name: Bull Revenger
       input: hcb kick
-      note: ["EX", "Command grab"]
+      note: ["EX"]
 
   critical_art:
     - name: Skip To My Chain

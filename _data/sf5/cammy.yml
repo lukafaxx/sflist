@@ -3,15 +3,15 @@
   special_move:
     - name: Spiral Arrow
       input: qcf kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Cannon Spike
       input: dpf kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Cannon Strike
       input: (during upforward jump) qcb kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Hooligan Combination
       input: hcf punch
@@ -22,16 +22,14 @@
       note: ["EX"]
 
     - name: -- Fatal Leg Twister
-      input: ... (close to ground) lp + lk
-      note: ["Command grab"]
+      input: ... (near opponent on the ground) lp + lk
 
     - name: -- Cross Scissors Pressure
-      input: ... (close in air) lp + lk
-      note: ["Command grab"]
+      input: ... (near opponent in the air) lp + lk
 
     - name: -- Cannon Strike
       input: ... kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
   critical_art:
     - name: Cross Stinger Assault

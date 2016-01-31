@@ -3,18 +3,18 @@
   special_move:
     - name: Hadoken
       input: qcf punch
-      note: ["EX", "During V-trigger, charge by holding button"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Shoryuken
       input: dpf punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
       note: ["EX"]
 
     - name: Airborne Tatsumaki Senpukyaku
-      input: (during up or upforward jump) qcb kick
+      input: (during upforward jump) qcb kick
       note: ["EX"]
 
   critical_art:

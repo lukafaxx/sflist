@@ -20,7 +20,7 @@
   critical_art:
     - name: Yoga Sunburst
       input: qcf qcf punch
-      note: ["Can be performed in air"]
+      note: ["Can be performed in air", "Can hold button"]
 
   normal_throw:
     - name: Yoga Rocket

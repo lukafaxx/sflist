@@ -3,26 +3,26 @@
   special_move:
     - name: Psycho Blast
       input: chback forward + punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Double Knee Press
       input: chback forward + kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Head Press
       input: chdown up + kick
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: -- Somersault Skull Driver
-      input: ... (after Head Press hits) punch
+      input: ... (after Head Press hit) punch
 
     - name: -- Devil Reverse
-      input: ... (before Head Press hits) punch
-      note: ["EX"]
+      input: ... (before Head Press hit) punch
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Psycho Inferno
-      input: chdown up + punch
-      note: ["EX"]
+      input: qcb punch
+      note: ["EX", "Changes during V-Trigger"]
 
   critical_art:
     - name: Ultimate Psycho Crusher
@@ -42,6 +42,9 @@
 
     - name: Psycho Axe
       input: downforward + hp
+
+    - name: Shadow Axe
+      input: mp > downforward + hp
 
   vskill:
     - name: Psycho Reflect

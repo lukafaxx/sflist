@@ -2,16 +2,16 @@
 
   special_move:
     - name: Flying Barcelona Attack
-      input: dpf or dpb kick > punch
+      input: dpf kick or dpb kick > punch
       note: ["EX"]
 
     - name: Izuna Drop
-      input: dpf or dpb kick > (near opponent) lp + lk
-      note: ["EX", "Command grab"]
+      input: dpf kick or dpb kick > (near opponent) lp + lk
+      note: ["EX"]
 
     - name: Grand Izuna Drop
       input: (claw off) hcb punch
-      note: ["EX", "Command grab"]
+      note: ["EX"]
 
     - name: Crimson Terror
       input: qcf kick
@@ -21,12 +21,12 @@
       input: (claw on) qcb punch
       note: ["EX"]
 
-    - name: Switch Claw
+    - name: Switching Claw
       input: qcf punch
 
   critical_art:
     - name: Bloody Rain
-      input: qcb qcb punch or qcf qcf punch
+      input: qcf qcf punch or qcb qcb punch
 
   normal_throw:
     - name: Rainbow Suplex
@@ -62,8 +62,14 @@
       note: ["Hold buttons to attack"]
 
   vtrigger:
-    - name: Bloody Kiss
+    - name: Bloody Kiss - Torero
       input: hp + hk
+
+    - name: Bloody Kiss - Rojo
+      input: down + hp + hk
+
+    - name: Bloody Kiss - Azul
+      input: (during upforward jump) hp + hk
 
   vreversal:
     - name: Backslash

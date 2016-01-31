@@ -3,27 +3,28 @@
   special_move:
     - name: Bolt Charge
       input: qcf punch
-      note: ["EX"]
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Split River
-      input: qcf punch > punch
-      note: ["EX"]
+      input: qcf mp or punch punch > punch
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Rodeo Break
-      input: qcf punch > kick
-      note: ["EX"]
+      input: qcf mp or punch punch > kick
+      note: ["EX", "Changes during V-Trigger"]
 
     - name: Thunder Clap
       input: qcb punch
-      note: ["EX", "Hold button to power up"]
+      note: ["EX", "Hold button to power up", "Changes during V-Trigger"]
 
     - name: Sunset Wheel
-      input: qcb kick
-      note: ["EX"]
+      input: hcb kick
+      note: ["EX", "Changes during V-Trigger"]
 
   critical_art:
     - name: Inazuma Spin Hold
       input: qcf qcf kick
+      note: ["Changes during V-Trigger"]
 
   normal_throw:
     - name: Seoi Throw
@@ -45,19 +46,19 @@
   vskill:
     - name: Volty Line
       input: mp + mk
-      note: ["Overhead"]
+      note: ["Changes during V-Trigger"]
 
     - name: Linear Movement - Avante
       input: forward + mp + mk
-      note: ["Hold buttons to attack"]
+      note: ["Hold buttons to attack", "Changes during V-Trigger"]
 
     - name: Linear Movement - Esquiva
       input: back + mp + mk
-      note: ["Hold buttons to attack"]
+      note: ["Hold buttons to attack", "Changes during V-Trigger"]
 
     - name: Linear Movement - Finta
       input: back + mp + mk > mp + mk
-      note: ["Hold buttons to attack"]
+      note: ["Hold buttons to attack", "Changes during V-Trigger"]
 
   vtrigger:
     - name: Spark Show

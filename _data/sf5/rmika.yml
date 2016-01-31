@@ -7,30 +7,29 @@
 
     - name: Wingless Airplane
       input: qcf kick
-      note: ["EX"]
+      note: ["EX", "Gains V-Skill effect"]
 
     - name: Rainbow Typhoon
       input: hcb punch
-      note: ["EX", "Command grab"]
+      note: ["EX", "Gains V-Skill effect"]
 
     - name: Brimstone
       input: hcb kick
-      note: ["EX", "Command grab"]
+      note: ["EX", "Gains V-Skill effect"]
 
   critical_art:
     - name: Peach Assault
       input: qcb qcb punch
-      note: ["V-Skill increases power"]
+      note: ["Gains V-Skill effect"]
 
   normal_throw:
     - name: Daydream Headlock
       input: forward (or neutral position) + lp + lk
-
-    - name: Dream Driver
-      input: (close to crouching opponent) forward (or neutral position) + lp + lk
+      note: ["Changes with opponent's stance", "Gains V-Skill effect"]
 
     - name: Sell Down
       input: back + lp + lk
+      note: ["Gains V-Skill effect"]
 
   unique_attack:
     - name: Stomp Chop
@@ -47,12 +46,14 @@
 
     - name: Passion Rope Throw (Forward)
       input: back or forward + mp > forward + mp
+      note: ["Triggered on hit or guard"]
 
     - name: Passion Rope Throw (Backward)
       input: back or forward + mp > back + mp
+      note: ["Triggered on hit or guard"]
 
   vskill:
-    - name: Mic Performance
+    - name: Heated Mic Performance
       input: mp + mk
       note: ["Hold buttons to power up moves"]
 
