@@ -6,19 +6,17 @@
     src: url('BebasNeue.otf') format('opentype');
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 $bg-color:              #232323;
 $primary-color:         #FAFAFA;
 $secondary-color:       #FF5252;
-$move_name-color:       #232323;
-$move_input-color:      $primary-color;
+$move_name-color:       #FAFAFA;
+$move_input-color:      #212121;
 $button-bg-color:       #212121; /* important */
 $button-color:          #fff; /* important */
-$move_note-color:       rgba($primary-color, .5);
-$primary-font:          'BebasNeue', sans-serif;
-$secondary-font:        'Lato', sans-serif;
-$move-spacing:          .2rem;
+$primary-font:          'Montserrat', sans-serif;
+$secondary-font:        'BebasNeue', sans-serif;
 $separator-color:       rgba($primary-color, .2);
 
 /* -------------------- Global */
@@ -31,7 +29,7 @@ html, body {
     color:            $primary-color;
     font-family:      $primary-font;
     font-size:        48px;
-    letter-spacing:   .05rem;
+    line-height:      100%;
     margin:           0;
     min-width:        320px;
     overflow-x:       hidden;
@@ -65,13 +63,17 @@ a:hover {
 
 /* -------------------- Header */
 .title {
-    margin: .75rem .5rem 0 .5rem;
+    font-family:    $secondary-font;
+    letter-spacing: .05rem;
+    margin:         .75rem .5rem 0 .5rem;
 }
 
 .home {
-    font-size:  .75rem;
-    margin:     .5rem;
-    text-align: right;
+    font-family:    $secondary-font;
+    font-size:      .75rem;
+    letter-spacing: .05rem;
+    margin:         .5rem;
+    text-align:     right;
 }
 
 /* -------------------- Content */
@@ -80,8 +82,10 @@ a:hover {
 }
 
 .item {
-    color:  rgba($secondary-color, .25);
-    margin: 0 .5rem;
+    color:          rgba($secondary-color, .25); /* for now, parentheses only */
+    font-family:    $secondary-font;
+    letter-spacing: .05rem;
+    margin:         0 .5rem;
 }
 
 a.item,
@@ -93,9 +97,9 @@ a:hover.item {
     color: $primary-color;
 }
 
-.item-wip {
-    color:  rgba($secondary-color, .25);
-    margin: 0 .5rem;
+a.item-wip,
+a:visited.item-wip {
+    color: rgba($secondary-color, .25);
 }
 
 a:hover.item-wip {
@@ -109,15 +113,19 @@ a:hover.item-wip {
 }
 
 .chara_title {
-    font-size:  2rem;
-    margin:     0 .5rem;
-    text-align: center;
+    font-family:    $secondary-font;
+    font-size:      2rem;
+    letter-spacing: .05rem;
+    margin:         0 .5rem;
+    padding:        .5rem 0 0 0;
+    text-align:     center;
 }
 
 .from_game {
+    font-family:    $secondary-font;
     font-size:      .75rem;
-    letter-spacing: 0.05rem;
-    margin:         -.5rem .5rem 1rem .5rem;
+    letter-spacing: .05rem;
+    margin:         .1rem .5rem 1rem .5rem;
     text-align:     center;
 }
 
@@ -127,23 +135,23 @@ a:hover.item-wip {
 
 .move_cat {
     background-color: rgba($primary-color, .35);
-    color:            rgba($primary-color, .65);
+    color:            rgba($primary-color, .5);
+    font-family:      $secondary-font;
     font-size:        .6rem;
-    letter-spacing:   .2rem;
+    letter-spacing:   .1rem;
     margin:           .5rem .5rem 0 .5rem;
-    padding:          .1rem .25rem .1rem .25rem;
+    padding:          0 .25rem;
 }
 
 p.move {
-    line-height:   65%;
+    line-height:   50%;
     margin-bottom: 0;
 }
 
 .move {
     background-color: rgba($primary-color, .25);
     border-top:       1px dotted $separator-color;
-    clear:            both;
-    padding:          $move-spacing;
+    padding:          .1rem .2rem;
 }
 
 .move_cat + .move {
@@ -152,52 +160,41 @@ p.move {
 
 .move_name {
     color:       $move_name-color;
-    font-family: $secondary-font;
-    font-size:   .6rem;
-    font-weight: 900;
-    letter-spacing: 0;
+    font-size:   .5rem;
+    font-weight: 700;
 }
 
 .move_input {
-    color:          $move_input-color;
-    font-family:    $secondary-font;
-    font-size:      .5rem;
-    font-weight:    400;
-    letter-spacing: 0;
-    word-spacing:   .05rem;
+    color:        $move_input-color;
+    font-size:    .4rem;
+    font-weight:  700;
+    word-spacing: .025rem;
 }
 
 .move_note {
-    color:          $move_note-color;
-    display:        block;
-    font-family:    $secondary-font;
-    font-size:      .4rem;
-    font-style:     italic;
-    letter-spacing: 0;
-    line-height:    .5rem;
-    margin-top:     .1rem;
-    overflow-y:     hidden;
+    color:      rgba($primary-color, .5);
+    display:    block;
+    font-size:  .4rem;
+    margin-top: .1rem;
 }
 
 .move_comment {
-    color:          $move_note-color;
-    font-family:    $secondary-font;
-    font-size:      .4rem;
-    letter-spacing: 0;
-    margin:         .5rem .5rem 1rem .5rem;
-    text-align: center;
+    background-color: rgba($primary-color, .25);
+    color:            rgba($primary-color, .5);
+    font-size:        .4rem;
+    margin:           0 .5rem 0 .5rem;
+    padding:          .1rem;
+    text-align:       center;
 }
 
 /* -------------------- Footer */
 .main-footer {
-    font-family:    $secondary-font;
-    font-size:      .5rem;
-    letter-spacing: 0;
+    font-size: .4rem;
 }
 
 .footer-bottom-right {
     bottom:   0;
-    margin:   0 .5rem .5rem .5rem;
+    margin:   0 .5rem .25rem .5rem;
     position: fixed;
     right:    0;
 }

@@ -10,7 +10,7 @@ layout: page
 {% for char in gamechar %}
     {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
     {% if char.status != null %}
-        <a class="item-wip" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}
+        <a class="item item-wip" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}
         {% else %}
         <a class="item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}
     {% endif %}
