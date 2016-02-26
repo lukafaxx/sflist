@@ -192,7 +192,12 @@ p.move {
     font-size: .4rem;
 }
 
-.footer-bottom-right {
+.footer-bottom {
+    margin:     1rem .5rem .25rem .5rem;
+    text-align: right;
+}
+
+.footer-fixed {
     bottom:   0;
     margin:   0 .5rem .25rem .5rem;
     position: fixed;
