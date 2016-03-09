@@ -17,18 +17,6 @@
       input: dpf or dpb + ppp or kkk
       note: ["Can be performed in air"]
 
-  critical_art:
-    - name: Yoga Sunburst
-      input: qcf qcf punch
-      note: ["Can be performed in air", "Can hold button"]
-
-  normal_throw:
-    - name: Yoga Rocket
-      input: forward (or neutral position) + lp + lk
-
-    - name: Yoga Hoop
-      input: back + lp + lk
-
   unique_attack:
     - name: Drill Kick
       input: (during jump) down + kick
@@ -42,17 +30,31 @@
     - name: Divine Kick
       input: back + mk
 
-  vskill:
+  vsystem:
+    - name: Yoga Burner
+      input: hp + hk
+      note: ["V-Trigger"]
+
     - name: Yoga Float
-      input: forward (or neutral position) + mp + mk
+      input: mp + mk or forward + mp + mk
+      note: ["V-Skill 1"]
 
     - name: Yoga Float (Airborne)
       input: (during jump) mp + mk
+      note: ["V-Skill 2"]
 
-  vtrigger:
-    - name: Yoga Burner
-      input: hp + hk
-
-  vreversal:
     - name: Yoga Mala
       input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Yoga Sunburst
+      input: qcf qcf punch
+      note: ["Can hold button", "Can be performed in air"]
+
+  normal_throw:
+    - name: Yoga Rocket
+      input: forward (or neutral position) + lp + lk
+
+    - name: Yoga Hoop
+      input: back + lp + lk

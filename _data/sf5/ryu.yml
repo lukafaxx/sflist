@@ -17,20 +17,6 @@
       input: (during upforward jump) qcb kick
       note: ["EX"]
 
-  critical_art:
-    - name: Shinku Hadoken
-      input: qcf qcf punch
-
-    - name: Denjin Hadoken
-      input: (during V-trigger) qcf qcf punch
-
-  normal_throw:
-    - name: Shoulder Throw
-      input: forward (or neutral position) + lp + lk
-
-    - name: Somersault Throw
-      input: back + lp + lk
-
   unique_attack:
     - name: Collarbone Breaker
       input: forward + mp
@@ -47,14 +33,29 @@
     - name: Jodan Sanrengeki
       input: mp > hp > hk
 
-  vskill:
-    - name: Mind's Eye
-      input: mp + mk
-
-  vtrigger:
+  vsystem:
     - name: Denjin Renki
       input: hp + hk
+      note: ["V-Trigger"]
 
-  vreversal:
+    - name: Mind's Eye
+      input: mp + mk
+      note: ["V-Skill"]
+
     - name: Hashogeki
       input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Shinku Hadoken
+      input: qcf qcf punch
+
+    - name: Denjin Hadoken
+      input: (during V-trigger) qcf qcf punch
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Somersault Throw
+      input: back + lp + lk

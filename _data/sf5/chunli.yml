@@ -17,20 +17,6 @@
       input: chdown up + kick
       note: ["EX"]
 
-  critical_art:
-    - name: Hoyokusen
-      input: qcf qcf kick
-
-  normal_throw:
-    - name: Koshuto
-      input: forward (or neutral position) + lp + lk
-
-    - name: Tenshin Shushu
-      input: back + lp + lk
-
-    - name: Ryuseiraku
-      input: (in air) lp + lk
-
   unique_attack:
     - name: Tsuitotsuken
       input: back or forward + mp
@@ -57,14 +43,29 @@
     - name: Wall Jump
       input: (during jump, near wall) upforward
 
-  vskill:
-    - name: Rankyaku
-      input: mp + mk
-
-  vtrigger:
+  vsystem:
     - name: Renkiko
       input: hp + hk
+      note: ["V-Trigger"]
 
-  vreversal:
+    - name: Rankyaku
+      input: mp + mk
+      note: ["V-Skill"]
+
     - name: Sohakkei
       input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Hoyokusen
+      input: qcf qcf kick
+
+  normal_throw:
+    - name: Koshuto
+      input: forward (or neutral position) + lp + lk
+
+    - name: Tenshin Shushu
+      input: back + lp + lk
+
+    - name: Ryuseiraku
+      input: (in air) lp + lk

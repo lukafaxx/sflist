@@ -49,6 +49,23 @@
     - name: Guren Kyoho
       input: (during V-Trigger) qcf punch > kick
 
+  unique_attack:
+    - name: Tsumujigari
+      input: forward + mk
+
+  vsystem:
+    - name: Kanzuki-Ryu Guren No Kata
+      input: hp + hk
+      note: ["V-Trigger"]
+
+    - name: Myo-Oken
+      input: mp + mk
+      note: ["V-Skill", "Hold buttons to change properties"]
+
+    - name: Yashagaeshi
+      input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
   critical_art:
     - name: Kanzuki-Ryu Hadorokushiki Hasha No Kata
       input: qcf qcf punch
@@ -59,20 +76,3 @@
 
     - name: Arakuma Inashi
       input: back + lp + lk
-
-  unique_attack:
-    - name: Tsumujigari
-      input: forward + mk
-
-  vskill:
-    - name: Myo-Oken
-      input: mp + mk
-      note: ["Hold buttons to change properties"]
-
-  vtrigger:
-    - name: Kanzuki-Ryu Guren No Kata
-      input: hp + hk
-
-  vreversal:
-    - name: Yashagaeshi
-      input: (during guard) forward + ppp

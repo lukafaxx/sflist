@@ -24,6 +24,29 @@
       input: qcb punch
       note: ["EX", "Changes during V-Trigger"]
 
+  unique_attack:
+    - name: Hell Attack
+      input: (in air) mp > mp
+
+    - name: Psycho Axe
+      input: downforward + hp
+
+    - name: Shadow Axe
+      input: mp > downforward + hp
+
+  vsystem:
+    - name: Psycho Power
+      input: hp + hk
+      note: ["V-Trigger"]
+
+    - name: Psycho Reflect
+      input: mp + mk
+      note: ["V-Skill", "Hold buttons to absorb opponent's projectile and shoot it back"]
+
+    - name: Psycho Burst
+      input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
   critical_art:
     - name: Ultimate Psycho Crusher
       input: qcf qcf punch
@@ -35,26 +58,3 @@
 
     - name: Psycho Fall
       input: back + lp + lk
-
-  unique_attack:
-    - name: Hell Attack
-      input: (in air) mp > mp
-
-    - name: Psycho Axe
-      input: downforward + hp
-
-    - name: Shadow Axe
-      input: mp > downforward + hp
-
-  vskill:
-    - name: Psycho Reflect
-      input: mp + mk
-      note: ["Hold buttons to absorb the opponent's projectile and shoot it back"]
-
-  vtrigger:
-    - name: Psycho Power
-      input: hp + hk
-
-  vreversal:
-    - name: Psycho Burst
-      input: (during guard) forward + ppp

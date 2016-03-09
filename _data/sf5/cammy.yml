@@ -29,18 +29,7 @@
 
     - name: -- Cannon Strike
       input: ... kick
-      note: ["EX", "Changes during V-Trigger"]
-
-  critical_art:
-    - name: Cross Stinger Assault
-      input: qcf qcf kick
-
-  normal_throw:
-    - name: Gyro Clipper
-      input: forward (or neutral position) + lp + lk
-
-    - name: Delta Through
-      input: back + lp + lk
+      note: ["Changes during V-Trigger"]
 
   unique_attack:
     - name: Knee Bullet
@@ -52,14 +41,26 @@
     - name: Lift Combination
       input: back + mp > hk
 
-  vskill:
-    - name: Axel Spin Knuckle
-      input: mp + mk
-
-  vtrigger:
+  vsystem:
     - name: Delta Drive
       input: hp + hk
+      note: ["V-Trigger"]
 
-  vreversal:
+    - name: Axel Spin Knuckle
+      input: mp + mk
+      note: ["V-Skill"]
+
     - name: Strike Back
       input: (during guard) forward + kkk
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Cross Stinger Assault
+      input: qcf qcf kick
+
+  normal_throw:
+    - name: Gyro Clipper
+      input: forward (or neutral position) + lp + lk
+
+    - name: Delta Through
+      input: back + lp + lk

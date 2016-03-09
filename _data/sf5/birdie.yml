@@ -21,17 +21,6 @@
       input: hcb kick
       note: ["EX"]
 
-  critical_art:
-    - name: Skip To My Chain
-      input: qcf qcf punch
-
-  normal_throw:
-    - name: Bad Skull
-      input: forward (or neutral position) + lp + lk
-
-    - name: Bad Chain
-      input: back + lp + lk
-
   unique_attack:
     - name: Bull Drop
       input: forward + hk
@@ -45,20 +34,34 @@
     - name: Bad Hammer
       input: down + hp > hp
 
-  vskill:
+  vsystem:
+    - name: Enjoy Time
+      input: hp + hk
+      note: ["V-Trigger"]
+
     - name: Break Time
       input: mp + mk
+      note: ["V-Skill 1"]
 
     - name: Banana Time
       input: back + mp + mk
+      note: ["V-Skill 2"]
 
     - name: Drink Time
       input: down + mp + mk
+      note: ["V-Skill 3"]
 
-  vtrigger:
-    - name: Enjoy Time
-      input: hp + hk
-
-  vreversal:
     - name: Pepper Pot
       input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Skip To My Chain
+      input: qcf qcf punch
+
+  normal_throw:
+    - name: Bad Skull
+      input: forward (or neutral position) + lp + lk
+
+    - name: Bad Chain
+      input: back + lp + lk

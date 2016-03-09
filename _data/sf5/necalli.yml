@@ -17,6 +17,29 @@
       input: qcf kick
       note: ["EX", "Changes during V-Trigger"]
 
+  unique_attack:
+    - name: Opening Dagger
+      input: downforward + hp
+
+    - name: Road of the Sun
+      input: (during upforward jump) down + hk
+
+    - name: Sacrificial Altar
+      input: mk > hk > mp + mk or back + mp + mk
+
+  vsystem:
+    - name: Torrent of Power
+      input: hp + hk
+      note: ["V-Trigger"]
+
+    - name: Culminated Power
+      input: Neutral position or back or forward + mp + mk
+      note: ["V-Skill"]
+
+    - name: The Calling
+      input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
   critical_art:
     - name: Ceremony of Honor
       input: qcf qcf punch
@@ -30,26 +53,3 @@
 
     - name: Soul Discriminator
       input: back + lp + lk
-
-  unique_attack:
-    - name: Opening Dagger
-      input: downforward + hp
-
-    - name: Road of the Sun
-      input: (during upforward jump) down + hk
-
-    - name: Sacrificial Altar
-      input: mk > hk > mp + mk or back + mp + mk
-
-  vskill:
-    - name: Culminated Power
-      input: mp + mk
-      note: ["Control distance by holding forward, back or neutral position"]
-
-  vtrigger:
-    - name: Torrent of Power
-      input: hp + hk
-
-  vreversal:
-    - name: The Calling
-      input: (during guard) forward + ppp

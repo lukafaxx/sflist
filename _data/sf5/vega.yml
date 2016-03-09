@@ -24,20 +24,6 @@
     - name: Switching Claw
       input: qcf punch
 
-  critical_art:
-    - name: Bloody Rain
-      input: qcf qcf punch or qcb qcb punch
-
-  normal_throw:
-    - name: Rainbow Suplex
-      input: forward (or neutral position) + lp + lk
-
-    - name: Crescent Line
-      input: back + lp + lk
-
-    - name: Stardust Shot
-      input: (in air) lp + lk
-
   unique_attack:
     - name: Mercury Shard
       input: forward + mk
@@ -56,24 +42,42 @@
     - name: Wall Jump
       input: (during jump, near wall) upforward
 
-  vskill:
-    - name: Matador Turn
-      input: mp + mk
-      note: ["Hold buttons to attack"]
-
-  vtrigger:
+  vsystem:
     - name: Bloody Kiss - Torero
       input: hp + hk
+      note: ["V-Trigger 1"]
 
     - name: Bloody Kiss - Rojo
       input: down + hp + hk
+      note: ["V-Trigger 2"]
 
     - name: Bloody Kiss - Azul
       input: (during upforward jump) hp + hk
+      note: ["V-Trigger 3"]
 
-  vreversal:
+    - name: Matador Turn
+      input: mp + mk
+      note: ["V-Skill", "Hold buttons to attack"]
+
     - name: Backslash
       input: (during guard) forward + ppp
+      note: ["V-Reversal 1"]
 
     - name: Short Backslash
       input: (during guard) forward + kkk
+      note: ["V-Reversal 2"]
+
+
+  critical_art:
+    - name: Bloody Rain
+      input: qcf qcf punch or qcb qcb punch
+
+  normal_throw:
+    - name: Rainbow Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Crescent Line
+      input: back + lp + lk
+
+    - name: Stardust Shot
+      input: (in air) lp + lk

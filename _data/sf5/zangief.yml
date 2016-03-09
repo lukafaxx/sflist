@@ -20,17 +20,6 @@
       input: (during V-Trigger) hp + hk
       note: ["Hold buttons for attack"]
 
-  critical_art:
-    - name: Bolshoi Russian Suplex
-      input: 360 360 punch
-
-  normal_throw:
-    - name: Atomic Drop
-      input: forward (or neutral position) + lp + lk
-
-    - name: Captured
-      input: back + lp + lk
-
   unique_attack:
     - name: Head Butt
       input: forward + hp
@@ -41,16 +30,26 @@
     - name: Flying Body Press
       input: (during upforward jump) down + hp
 
-  vskill:
-    - name: Iron Muscle
-      input: mp + mk ( + forward )
-      note: ["Can hold button", "Changes during V-Trigger"]
-
-  vtrigger:
+  vsystem:
     - name: Cyclone Lariat
       input: hp + hk
-      note: ["Hold buttons for attack"]
+      note: ["V-Trigger", "Hold buttons for attack"]
 
-  vreversal:
+    - name: Iron Muscle
+      input: mp + mk ( + forward )
+      note: ["V-Skill", "Can hold buttons", "Changes during V-Trigger"]
+
     - name: Muscle Explosion
       input: (during guard) forward + kkk
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Bolshoi Russian Suplex
+      input: 360 360 punch
+
+  normal_throw:
+    - name: Atomic Drop
+      input: forward (or neutral position) + lp + lk
+
+    - name: Captured
+      input: back + lp + lk

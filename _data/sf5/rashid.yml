@@ -25,17 +25,6 @@
       input: qcf kick
       note: ["EX"]
 
-  critical_art:
-    - name: Altair
-      input: qcf qcf punch
-
-  normal_throw:
-    - name: Riding Glider
-      input: forward (or neutral position) + lp + lk
-
-    - name: Rising Sun
-      input: back + lp + lk
-
   unique_attack:
     - name: Flap Spin
       input: forward + mp
@@ -46,23 +35,38 @@
     - name: Wall Jump
       input: (during jump, near wall) upforward or downforward
 
-  vskill:
+  vsystem:
+    - name: Ysaar
+      input: hp + hk
+      note: ["V-Trigger"]
+
     - name: Front Flip
       input: mp + mk
+      note: ["V-Skill 1"]
 
     - name: Airborne Eagle Spike
       input: mp + mk > kick
+      note: ["V-Skill 2", "EX"]
 
     - name: Rolling Assault
       input: down + mp + mk
+      note: ["V-Skill 3"]
 
     - name: Nail Assault
       input: down + mp + mk > kick
+      note: ["V-Skill 4"]
 
-  vtrigger:
-    - name: Ysaar
-      input: hp + hk
-
-  vreversal:
     - name: Sliding Roll
       input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
+  critical_art:
+    - name: Altair
+      input: qcf qcf punch
+
+  normal_throw:
+    - name: Riding Glider
+      input: forward (or neutral position) + lp + lk
+
+    - name: Rising Sun
+      input: back + lp + lk

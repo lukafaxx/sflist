@@ -17,6 +17,26 @@
       input: dpf kick
       note: ["EX"]
 
+  unique_attack:
+    - name: Senpukuga
+      input: down + ppp > kick
+
+    - name: Nirenko
+      input: downforward + hp
+
+  vsystem:
+    - name: Dokunomu
+      input: hp + hk
+      note: ["V-Trigger"]
+
+    - name: Nishodoku
+      input: mp + mk
+      note: ["V-Skill"]
+
+    - name: Nikaiho
+      input: (during guard) forward + ppp
+      note: ["V-Reversal"]
+
   critical_art:
     - name: Shishiruirui
       input: qcf qcf punch
@@ -27,22 +47,3 @@
 
     - name: Kyoshitsugeki
       input: back + lp + lk
-
-  unique_attack:
-    - name: Senpukuga
-      input: down + ppp > kick
-
-    - name: Nirenko
-      input: downforward + hp
-
-  vskill:
-    - name: Nishodoku
-      input: mp + mk
-
-  vtrigger:
-    - name: Dokunomu
-      input: hp + hk
-
-  vreversal:
-    - name: Nikaiho
-      input: (during guard) forward + ppp
