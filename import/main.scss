@@ -13,6 +13,7 @@ $primary-color:         #FAFAFA;
 $secondary-color:       #FF5252;
 $move_name-color:       #FAFAFA;
 $move_input-color:      #212121;
+$move_note-color:       rgb(255, 128, 128);
 $button-bg-color:       #212121; /* important */
 $button-color:          #fff; /* important */
 $primary-font:          'Montserrat', sans-serif;
@@ -172,7 +173,7 @@ p.move {
 }
 
 .move_note {
-    color:      rgba($primary-color, .5);
+    color:      $move_note-color;
     display:    block;
     font-size:  .4rem;
     margin-top: .1rem;
