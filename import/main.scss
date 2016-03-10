@@ -8,17 +8,16 @@
     src: url('BebasNeue.otf') format('opentype');
 }
 
-$bg-color:              #232323;
-$primary-color:         #FAFAFA;
-$secondary-color:       #FF5252;
-$move_name-color:       #FAFAFA;
+$bg-color:              #212121;
+$primary-color:         #fff;
+$secondary-color:       #ff5252;
+$move-background-color: #ff5252;
+$move_name-color:       #fff;
 $move_input-color:      #212121;
-$move_note-color:       rgb(255, 128, 128);
-$button-bg-color:       #212121; /* important */
-$button-color:          #fff; /* important */
+$move_note-color:       #fff;
 $primary-font:          'Montserrat', sans-serif;
 $secondary-font:        'BebasNeue', sans-serif;
-$separator-color:       rgba($primary-color, .2);
+$separator-color:       rgba(0, 0, 0, .5);
 
 /* -------------------- Global */
 *, *:before, *:after {
@@ -135,8 +134,8 @@ a:hover.item-wip {
 }
 
 .move_cat {
-    background-color: rgba($primary-color, .35);
-    color:            rgba($primary-color, .5);
+    background-color: $primary-color;
+    color:            $bg-color;
     font-family:      $secondary-font;
     font-size:        .6rem;
     letter-spacing:   .1rem;
@@ -150,7 +149,7 @@ p.move {
 }
 
 .move {
-    background-color: rgba($primary-color, .25);
+    background-color: $move-background-color;
     border-top:       1px dotted $separator-color;
     padding:          .1rem .2rem;
 }
@@ -175,8 +174,9 @@ p.move {
 .move_note {
     color:      $move_note-color;
     display:    block;
-    font-size:  .4rem;
-    margin-top: .1rem;
+    font-size:  .35rem;
+    font-style: italic;
+    margin-top: .075rem;
 }
 
 .move_comment {
@@ -213,12 +213,12 @@ p.move {
 }
 
 .button {
-    background:            $button-bg-color;
+    background:            #212121; /* important */
     -webkit-border-radius: 50%;
     -moz-border-radius:    50%;
     border-radius:         50%;
     box-shadow:            0 .1rem 0 rgba(0, 0, 0, .25);
-    color:                 $button-color;
+    color:                 #fff; /* important */
     display:               inline-block;
     font-size:             .3rem;
     line-height:           .75rem;
