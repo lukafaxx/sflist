@@ -10,5 +10,3 @@ include:              [_game]
 exclude:              ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md"]
 sass:
     style: compressed
-
-theme: jekyll-theme-cayman
