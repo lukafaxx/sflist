@@ -5,7 +5,7 @@ relative_permalinks:  false
 # Setup
 title:                "/SFLIST/"
 description:          "Where all the Street Fighter move lists are."
-url:                  http://lukafaxx.github.io/sflist/
+url:                  https://lukafaxx.github.io/sflist/
 baseurl:              /sflist
 include:              [_game]
 exclude:              ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md"]
